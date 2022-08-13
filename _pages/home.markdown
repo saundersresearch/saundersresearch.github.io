@@ -9,7 +9,7 @@ permalink: /
 splash_title: My name is Adam.
 excerpt: I do medical image processing research.
 header:
-    overlay_image: /assets/images/header_small.jpg
+    overlay_image: saundersresearch.github.io/assets/images/header_small.jpg
 feature_row:
   - image_path: /assets/images/frontier_selfie_square.jpg
     alt: "Frontier Selfie"
