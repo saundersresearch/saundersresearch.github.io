@@ -9,6 +9,7 @@ permalink: /
 splash_title: My name is Adam.
 excerpt: I do medical image processing research.
 header:
+    overlay_color: "#333"
     overlay_filter: "0.5"
     overlay_image: /assets/images/header_small.jpg
 feature_row:
