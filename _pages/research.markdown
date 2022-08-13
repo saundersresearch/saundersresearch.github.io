@@ -8,10 +8,8 @@ Currently, my research focuses on applying deep learning algorithms to medical i
 # Whole-slide imaging and multiple-instance learning (Oak Ridge National Laboratory)
 
 <a href="/assets/pdf/suli_poster.pdf">
-![2022 SULI Poster](/assets/images/suli_poster.jpg)
-</a>
-<figcaption align = "center"><i>Winner of Best Poster in the Computing and Computational Sciences Directorate at the 2022 ORNL Summer Intern Symposium</i></figcaption>
-
+![2022 SULI Poster](/assets/images/suli_poster_small.jpg)</a> Winner of Best Poster in Computing and Computational Sciences Directorate at the 2022 ORNL Summer Intern Symposium 
+{: style="text-align: center; font-size:0.7em;"}
 
 Whole-slide imaging is a new imaging modality that allows cancer pathologists to analyze tissue samples digitally instead of on glass slides. This change allows for the application of machine learning methods. However, due to the gigapixel-scale resolution required for whole-slide imaging, designing machine learning models is very difficult. Our research focuses on multiple-instance learning, a technique where we break the image into many smaller patches and use inferences from the patches to classify the entire image. 
 
