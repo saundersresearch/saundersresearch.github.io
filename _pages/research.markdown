@@ -1,6 +1,6 @@
 ---
 title: Research
-permalink: /research
+permalink: /research/
 ---
 
 Currently, my research focuses on applying deep learning algorithms to medical image processing. During the summer of 2022, I performed research at Oak Ridge National Laboratory with the [Multimodal Data Analytics Group](https://www.ornl.gov/group/multimodal-data-analytics). During the school year, I perform research under the mentorship of [Dr. Russell Hardie](https://udayton.edu/directory/engineering/electrical_and_computer/hardie_russell.php) at the University of Dayton.

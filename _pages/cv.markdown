@@ -1,6 +1,6 @@
 ---
 title: Online CV
-permalink: /cv
+permalink: /cv/
 toc: true
 toc_label: "Contents"
 toc_icon: None
