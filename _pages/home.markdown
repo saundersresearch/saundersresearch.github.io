@@ -2,14 +2,14 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: splash
+layout: home
 author_profile: true
 title: Home
 permalink: /
 splash_title: My name is Adam.
 excerpt: I do medical image processing research.
 header:
-    overlay_image: "saundersresearch.github.io/assets/images/header_small.jpg"
+    overlay_image: "https://github.com/saundersresearch/saundersresearch.github.io/blob/main/assets/images/header_small.JPG?raw=true"
     overlay_color: "#333"
     overlay_filter: "0.5"
 feature_row:
