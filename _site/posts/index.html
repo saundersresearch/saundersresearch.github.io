@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Research - Adam Saunders Research</title>
+<!-- begin _includes/seo.html --><title>Posts - Adam Saunders Research</title>
 <meta name="description" content="Adam Saunders is a electrical engineering student at the  University of Dayton interested in persuing medical  image processing research.">
 
 
@@ -20,8 +20,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Adam Saunders Research">
-<meta property="og:title" content="Research">
-<meta property="og:url" content="http://localhost:4000/research/">
+<meta property="og:title" content="Posts">
+<meta property="og:url" content="http://localhost:4000/posts/">
 
 
   <meta property="og:description" content="Adam Saunders is a electrical engineering student at the  University of Dayton interested in persuing medical  image processing research.">
@@ -37,7 +37,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/research/">
+<link rel="canonical" href="http://localhost:4000/posts/">
 
 
 
@@ -92,7 +92,7 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--posts_custom">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -142,8 +142,6 @@
 
     <div class="initial-content">
       
-
-
 
 
 
@@ -260,77 +258,61 @@
 
 
 
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Research">
+  <div class="archive">
     
+      <h1 id="page-title" class="page__title">Posts</h1>
     
     
 
-    <div class="page__inner-wrap">
+
+<!--
+<ul class="taxonomy__index">
+  
+  
+    <li>
+      <a href="#2022">
+        <strong>2022</strong> <span class="taxonomy__count">1</span>
+      </a>
+    </li>
+  
+</ul>
+-->
+
+
+
+
+  <section id="2022" class="taxonomy__section">
+    <h2 class="archive__subtitle">2022</h2>
+    <div class="entries-list">
       
-        <header>
-          <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/research/" class="u-url" itemprop="url">Research
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/posts/ornl-internship/" rel="permalink">Using Supercomputers to Detect Cancer: My Summer at Oak Ridge National Lab
 </a>
-          </h1>
-          
-
-
-        </header>
       
-
-      <section class="page__content e-content" itemprop="text">
-        
-        <p>Currently, my research focuses on applying deep learning algorithms to medical image processing. During the summer of 2022, I performed research at Oak Ridge National Laboratory with the <a href="https://www.ornl.gov/group/multimodal-data-analytics">Multimodal Data Analytics Group</a>. During the school year, I perform research under the mentorship of <a href="https://udayton.edu/directory/engineering/electrical_and_computer/hardie_russell.php">Dr. Russell Hardie</a> at the University of Dayton.</p>
-
-<h1 id="whole-slide-imaging-and-multiple-instance-learning-oak-ridge-national-laboratory">Whole-slide imaging and multiple-instance learning (Oak Ridge National Laboratory)</h1>
-
-<p style="text-align: center; font-size:0.7em;"><a href="/assets/pdf/suli_poster.pdf">
-<img src="/assets/images/suli_poster_small.jpg" alt="2022 SULI Poster" /></a> Winner of Best Poster in Computing and Computational Sciences Directorate at the 2022 ORNL Summer Intern Symposium</p>
-
-<p>Whole-slide imaging is a new imaging modality that allows cancer pathologists to analyze tissue samples digitally instead of on glass slides. This change allows for the application of machine learning methods. However, due to the gigapixel-scale resolution required for whole-slide imaging, designing machine learning models is very difficult. Our research focuses on multiple-instance learning, a technique where we break the image into many smaller patches and use inferences from the patches to classify the entire image.</p>
-
-<p>Our team at ORNL takes advantage of <a href="https://www.olcf.ornl.gov/summit/">Summit</a>, one of the world’s fastest supercomputers, to train and analyze deep learning models on a scale that would be unattainable without the power of high performance computing.</p>
-
-<p><strong>Current work</strong></p>
-<ul>
-  <li><em>A comparison of histopathology imaging comprehension algorithms based on multiple instance learning.</em> <strong>Adam Saunders,</strong> Sajal Dash, Aristeidis Tsaris, Hong-Jun Yoon.</li>
-  <li><em>Ensemble learning of attention-based models for whole-slide imaging comprehension.</em> Hong-Jun Yoon, <strong>Adam Saunders,</strong> Folami Alamudun, Sajal Dash, Jacob Hinkle, and Aristeidis Tsaris.</li>
-</ul>
-
-<h1 id="diabetic-retinopathy-and-super-resolution-algorithms-university-of-dayton">Diabetic retinopathy and super-resolution algorithms (University of Dayton)</h1>
-
-<p>Diabetic retinopathy is a disease common in diabetics that can lead to blindness if left undiagnosed and untreated. Diagnosis can be tedious, as ophthalmologists must analyze fine details from fundus images of the eyes. However, deep learning algorithms can automate this process. We can improve computer-aided detection systems for diabetic retinopathy by developing algorithms to increase the resolution of the fundus images. Our research here focuses on developing these super-resolution algorithms through the use of CNNs and GANs.</p>
-
-<p><strong>Current work</strong></p>
-<ul>
-  <li>[Honors thesis] <em>Super-resolution algorithms to increase performance of detection and grading of diabetic retinopathy.</em></li>
-</ul>
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
+    </h2>
+    
 
 
-        
-
-      </footer>
-
-      
+    <p class="archive__item-excerpt" itemprop="description">I spent the summer at Oak Ridge National Lab, performing exciting research into designing machine learning algorithms for cancer detection from whole-slide i...</p>
+  </article>
+</div>
 
       
     </div>
+    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+  </section>
 
-    
-  </article>
 
-  
-  
+  </div>
 </div>
-
     </div>
 
     

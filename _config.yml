@@ -25,7 +25,7 @@ github_username: saundersresearch
 linkedin_username: adamsaunders97
 #repository: saundersresearch/site
 minimal_mistakes_skin: default
-search: false
+search: true
 
 # Build settings
 markdown: kramdown
@@ -88,7 +88,7 @@ footer:
       url: "https://twitter.com/AdamSaunders97"
 
 atom_feed:
-  hide: true
+  hide: false
 
 defaults:
   # _posts
@@ -98,10 +98,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"
@@ -116,3 +116,10 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+social:
+  type: Person
+  name: Adam Saunders
+  links:
+    - "https://twitter.com/AdamSaunders97"
+    - "https://www.linkedin.com/in/adamsaunders97"
