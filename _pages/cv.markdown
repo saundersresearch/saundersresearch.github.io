@@ -61,7 +61,7 @@ An electrical engineering student passionate about medical image processing. Pro
 <br />
 <i>Kroger</i></li>
     <ul>
-    <li>Selected grocery items for online orders with one of the fastest selection rate on the team</li>
+    <li>Selected grocery items for online orders with one of the fastest selection rates on the team</li>
     <li>Delivered groceries and performed carside customer service</li>
     </ul>
 <li><b>Physics Grader</b><div style="float: right">January 2020 - May 2021</div>
