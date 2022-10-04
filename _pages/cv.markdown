@@ -88,7 +88,7 @@ An electrical engineering student passionate about medical image processing. Pro
 * Strong critical thinking and analytical skills
 
 ## Professional Affiliations
-* IEEE Student Member
+* IEEE - Vice President of student branch
 * Tau Beta Pi
 
 ## Publications
