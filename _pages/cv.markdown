@@ -29,13 +29,6 @@ An electrical engineering student passionate about medical image processing. Pro
 ## Experience
 
 <ul>
-<li><b>SULI Intern</b><div style="float: right">June 2022 - Present</div>
-<br />
-<i>Oak Ridge National Laboratory</i></li>
-    <ul>
-    <li>Explored deep learning algorithms on an internationally-ranked supercomputer</li>
-    <li>Performed and presented medical image processing research</li>
-    </ul>
 <li><b>Undergraduate Music Minister</b><div style="float: right">August 2019 - Present</div>
 <br />
 <i>University of Dayton</i></li>
@@ -43,11 +36,18 @@ An electrical engineering student passionate about medical image processing. Pro
     <li>Planned and composed weekly hymns for campus Masses</li>
     <li>Led vocalists and instrumentalists by accompanying on piano</li>
     </ul>
+<li><b>SULI Intern</b><div style="float: right">June 2022 - August 2022</div>
+<br />
+<i>Oak Ridge National Laboratory</i></li>
+    <ul>
+    <li>Explored deep learning algorithms on an internationally-ranked supercomputer</li>
+    <li>Performed and presented medical image processing research, winning Best Poster in Directorate at ORNL Summer Intern Symposium</li>
+    </ul>
 <li><b>Physics Teaching Assistant</b><div style="float: right"> January 2021 - May 2021<br />January 2022 - May 2022</div>
 <br />
 <i>University of Dayton</i></li>
     <ul>
-    <li>Empowered students to solve difficult homework problems during multiple weekly office hours</li>
+    <li>Empowered over 50 students to solve difficult homework problems during multiple weekly office hours</li>
     <li>Assisted in the development of testing materials</li>
     </ul>
 <li><b> Computer Engineering Intern</b><div style="float: right"> May 2021 - August 2021</div>
@@ -69,7 +69,7 @@ An electrical engineering student passionate about medical image processing. Pro
 <i>University of Dayton</i></li>
     <ul>
     <li>Evaluated exams and group work for over 50 students in a challenging mechanics course</li>
-    <li>Encouraged students to complete problems during weekly homework help sessions</li>
+    <li>Encouraged students to solve difficult problems during weekly homework help sessions</li>
     </ul>
 <li><b>Concessionist</b><div style="float: right">June 2019 - August 2019</div>
 <br />
@@ -81,10 +81,11 @@ An electrical engineering student passionate about medical image processing. Pro
 </ul>
 
 ## Skills
-* Machine learning and data analysis using Python
-* Engineering design using MATLAB
+* Deep learning for medical image processing using Python and MATLAB
+* Technical writing and typesetting using LaTeX and Microsoft Office
+* High-performance computing for deep learning models using Python
 * Digital hardware simulation and design using VHDL and FPGAs
-* Scientific communication and technical writing
+* Effective scientific communication and visual aid design
 * Strong critical thinking and analytical skills
 
 ## Professional Affiliations
@@ -100,8 +101,9 @@ In submission:
 
 <ul>
 <li><div style="float:left"> Dean's List </div><div style="float: right"> August 2019 - Present</div></li>
-<li><div style="float:left"> Best Poster in Directorate,<br/>2022 ORNL Summer Research Symposium </div><div style="float: right"> August 2022</div></li>
+<li><div style="float:left"> Best Poster in Directorate,<br/>2022 ORNL Summer Intern Symposium </div><div style="float: right"> August 2022</div></li>
 <br />
 <li><div style="float:left"> Ohio Seal of Biliteracy, Spanish </div><div style="float: right"> May 2019 </div></li>
 <li><div style="float:left"> Eagle Scout Award with Silver Palm </div><div style="float: right"> February 2019</div></li>
+<li><div style="float:left"> International Science and Engineering Fair, Finalist </div><div style="float: right">May 2018</div></li>
 </ul>
