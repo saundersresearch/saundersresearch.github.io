@@ -15,13 +15,14 @@ Whole-slide imaging is a new imaging modality that allows cancer pathologists to
 
 Our team at ORNL takes advantage of [Summit](https://www.olcf.ornl.gov/summit/), one of the world's fastest supercomputers, to train and analyze deep learning models on a scale that would be unattainable without the power of high performance computing. 
 
-**Current work**
-* _A comparison of histopathology imaging comprehension algorithms based on multiple instance learning._ **Adam Saunders,** Sajal Dash, Aristeidis Tsaris, Hong-Jun Yoon.
+**Publications**
+* _A comparison of histopathology imaging comprehension algorithms based on multiple instance learning._ **Adam Saunders,** Sajal Dash, Aristeidis Tsaris, Hong-Jun Yoon. SPIE Medical Imaging, 2023.
+In submission:
 * _Ensemble learning of attention-based models for whole-slide imaging comprehension._ Hong-Jun Yoon, **Adam Saunders,** Folami Alamudun, Sajal Dash, Jacob Hinkle, and Aristeidis Tsaris.
 
 # Diabetic retinopathy and super-resolution algorithms (University of Dayton)
 
 Diabetic retinopathy is a disease common in diabetics that can lead to blindness if left undiagnosed and untreated. Diagnosis can be tedious, as ophthalmologists must analyze fine details from fundus images of the eyes. However, deep learning algorithms can automate this process. We can improve computer-aided detection systems for diabetic retinopathy by developing algorithms to increase the resolution of the fundus images. Our research here focuses on developing these super-resolution algorithms through the use of CNNs and GANs.
 
-**Current work**
+**Publications**
 * [Honors thesis] _Super-resolution algorithms to increase performance of detection and grading of diabetic retinopathy._
