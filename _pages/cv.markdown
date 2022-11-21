@@ -94,6 +94,7 @@ An electrical engineering student passionate about medical image processing. Pro
 
 ## Publications
 * _A comparison of histopathology imaging comprehension algorithms based on multiple instance learning._ **Adam Saunders,** Sajal Dash, Aristeidis Tsaris, Hong-Jun Yoon. SPIE Medical Imaging, 2023.
+
 In submission:
 * _Ensemble learning of attention-based models for whole-slide imaging comprehension._ Hong-Jun Yoon, **Adam Saunders,** Folami Alamudun, Sajal Dash, Jacob Hinkle, and Aristeidis Tsaris.
 
