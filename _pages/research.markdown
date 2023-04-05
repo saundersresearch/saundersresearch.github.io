@@ -16,10 +16,9 @@ Whole-slide imaging is a new imaging modality that allows cancer pathologists to
 Our team at ORNL takes advantage of [Summit](https://www.olcf.ornl.gov/summit/), one of the world's fastest supercomputers, to train and analyze deep learning models on a scale that would be unattainable without the power of high performance computing. 
 
 **Publications**
-* _A comparison of histopathology imaging comprehension algorithms based on multiple instance learning._ **Adam Saunders,** Sajal Dash, Aristeidis Tsaris, Hong-Jun Yoon. SPIE Medical Imaging, 2023.
+* _A comparison of histopathology imaging comprehension algorithms based on multiple instance learning._ **Adam Saunders,** Sajal Dash, Aristeidis Tsaris, Hong-Jun Yoon. SPIE Medical Imaging, February 2023.
 
-In submission:
-* _Ensemble learning of attention-based models for whole-slide imaging comprehension._ Hong-Jun Yoon, **Adam Saunders,** Folami Alamudun, Sajal Dash, Jacob Hinkle, and Aristeidis Tsaris.
+* _Ensemble learning of attention-based models for whole-slide imaging comprehension._ Hong-Jun Yoon, **Adam Saunders,** Folami Alamudun, Sajal Dash, Jacob Hinkle, and Aristeidis Tsaris. Computational Approaches for Cancer Workshop (CAFCW22), November 2022.
 
 # Diabetic retinopathy and super-resolution algorithms (University of Dayton)
 
