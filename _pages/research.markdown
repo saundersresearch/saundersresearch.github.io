@@ -23,7 +23,7 @@ In submission:
 
 # Diabetic retinopathy and super-resolution algorithms (University of Dayton)
 
-Diabetic retinopathy is a disease common in diabetics that can lead to blindness if left undiagnosed and untreated. Diagnosis can be tedious, as ophthalmologists must analyze fine details from fundus images of the eyes. However, deep learning algorithms can automate this process. We can improve computer-aided detection systems for diabetic retinopathy by developing algorithms to increase the resolution of the fundus images. Our research here focuses on developing these super-resolution algorithms through the use of CNNs and GANs.
+Diabetic retinopathy is a disease common in diabetics that can lead to blindness if left undiagnosed and untreated. Diagnosis can be tedious, as ophthalmologists must analyze fine details from fundus images of the eyes. However, deep learning algorithms can automate this process. We can improve computer-aided detection systems for diabetic retinopathy by developing algorithms that utilize more of the available high resolution of the fundus images. Our research here focuses on developing algorithms that take advantage of high-resolution regions-of-interest within the fundus image.
 
 **Publications**
-* [Honors thesis] _Super-resolution algorithms to increase performance of detection and grading of diabetic retinopathy._
+* [Honors thesis] _Methods for exploiting high resolution imagery for deep learning based diabetic retinopathy detection and grading._
