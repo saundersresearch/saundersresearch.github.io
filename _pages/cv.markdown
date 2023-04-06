@@ -97,6 +97,9 @@ An electrical engineering student passionate about medical image processing. Pro
 
 * _Ensemble learning of attention-based models for whole-slide imaging comprehension._ Hong-Jun Yoon, **Adam Saunders,** Folami Alamudun, Sajal Dash, Jacob Hinkle, and Aristeidis Tsaris. Computational Approaches for Cancer Workshop (CAFCW22), November 2022.
 
+## Talks
+* _Deep learning for healthier world: Detecting and grading diabetic retinopathy._ Honors Student Talks at Stander Symposium, April 2023.
+
 ## Honors and Awards
 
 <ul>
