@@ -12,5 +12,6 @@ This lab is a part of [Vanderbilt Institute for Surgery and Engineering (VISE)](
 
 I'm ready to move to Nashville and continuing pursuing my goal of earning a PhD!
 
-![](/assets/images/centennial_park.png) I visited Centennial Park in Nashville while on a visit to Vanderbilt
+![Centennial Park](/assets/images/centennial_park.jpg){: style="display:block; margin-left:auto; margin-right:auto"} 
+I visited Centennial Park in Nashville while on a visit to Vanderbilt
 {: style="text-align: center; font-size:0.7em;"}

@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Page Not Found - Adam Saunders Research</title>
-<meta name="description" content="Page not found">
+<!-- begin _includes/seo.html --><title>Projects - Adam Saunders Research</title>
+<meta name="description" content="Adam Saunders is a electrical engineering student at the  University of Dayton interested in pursuing medical  image processing research.">
 
 
   <meta name="author" content="Adam Saunders">
@@ -20,14 +20,11 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Adam Saunders Research">
-<meta property="og:title" content="Page Not Found">
-<meta property="og:url" content="http://localhost:4000/404.html">
+<meta property="og:title" content="Projects">
+<meta property="og:url" content="http://localhost:4000/projects/">
 
 
-  <meta property="og:description" content="Page not found">
-
-
-
+  <meta property="og:description" content="Adam Saunders is a electrical engineering student at the  University of Dayton interested in pursuing medical  image processing research.">
 
 
 
@@ -37,7 +34,10 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/404.html">
+
+
+
+<link rel="canonical" href="http://localhost:4000/projects/">
 
 
 
@@ -265,8 +265,8 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Page Not Found">
-    <meta itemprop="description" content="Page not found">
+    <meta itemprop="headline" content="Projects">
+    
     
     
 
@@ -274,7 +274,7 @@
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/404.html" class="u-url" itemprop="url">Page Not Found
+            <a href="http://localhost:4000/projects/" class="u-url" itemprop="url">Projects
 </a>
           </h1>
           
@@ -285,7 +285,58 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>Sorry, but the page you were trying to view does not exist.</p>
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-None"></i> Contents</h4></header>
+              <ul class="toc__menu"><li><a href="#music-therapy-app-for-pain-management">Music therapy app for pain management</a></li><li><a href="#super-resolution-from-video-frames">Super-resolution from video frames</a></li><li><a href="#image-restoration-after-optical-turbulence">Image restoration after optical turbulence</a></li><li><a href="#super-resolution-of-diabetic-retinopathy-images">Super-resolution of diabetic retinopathy images</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>Here’s some highlights of cool projects I’ve worked on outside of a research setting!</p>
+
+<h2 id="music-therapy-app-for-pain-management">Music therapy app for pain management</h2>
+<p style="text-align: center; font-size:0.7em;"><img src="/assets/images/mantra_screenshot.png" alt="MANTRA" style="display:block; margin-left:auto; margin-right:auto" /> 
+A screenshot from MANTRA displaying a client’s baseline pain score, current pain score, and a live display of emotion using the valence-arousal model.</p>
+
+<p>MANTRA (Music-Assisted Neurotherapy Response and Assessment) is a mobile application designed to assist music therapists and clients with pain management. The app interfaces with an EEG headset over Bluetooth to generate a pain score. We generate the pain score using a neural network, and the app takes in feedback from users to update the pain score generation algorithm over time.</p>
+
+<p style="text-align: center; font-size:0.7em;"><img src="/assets/images/we_soar_video.png" alt="We Soar campaign launch screenshot" style="display:block; margin-left:auto; margin-right:auto" /> 
+Our capstone project was featured in the <a href="https://youtu.be/FgrBV8P1mJo">We Soar</a> campaign launch video at the University of Dayton</p>
+
+<p>This app was developed as a part of the ECE 432L capstone course at the University of Dayton. Please contact <a href="https://udayton.edu/directory/engineering/electrical_and_computer/aspiras-theus.php">Dr. Theus Aspiras</a> with any questions.</p>
+
+<h2 id="super-resolution-from-video-frames">Super-resolution from video frames</h2>
+<p style="text-align: center; font-size:0.7em;"><img src="/assets/images/sr_interp/ref.png" alt="Reference frame" />
+<img src="/assets/images/sr_interp/sr_after_filter.png" alt="Super-resolution image" style="display:block; margin-left:auto; margin-right:auto" /> 
+The reference frame and super-resolution image generated from several frames of the video.</p>
+
+<p>As a part of the University of Dayton ECE 563 Image Processing course, I implemented an algorithm that turned 12 frames of a video into a single super-resolution image at three times the original resolution of each frame. We use non-uniform interpolation to obtain the super-resolution image. First, we apply shift registration to obtain the subpixel-level shifts between the frames. We then use these shifts to interpolate between the values of the non-uniform samples of the underlying high-resolution image. After producing the super-resolution image, we use a Wiener filter to reduce the blurring introduced by the diffraction of the camera aperture and the spatial integration of light over multiple pixels in the detector.</p>
+
+<p style="text-align: center; font-size:0.7em;"><img src="/assets/images/sr_interp/roi.png" alt="Regions of interest" style="display:block; margin-left:auto; margin-right:auto" /> 
+Regions of interest (ROI) of interpolated reference frame and super-resolution image before and after Wiener filter</p>
+
+<p>The super-resolution algorithm is successful in producing a higher-resolution image where the text is clearer and high-frequency components suffer from less aliasing. Additionally, the Wiener filter helps reduce blurring.</p>
+
+<h2 id="image-restoration-after-optical-turbulence">Image restoration after optical turbulence</h2>
+<p>In the University of Dayton ECE 563 Image Processing course, I got to design and implement a Wiener filter for image restoration. When capturing an image over a long distance, atmospheric optical turbulence can warp the image due to the different indices of refraction of light in hot and cold pockets of air. As a solution, we average several digital images over time. The resulting image is very blurry, but we can restore the image using a Wiener filter. We develop the Wiener filter using an observation model of long-exposure atmospheric blur. The resulting image is much clearer than the original image.</p>
+
+<p style="text-align: center; font-size:0.7em;"><img src="/assets/images/wiener_restoration/original_img.png" alt="Original image" />
+<img src="/assets/images/wiener_restoration/filtered_img.png" alt="Restored image" style="display:block; margin-left:auto; margin-right:auto" /> 
+The original image and restored image after apply the Wiener filter</p>
+
+<h2 id="super-resolution-of-diabetic-retinopathy-images">Super-resolution of diabetic retinopathy images</h2>
+<p>For the final project of the ECE 477 Artificial Neural Networks course at the University of Dayton, I applied an artificial neural network to a real-life issue. I chose to implement a radial basis network (RBF) for super-resolution, similar to the one described in <a href="http://journal.bit.edu.cn/jbit/en/article/id/20040206">this article</a>. We apply this network to a collection of diabetic retinopathy images, with labels indicating the severity of diabetic retinopathy. We simulate a low-resolution image by converting the image to grayscale, applying a Gaussian blur, downsampling the image and adding in some Gaussian noise. We then resize the low-resolution image to the size of the high-resolution image using bicubic interpolation.</p>
+
+<p>The input to the RBF network is a 5 by 5 sliding window across the pixels. We take these 25 pixels and input them to the RBF. The RBF then produces a single super-resolution pixel for the center of this window. We train the network using several images, and we train a separate network for each class of diabetic retinopathy severity.</p>
+
+<p style="text-align: center; font-size:0.7em;"><img src="/assets/images/sr_rbf/rbf_network.png" alt="RBF network" style="display:block; margin-left:auto; margin-right:auto" /> 
+The RBF network architecture</p>
+
+<p>The network is successful at producing super-resolution images with a higher peak signal-to-noise ratio and a lower mean square error compared to the low-resolution images for all classes. The full report submitted for the class is available <a href="/assets/pdf/superresolution_dr_rbf_network.pdf">here</a>.</p>
+
+<p style="text-align: center; font-size:0.7em;"><img src="/assets/images/sr_rbf/results.png" alt="RBF network results" style="display:block; margin-left:auto; margin-right:auto" /> 
+Example results for a diabetic retinopathy image</p>
 
         
       </section>
