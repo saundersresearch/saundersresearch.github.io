@@ -6,7 +6,8 @@ tags:
 excerpt: I spent the summer at Oak Ridge National Lab, performing exciting research into designing machine learning algorithms for cancer detection from whole-slide images.
 ---
 
-![Adam Saunders with Frontier](/assets/images/frontier_selfie_square.jpg) I visited Frontier, the world's fastest supercomputer, as a part of the SULI program this summer
+![Adam Saunders with Frontier](/assets/images/frontier_selfie_square.jpg){: style="display:block; margin-left:auto; margin-right:auto"} 
+I visited Frontier, the world's fastest supercomputer, as a part of the SULI program this summer
 {: style="text-align: center; font-size:0.7em;"}
 
 How many people can say they got the chance to use one of the fastest computers in the world to detect cancer? I was extremely lucky to be able to do just that this summer at Oak Ridge National Laboratory in Tennessee. I participated in the Department of Energy's Science Undergraduate Laboratory Internship (SULI) program, and the experience was incredible.
@@ -19,7 +20,8 @@ Along with gaining technical skills in medical image processing and high-perform
 
 Outside of my research, I toured several of the unique facilities on campus. I visited X-10, the world's first continuously operating nuclear reactor. Seeing the name "Oppenheimer" on one of the nameplates was sombering — I was in the former offices of some of the world's greatest physicists! I also got to see Frontier, the fastest (and greenest) supercomputer in the world!
 
-![X-10 Graphite Reactor](/assets/images/graphite_reactor_square.jpg) The graphite reactor at ORNL is the world's first continuously operating nuclear reactor
+![X-10 Graphite Reactor](/assets/images/graphite_reactor_square.jpg){: style="display:block; margin-left:auto; margin-right:auto"} 
+The graphite reactor at ORNL is the world's first continuously operating nuclear reactor
 {: style="text-align: center; font-size:0.7em;"}
 
 Getting to spend the summer at ORNL was invigorating, and I developed a passion for medical image processing that I want to pursue further. I consider myself very fortunate for being able to participate in the SULI program, and I hope that I will be able to return to ORNL sometime in the future!

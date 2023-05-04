@@ -1,5 +1,5 @@
 ---
-title: Online CV
+title: CV
 permalink: /cv/
 toc: true
 toc_label: "Contents"
@@ -89,7 +89,8 @@ An electrical engineering student passionate about medical image processing. Pro
 * Strong critical thinking and analytical skills
 
 ## Professional Affiliations
-* IEEE - Vice President of student branch
+* IEEE Student Member, Vice President of University of Dayton Branch
+* SPIE Student Member
 * Tau Beta Pi
 
 ## Publications
@@ -98,12 +99,13 @@ An electrical engineering student passionate about medical image processing. Pro
 * _Ensemble learning of attention-based models for whole-slide imaging comprehension._ Hong-Jun Yoon, **Adam Saunders,** Folami Alamudun, Sajal Dash, Jacob Hinkle, and Aristeidis Tsaris. Computational Approaches for Cancer Workshop (CAFCW22), November 2022.
 
 ## Talks
-* _Deep learning for healthier world: Detecting and grading diabetic retinopathy._ Honors Student Talks at Stander Symposium, April 2023.
+* _Deep learning for healthier world: Detecting and grading diabetic retinopathy._ Honors Thesis Signature Talks at Stander Symposium, April 2023.
 
 ## Honors and Awards
 
 <ul>
-<li><div style="float:left"> Dean's List </div><div style="float: right"> August 2019 - Present</div></li>
+<li><div style="float:left"> Outstanding Collaborative Pianist,<br/>University of Dayton Department of Music </div><div style="float: right"> May 2023</div></li>
+<br />
 <li><div style="float:left"> Best Poster in Directorate,<br/>2022 ORNL Summer Intern Symposium </div><div style="float: right"> August 2022</div></li>
 <br />
 <li><div style="float:left"> Ohio Seal of Biliteracy, Spanish </div><div style="float: right"> May 2019 </div></li>
