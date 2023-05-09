@@ -16,7 +16,7 @@ feature_row:
   - image_path: /assets/images/frontier_selfie_square.jpg
     alt: "Frontier Selfie"
     title: "About Me"
-    excerpt: "I am an electrical engineering student at the University of Dayton. I love learning and challenging myself to grow, and that's why I aim to become a researcher."
+    excerpt: "I am an electrical engineer who recently graduated from the University of Dayton. I love learning and challenging myself to grow, and that's why I aim to become a researcher."
     url: /about/
     btn_label: "Learn more"
     btn_class: "btn--info"

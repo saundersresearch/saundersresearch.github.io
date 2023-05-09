@@ -16,4 +16,10 @@ var store = [{
         "tags": ["Vanderbilt MASI Lab"],
         "url": "/posts/phd-acceptance/",
         "teaser": null
+      },{
+        "title": "Graduation from University of Dayton",
+        "excerpt":"I celebrated my graduation from the University of Dayton I’m proud to announce I have officially graduated from the University of Dayton! I have graduated with a Bachelor of Electrical Engineering with a minor in Mathematics. It’s been a great few years, and I’m excited for what’s next. I graduated...","categories": [],
+        "tags": ["University of Dayton"],
+        "url": "/posts/ud-graduation/",
+        "teaser": null
       }]

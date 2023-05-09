@@ -20,8 +20,7 @@ An electrical engineering student passionate about medical image processing. Pro
 <ul>
 <li><b>University of Dayton </b><div style="float: right"> August 2019 - May 2023</div></li>
     <ul>
-    <li>Bachelor's of Electrical Engineering, minoring in mathematics</li>
-    <li>Achieved a current GPA of 3.99</li>
+    <li>Bachelor of Electrical Engineering, minor in Mathematics, <i>summa cum laude</i></li>
     </ul>
 <li><b>Carroll High School</b><div style="float: right"> August 2015 - May 2019</div></li>
 </ul>
@@ -89,7 +88,7 @@ An electrical engineering student passionate about medical image processing. Pro
 * Strong critical thinking and analytical skills
 
 ## Professional Affiliations
-* IEEE Student Member, Vice President of University of Dayton Branch
+* IEEE Student Member
 * SPIE Student Member
 * Tau Beta Pi
 
@@ -104,6 +103,8 @@ An electrical engineering student passionate about medical image processing. Pro
 ## Honors and Awards
 
 <ul>
+<li><div style="float:left"> Thomas R. Armstrong Award of Excellence<br/>for Outstanding Electrical Engineering Achievement </div><div style="float: right"> May 2023</div></li>
+<br />
 <li><div style="float:left"> Outstanding Collaborative Pianist,<br/>University of Dayton Department of Music </div><div style="float: right"> May 2023</div></li>
 <br />
 <li><div style="float:left"> Best Poster in Directorate,<br/>2022 ORNL Summer Intern Symposium </div><div style="float: right"> August 2022</div></li>
