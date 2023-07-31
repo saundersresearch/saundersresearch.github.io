@@ -3,7 +3,7 @@ title: Contact Me
 permalink: /contact/
 ---
 
-Questions or comments about my research? Found a cool article you think I'd like? Just want to say hello? I would love to start a conversation with you! I am always interested in learning more and connecting with new people, so don't be afraid to reach out.
+I would love to start a conversation with you! I am always interested in learning more and connecting with new people, so don't be afraid to reach out.
 
 If you're interested in reaching me, feel free to send an email to me at <a class="u-email" href="mailto:{{ site.email }}">{{ site.html_email }}</a>.
 
