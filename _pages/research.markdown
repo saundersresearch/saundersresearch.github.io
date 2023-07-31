@@ -17,4 +17,10 @@ During my intership at ORNL, we took advantage of [Summit](https://www.olcf.ornl
 
 # Diabetic retinopathy and deep learning algorithms (University of Dayton)
 
+<a href="https://ecommons.udayton.edu/uhp_theses/423/">
+![TED Talk-style Presentation](/assets/images/ted_talk.jfif)</a> Presented as a featured honors thesis at the 2023 Stander Symposium at the University of Dayton
+{: style="text-align: center; font-size:0.7em;"}
+
 Diabetic retinopathy is a disease common in diabetics that can lead to blindness if left undiagnosed and untreated. Diagnosis can be tedious, as ophthalmologists must analyze fine details from fundus images of the eyes. However, deep learning algorithms can automate this process. However, many deep learning algorithms use small images sizes as inputs, while much larger images are available. We can improve computer-aided detection systems for diabetic retinopathy by developing algorithms that utilize more of the available high resolution of the fundus images. We focus on image processing algorithms and transformations that fit more high-resolution content into a smaller image size.
+
+This work was presented at the Stander Symposium as an undergraduate honors thesis, available [here](https://ecommons.udayton.edu/uhp_theses/423/). Additionally, this research was presented in a TED Talk-style format as one of four featured honors thesis writers.

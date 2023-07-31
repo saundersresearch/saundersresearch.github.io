@@ -7,7 +7,7 @@ author_profile: true
 title: Home
 permalink: /
 splash_title: My name is Adam.
-excerpt: I do medical image processing research.
+excerpt: I do medical imaging research.
 header:
     overlay_image: "https://github.com/saundersresearch/saundersresearch.github.io/blob/main/assets/images/header_small.JPG?raw=true"
     overlay_color: "#333"
@@ -16,7 +16,7 @@ feature_row:
   - image_path: /assets/images/frontier_selfie_square.jpg
     alt: "Frontier Selfie"
     title: "About Me"
-    excerpt: "I am an electrical engineer who recently graduated from the University of Dayton. I love learning and challenging myself to grow, and that's why I aim to become a researcher."
+    excerpt: "I am an electrical and computer engineering PhD student at Vanderbilt University performing medical imaging research."
     url: /about/
     btn_label: "Learn more"
     btn_class: "btn--info"

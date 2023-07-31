@@ -7,7 +7,7 @@ toc_icon: None
 ---
 
 ## Summary
-An electrical engineering student passionate about medical image processing. Proven leadership skills in an academic environment. Adept at applying technical skills to challenging research questions. Committed to working hard to continually learn more.
+An electrical engineering PhD student passionate about medical image processing. Proven leadership skills in an academic environment. Adept at applying technical skills to challenging research questions. Committed to working hard to continually learn more.
 
 ## Contact Information
 
@@ -18,17 +18,27 @@ An electrical engineering student passionate about medical image processing. Pro
 ## Education
 
 <ul>
+<li><b>Vanderbilt University </b><div style="float: right"> August 2023 - Present</div></li>
+    <ul>
+    <li>PhD, Electrical and Computer Engineering</li>
+    </ul>
 <li><b>University of Dayton </b><div style="float: right"> August 2019 - May 2023</div></li>
     <ul>
     <li>Bachelor of Electrical Engineering, minor in Mathematics, <i>summa cum laude</i></li>
     </ul>
-<li><b>Carroll High School</b><div style="float: right"> August 2015 - May 2019</div></li>
 </ul>
 
 ## Experience
 
 <ul>
-<li><b>Undergraduate Music Minister</b><div style="float: right">August 2019 - Present</div>
+<li><b>Research Assistant</b><div style="float: right">July 2023 - Present</div>
+<br />
+<i>Vanderbilt University</i></li>
+    <ul>
+    <li>Performed medical imaging research in the Medical-image Analysis and Statistical Interpretation Lab</li>
+    <li>Collaborated with lab members and scientists to communicate published scientific findings</li>
+    </ul>
+<li><b>Undergraduate Music Minister</b><div style="float: right">August 2019 - June 2023</div>
 <br />
 <i>University of Dayton</i></li>
     <ul>
@@ -83,12 +93,11 @@ An electrical engineering student passionate about medical image processing. Pro
 * Deep learning for medical image processing using Python and MATLAB
 * Technical writing and typesetting using LaTeX and Microsoft Office
 * High-performance computing for deep learning models using Python
-* Digital hardware simulation and design using VHDL and FPGAs
 * Effective scientific communication and visual aid design
 * Strong critical thinking and analytical skills
 
 ## Professional Affiliations
-* IEEE Student Member
+* IEEE Member
 * SPIE Student Member
 * Tau Beta Pi
 
