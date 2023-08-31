@@ -22,4 +22,10 @@ var store = [{
         "tags": ["University of Dayton"],
         "url": "/posts/ud-graduation/",
         "teaser": null
+      },{
+        "title": "Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy",
+        "excerpt":"Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy In late April 2023, I presented a talk at the first-ever Honors Thesis Signature Talks at Stander Symposium at the University of Dayton. These talks featured four undergraduate honors researchers presenting their work in a TED-style format. In my...","categories": [],
+        "tags": ["University of Dayton"],
+        "url": "/posts/honors-thesis/",
+        "teaser": null
       }]

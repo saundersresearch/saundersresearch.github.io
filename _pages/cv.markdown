@@ -102,12 +102,12 @@ An electrical engineering PhD student passionate about medical image processing.
 * Tau Beta Pi
 
 ## Publications
-* _A comparison of histopathology imaging comprehension algorithms based on multiple instance learning._ **Adam Saunders,** Sajal Dash, Aristeidis Tsaris, Hong-Jun Yoon. SPIE Medical Imaging, February 2023.
+* [_A comparison of histopathology imaging comprehension algorithms based on multiple instance learning._](https://www.osti.gov/servlets/purl/1969817) **Adam Saunders,** Sajal Dash, Aristeidis Tsaris, Hong-Jun Yoon. SPIE Medical Imaging, February 2023.
 
 * _Ensemble learning of attention-based models for whole-slide imaging comprehension._ Hong-Jun Yoon, **Adam Saunders,** Folami Alamudun, Sajal Dash, Jacob Hinkle, and Aristeidis Tsaris. Computational Approaches for Cancer Workshop (CAFCW22), November 2022.
 
 ## Talks
-* _Deep learning for healthier world: Detecting and grading diabetic retinopathy._ Honors Thesis Signature Talks at Stander Symposium, April 2023.
+* [_Deep learning for healthier world: Detecting and grading diabetic retinopathy._](https://www.youtube.com/watch?v=J4TdP8eGEm4) Honors Thesis Signature Talks at Stander Symposium, April 2023.
 
 ## Honors and Awards
 
