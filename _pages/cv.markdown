@@ -73,7 +73,7 @@ An electrical engineering PhD student passionate about medical image processing.
     <li>Selected grocery items for online orders with one of the fastest selection rates on the team</li>
     <li>Delivered groceries and performed carside customer service</li>
     </ul>
-<li><b>Physics Grader</b><div style="float: right">January 2020 - May 2021</div>
+<li><b>Physics Grader</b><div style="float: right">January 2020 - May 2020</div>
 <br />
 <i>University of Dayton</i></li>
     <ul>
