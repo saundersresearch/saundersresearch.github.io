@@ -1,0 +1,438 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement - Adam Saunders Research</title>
+<meta name="description" content="We published our work on creating eye atlases from low-resolution MRI.">
+
+
+  <meta name="author" content="Adam Saunders">
+  
+  <meta property="article:author" content="Adam Saunders">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Adam Saunders Research">
+<meta property="og:title" content="Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement">
+<meta property="og:url" content="http://localhost:4000/posts/eye-atlas/">
+
+
+  <meta property="og:description" content="We published our work on creating eye atlases from low-resolution MRI.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2024-11-14T00:00:00-06:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/posts/eye-atlas/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Adam Saunders",
+      "url": "http://localhost:4000/",
+      "sameAs": ["https://twitter.com/AdamSaunders97","https://www.linkedin.com/in/adamsaunders97"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Adam Saunders Research Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<meta name="google-site-verification" content="D11cXunNgezNTNRv1D3TlvUV88E7HNHflHFGXaytX-o" />
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/site.webmanifest">
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Adam Saunders Research
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/research/">Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/">Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/posts/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/cv/">CV</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact/">Contact Me</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/headshot_square.jpg" alt="Adam Saunders" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Adam Saunders</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>I am a PhD student researching medical imaging.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Links</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="mailto:&#109;ai&#108;&#116;o&#58;a&#100;&#97;m&#46;m%2Es&#97;u%6Eders&#64;%76a%6Ede&#114;b&#37;&#54;9&#108;t&#46;edu" rel="nofollow noopener noreferrer me"><i class="fa fa-envelope" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/adamsaunders97" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/AdamSaunders97" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement">
+    <meta itemprop="description" content="We published our work on creating eye atlases from low-resolution MRI.">
+    <meta itemprop="datePublished" content="2024-11-14T00:00:00-06:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/posts/eye-atlas/" class="u-url" itemprop="url">Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p style="text-align: center; font-size:0.7em;"><img src="/assets/images/journal_headers/eye_atlas_render.png" alt="Eye atlas rendering" style="display:block; margin-left:auto; margin-right:auto" /> 
+We created standardized reference images for the eye using low-resolution MRI.</p>
+
+<p>Ho Hin Lee*, <strong>Adam M. Saunders</strong> *, Michael E. Kim, Samuel W. Remedios, Lucas W. Remedios, Yucheng Tang, Qi Yang, Xin Yu, Shunxing Bao, Chloe Cho, Louise A. Mawn, Tonia S. Rex, Kevin L. Schey, Blake E. Dewey, Jeffrey M. Spraggins, Jerry L. Prince, Yuankai Huo, Bennett A. Landman, Super-resolution multi-contrast unbiased eye atlases with deep probabilistic refinement, Journal of Medical Imaging, 11(6), 064004 (2024), <a href="https://doi.org/10.1117/1.JMI.11.6.064004">doi: 10.1117/1.JMI.11.6.064004</a>. *Equal contribution.</p>
+
+<h1 id="abstract">Abstract</h1>
+<blockquote>
+  <p><strong>Purpose:</strong> Eye morphology varies significantly across the population, especially for the orbit and optic nerve. These variations limit the feasibility and robustness of generalizing population-wise features of eye organs to an unbiased spatial reference. <strong>Approach:</strong> To tackle these limitations, we propose a process for creating high-resolution unbiased eye atlases. First, to restore spatial details from scans with a low through-plane resolution compared with a high in-plane resolution, we apply a deep learning-based super-resolution algorithm. Then, we generate an initial unbiased reference with an iterative metric-based registration using a small portion of subject scans. We register the remaining scans to this template and refine the template using an unsupervised deep probabilistic approach that generates a more expansive deformation field to enhance the organ boundary alignment. We demonstrate this framework using magnetic resonance images across four different tissue contrasts, generating four atlases in separate spatial alignments. <strong>Results:</strong> When refining the template with sufficient subjects, we find a significant improvement using the Wilcoxon signed-rank test in the average Dice score across four labeled regions compared with a standard registration framework consisting of rigid, affine, and deformable transformations. These results highlight the effective alignment of eye organs and boundaries using our proposed process. <strong>Conclusions:</strong> By combining super-resolution preprocessing and deep probabilistic models, we address the challenge of generating an eye atlas to serve as a standardized reference across a largely variable population.</p>
+</blockquote>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#eye-and-vision" class="page__taxonomy-item p-category" rel="tag">Eye and vision</a><span class="sep">, </span>
+    
+      <a href="/tags/#vanderbilt-masi-lab" class="page__taxonomy-item p-category" rel="tag">Vanderbilt MASI Lab</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-11-14T00:00:00-06:00">November 14, 2024</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  <!---->
+  <h4 class = "page__share-title">Share on: </h4>
+  <a href="https://twitter.com/intent/tweet?text=Super-resolution+Multi-Contrast+Unbiased+Eye+Atlases+with+Deep+Probabilistic+Refinement%20http%3A%2F%2Flocalhost%3A4000%2Fposts%2Feye-atlas%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Feye-atlas%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Feye-atlas%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/posts/honors-thesis/" class="pagination--pager" title="Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          
+            <li><a href="mailto:&#109;ai&#108;&#116;o&#58;a&#100;&#97;m&#46;m%2Es&#97;u%6Eders&#64;%76a%6Ede&#114;b&#37;&#54;9&#108;t&#46;edu" rel="nofollow noopener noreferrer"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+                  
+        
+      
+        
+          
+            <li><a href="https://www.linkedin.com/in/adamsaunders97" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+                  
+        
+      
+        
+          
+            <li><a href="https://twitter.com/AdamSaunders97" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+                  
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 Adam Saunders. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>. Icons from <a href="https://twemoji.twitter.com/">Twemoji</a> licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
