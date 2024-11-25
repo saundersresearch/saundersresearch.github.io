@@ -7,7 +7,8 @@ toc_icon: None
 ---
 
 ## Summary
-An electrical engineering PhD student passionate about medical image processing. Proven leadership skills in an academic environment. Adept at applying technical skills to challenging research questions. Committed to working hard to continually learn more.
+An electrical engineering PhD student studying medical imaging. Research 
+focused on applying artificial intelligence tools to impute missing information from imperfect data. Strengths in analytical skills and scientific communication.
 
 ## Contact Information
 
@@ -35,7 +36,7 @@ An electrical engineering PhD student passionate about medical image processing.
 <br />
 <i>Vanderbilt University</i></li>
     <ul>
-    <li>Performed medical imaging research in the Medical-image Analysis and Statistical Interpretation Lab</li>
+    <li>Performed medical imaging research in the Medical-image Analysis and Statistical Interpretation Lab and Vanderbilt Lab for Immersive AI Translation</li>
     <li>Collaborated with lab members and scientists to communicate published scientific findings</li>
     </ul>
 <li><b>Undergraduate Music Minister</b><div style="float: right">August 2019 - June 2023</div>
@@ -66,13 +67,6 @@ An electrical engineering PhD student passionate about medical image processing.
     <li>Designed and implemented digital hardware systems to meet project needs</li>
     <li>Presented technical results and documentation for future deployment</li>
     </ul>
-<li><b>eCommerce Clerk</b><div style="float: right">June 2020 - January 2021</div>
-<br />
-<i>Kroger</i></li>
-    <ul>
-    <li>Selected grocery items for online orders with one of the fastest selection rates on the team</li>
-    <li>Delivered groceries and performed carside customer service</li>
-    </ul>
 <li><b>Physics Grader</b><div style="float: right">January 2020 - May 2020</div>
 <br />
 <i>University of Dayton</i></li>
@@ -80,47 +74,84 @@ An electrical engineering PhD student passionate about medical image processing.
     <li>Evaluated exams and group work for over 50 students in a challenging mechanics course</li>
     <li>Encouraged students to solve difficult problems during weekly homework help sessions</li>
     </ul>
-<li><b>Concessionist</b><div style="float: right">June 2019 - August 2019</div>
-<br />
-<i>Cinemark</i></li>
-    <ul>
-    <li>Provided top-quality service to customers, including handling money and preparing food</li>
-    <li>Represented a team of 3 to 8 coworkers during peak blockbuster season</li>
-    </ul>
 </ul>
 
-## Skills
-* Deep learning for medical image processing using Python and MATLAB
-* Technical writing and typesetting using LaTeX and Microsoft Office
-* High-performance computing for deep learning models using Python
-* Effective scientific communication and visual aid design
-* Strong critical thinking and analytical skills
+## Journal Publications
+* **Adam M. Saunders**, Michael E. Kim, Chenyu Gao, Lucas W. Remedios,  Aravind R. Krishnan, Kurt G. Schilling, Kristin P. O’Grady, Seth A. Smith, and Bennett A. Landman. Comparison and calibration of MP2RAGE quantitative T1 values to multi-TI inversion recovery T1 values. Submitted to _Magnetic Resonance Imaging_. [[arXiv:2409.13145]](https://arxiv.org/abs/2409.13145)
 
-## Professional Affiliations
-* IEEE Member
-* SPIE Student Member
-* Tau Beta Pi
+* Chenyu Gao, Michael E. Kim, Karthik Ramadass, Praitayini Kanakaraj, Aravind R. Krishnan, **Adam M. Saunders**, Nancy R. Newlin, Ho Hin Lee, Qi Yang, Warren D. Taylor, Brian D. Boyd, Lori L. Beason-Held, Susan M. Resnick, Lisa L. Barnes, David A. Bennett, Katherine D. Van Schaik, Derek B. Archer, Timothy J. Hohman, Angela L. Jefferson, Ivana Išgum, Daniel Moyer, Yuankai Huo, Kurt G. Schilling, Lianrui Zuo, Shunxing Bao, Nazirah Mohd Khairi, Zhiyuan Li, Christos Davatzikos, Bennett A. Landman for the Alzheimer’s Disease Neuroimaging Initiative and the BIOCARD Study team. Brain age identification from diffusion MRI synergistically predicts neurodegenerative disease. Submitted to _Imaging Neuroscience_. [[arXiv:2410.22454]](https://arxiv.org/abs/2410.22454)
 
-## Publications
-* [_Methods for exploiting high-resolution imagery for deep learning-based diabetic retinopathy detection and grading._](https://ecommons.udayton.edu/uhp_theses/423/) **Adam Saunders**. University of Dayton Honors Theses, April 2023.
+* Lucas W. Remedios, Han Liu, Samuel W. Remedios, Lianrui Zuo, **Adam M. Saunders**, Shunxing Bao, Yuankai Huo, Alvin C. Powers, John Virostko, and Bennett A. Landman. Influence of Early through Late Fusion on Pancreas Segmentation from Imperfectly Registered Multimodal MRI. Submitted to _Journal of Medical Imaging_. [[arXiv:2409.04563]](https://arxiv.org/abs/2409.04563)
 
-* _Ensemble learning of attention-based models for whole-slide imaging comprehension._ Hong-Jun Yoon, **Adam Saunders,** Folami Alamudun, Sajal Dash, Jacob Hinkle, and Aristeidis Tsaris. Computational Approaches for Cancer Workshop (CAFCW22), November 2022.
+* Elyssa M. McMaster, Nancy R. Newlin, Chloe Cho, Gaurav Rudravaram, **Adam M. Saunders**, Aravind R. Krishnan, Lucas W. Remedios, Michael E. Kim, Hanliang Xu, Kurt G. Schilling, François Rheault, Laurie E. Cutting, and Bennett A. Landman. Sensitivity of quantitative diffusion MRI tractography and microstructure to anisotropic spatial sampling. Submitted to _Magnetic Resonance in Medicine_. [[arXiv:2409.18255]](https://arxiv.org/abs/2409.18255)
 
-* [_A comparison of histopathology imaging comprehension algorithms based on multiple instance learning._](https://www.osti.gov/servlets/purl/1969817) **Adam Saunders,** Sajal Dash, Aristeidis Tsaris, Hong-Jun Yoon. SPIE Medical Imaging, February 2023.
+* Elyssa M. McMaster, Nancy R. Newlin, Gaurav Rudravaram, **Adam M. Saunders**, Aravind R. Krishnan, Lucas W. Remedios, Michael E. Kim, Hanliang Xu, Derek B. Archer, Kurt G. Schilling, François Rheault, Laurie E. Cutting and Bennett A. Landman. Harmonized connectome resampling for variance in voxel sizes. Submitted to _Magnetic Resonance Imaging_. [[arXiv:2408.01351]](https://arxiv.org/abs/2408.01351)
+    
+* Ho Hin Lee\*, __Adam M. Saunders__\*, Michael E. Kim, Samuel W. Remedios,  Lucas W. Remedios, Yucheng Tang, Qi Yang, Xin Yu, Shunxing Bao, Chloe Cho, Louise A. Mawn, Tonia S. Rex, Kevin L. Schey, Blake E. Dewey, Jeffrey M. Spraggins, Jerry L. Prince, Yuankai Huo, Bennett A. Landman, Super-resolution multi-contrast unbiased eye atlases with deep probabilistic refinement. _Journal of Medical Imaging_, 11(6), 064004 (2024). \*Equal contribution. [[doi:10.1117/1.JMI.11.6.064004]](https://doi.org/10.1117/1.JMI.11.6.064004) 
+
+* Lucas W. Remedios, Shunxing Bao, Samuel W. Remedios, Ho Hin Lee, Leon Y. Cai, Thomas Li, Ruining Deng, Nancy R. Newlin, **Adam M. Saunders**, Can Cui, Jia Li, Qi Liu, Ken S. Lau, Joseph T. Roland, Mary K Washington, Lori A. Coburn, Keith T. Wilson, Yuankai Huo, Bennett A. Landman. Data-driven Nucleus Subclassification on Colon H&E using Style-transferred Digital Pathology. _Journal of Medical Imaging_, 11(6), 067501 (2024). [[doi:10.1117/1.JMI.11.6.067501]](https://doi.org/10.1117/1.JMI.11.6.064004)
+
+
+## Conference Papers
+* **Adam M. Saunders**, Michael E. Kim, Kurt G. Schilling, John C. Gore, Bennett Papers	A. Landman, and Yurui Gao. Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging. SPIE Medical Imaging: Image Processing, February 2025.
+
+* **Adam M. Saunders**, Gaurav Rudravaram, Nancy R. Newlin, Michael E. Kim, John C. Gore, Bennett A. Landman, and Yurui Gao. A 4D atlas of diffusion-informed spatial smoothing windows for BOLD signal in white matter. SPIE Medical Imaging: Image Processing, February 2025.
+
+* Elyssa McMaster, Lemuel Puglisi, Chenyu Gao, Aravind R. Krishnan, **Adam M. Saunders**, Daniele Ravi, Lori L. Beason-Held, Susan M. Resnick, Lianrui Zuo, Daniel Moyer, and Bennett A. Landman. A technical assessment of latent diffusion for Alzheimer's Disease progression. SPIE Medical Imaging: Image Processing, February 2025.
+
+* Gaurav Rudravaram, Shunxing Bao, Aravind R. Krishnan, Lucas W. Remedios, Michael E. Kim, **Adam M. Saunders**, Qi Liu, Ken S. Lau, Joseph T. Roland, Mary K. Washington, Lori A. Coburn, Keith T. Wilson, Yuankai Huo, and Bennett A. Landman. Identifying cellular neighborhood phenotypes differentiating normal and quiescent Crohn’s disease via MxIF. SPIE Medical Imaging: Digital and Computational Pathology, February 2025.
+
+* Jessica Samir, Karthik Ramadass, **Adam M. Saunders**, Aravind Krishnan, Lucas Remedios, Elyssa McMaster, and Bennett A. Landman. The Medical Segmentation Decathlon without a doctorate. SPIE Medical Imaging: Clinical and Biomedical Imaging, February 2025.
+
+* Aravind R. Krishnan, Yihao Liu, Kaiwen Xu, Michael E. Kim, Lucas W. Remedios, Gaurav Rudravaram, **Adam M. Saunders**, Bradley W. Richmond, Kim L. Sandler, Fabien Maldonado, Bennett A. Landman and Lianrui Zuo. Investigating the impact of kernel harmonization and deformable registration on inspiratory and expiratory chest CT images for people with COPD. SPIE Medical Imaging: Clinical and Biomedical Imaging, February 2025.
+
+* **Adam Saunders**, Sajal Dash, Aristeidis Tsaris, and Hong-Jun Yoon. A comparison of histopathology imaging comprehension algorithms based on multiple instance learning. SPIE Medical Imaging: Digital and Computational Pathology, February 2023. [[doi:10.1117/12.2654265]](https://doi.org/10.1117/12.2654265)
+
 
 ## Talks
-* [_Deep learning for healthier world: Detecting and grading diabetic retinopathy._](https://www.youtube.com/watch?v=J4TdP8eGEm4) Honors Thesis Signature Talks at Stander Symposium, April 2023.
+* Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging. Vanderbilt University Institute of Imaging Science Retreat, October 2024.
+    
+* [Deep learning for a healthier world: Detecting and grading diabetic retinopathy](https://www.youtube.com/watch?v=J4TdP8eGEm). University of Dayton Honors Thesis Signature Talks at Stander Symposium, April 2023.
+
+## Abstracts 
+* Elyssa N. McMaster, Nancy R. Newlin, Chloe Cho, **Adam M. Saunders**, François Rheault, Kurt G. Schilling, and Bennett A. Landman. Sensitivity of NODDI metrics to anisotropic spatial sampling. International Society for Magnetic Resonance in Medicine, May 2025.
+
+* **Adam M. Saunders**, Kurt G. Schilling, Kristin P. O’Grady, Seth Smith, and Bennett A. Landman. A maximum a posteriori method for quantitative T1 mapping with uncertainty using MP2RAGE. International Society for Magnetic Resonance in Medicine, May 2024.
+
+* Hong-Jun Yoon, **Adam Saunders**, Folami Alamudun, Sajal Dash, Jacob Hinkle, and Aristeidis Tsaris. Ensemble learning of attention-based models for whole-slide imaging comprehension. Computational Approaches for Cancer Workshop, November 2022.
+
+## Professional Outreach
+
+<ul>
+<li><div style="float:left"> Reviewer, <i>Journal of Medical Imaging</i>. </div><div style="float: right"> 2024</div></li>
+<li><div style="float:left"> Secretary, VALIANT Attempt, Vanderbilt University. </div><div style="float: right">2024</div></li>
+</ul>
 
 ## Honors and Awards
 
 <ul>
-<li><div style="float:left"> Thomas R. Armstrong Award of Excellence<br/>for Outstanding Electrical Engineering Achievement </div><div style="float: right"> May 2023</div></li>
+<li><div style="float:left"> Graduate School Travel Grant, <br /> Vanderbilt University </div><div style="float: right"> November 2024</div></li>
+<br />
+<li><div style="float:left"> University Graduate Fellowship, <br > Vanderbilt University </div><div style="float: right"> July 2023</div></li>
+<br />
+<li><div style="float:left"> Thomas R. Armstrong Award of Excellence<br/>for Outstanding Electrical Engineering Achievement, <br /> University of Dayton Department of Electrical and <br /> Computer Engineering</div><div style="float: right"> May 2023</div></li>
+<br />
+<br />
 <br />
 <li><div style="float:left"> Outstanding Collaborative Pianist,<br/>University of Dayton Department of Music </div><div style="float: right"> May 2023</div></li>
 <br />
-<li><div style="float:left"> Best Poster in Directorate,<br/>2022 ORNL Summer Intern Symposium </div><div style="float: right"> August 2022</div></li>
+<li><div style="float:left"> Dean's List, University of Dayton </div><div style="float: right"> August 2019 - May 2023</div></li>
+<li><div style="float:left"> SPIE Travel Grant </div><div style="float: right"> February 2023</div></li>
+<li><div style="float:left"> Best Poster in Directorate, 2022 ORNL <br /> Summer Intern Symposium, Oak Ridge <br/> National Laboratory </div><div style="float: right"> August 2022</div></li>
 <br />
-<li><div style="float:left"> Ohio Seal of Biliteracy, Spanish </div><div style="float: right"> May 2019 </div></li>
-<li><div style="float:left"> Eagle Scout Award with Silver Palm </div><div style="float: right"> February 2019</div></li>
+<br />
+<li><div style="float:left"> Honors Thesis Fellowship, University of Dayton </div><div style="float: right"> April 2022</div></li>
 <li><div style="float:left"> International Science and Engineering Fair, Finalist </div><div style="float: right">May 2018</div></li>
 </ul>
+
+## Skills
+* Deep learning for medical imaging and data imputation using Python/PyTorch
+* Adept at statistical analysis and interpretation 
+* Technical writing and typesetting using Microsoft Office
+* Effective scientific communication and visual aid preparation
+* Strong critical thinking and analytical skills	

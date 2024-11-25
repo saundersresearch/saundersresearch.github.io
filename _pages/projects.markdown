@@ -1,12 +1,24 @@
 ---
-title: Projects
+title: Undergraduate Projects
 permalink: /projects/
 toc: true
 toc_label: "Contents"
 toc_icon: None
 ---
 
-Here's some highlights of cool projects I've worked on outside of a research setting!
+Here's some highlights of cool projects I've worked on while a student at the University of Dayton.
+
+## Diabetic retinopathy and deep learning algorithms 
+
+<a href="https://ecommons.udayton.edu/uhp_theses/423/">
+![TED Talk-style Presentation](/assets/images/ted_talk.jfif)</a> Presented as a featured honors thesis at the 2023 Stander Symposium at the University of Dayton
+{: style="text-align: center; font-size:0.7em;"}
+
+Diabetic retinopathy is a disease common in diabetics that can lead to blindness if left undiagnosed and untreated. Diagnosis can be tedious, as ophthalmologists must analyze fine details from fundus images of the eyes. However, deep learning algorithms can automate this process. However, many deep learning algorithms use small images sizes as inputs, while much larger images are available. We can improve computer-aided detection systems for diabetic retinopathy by developing algorithms that utilize more of the available high resolution of the fundus images. We focus on image processing algorithms and transformations that fit more high-resolution content into a smaller image size.
+
+This work was presented at the Stander Symposium as an undergraduate honors thesis, available [here](https://ecommons.udayton.edu/uhp_theses/423/). Additionally, this research was presented in a TED Talk-style format as one of four featured honors thesis writers. I performed this research under the mentorship of [Dr. Russell Hardie](https://udayton.edu/directory/engineering/electrical_and_computer/hardie_russell.php) at the University of Dayton.
+
+Adam Saunders. [Methods for exploiting high-resolution imagery for deep learning-based diabetic retinopathy detection and grading.](https://ecommons.udayton.edu/uhp_theses/423/) University of Dayton Honors Theses, April 2023.
 
 ## Music therapy app for pain management
 ![MANTRA](/assets/images/mantra_screenshot.png){: style="display:block; margin-left:auto; margin-right:auto"} 

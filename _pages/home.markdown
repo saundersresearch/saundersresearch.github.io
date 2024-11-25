@@ -16,19 +16,18 @@ feature_row:
   - image_path: /assets/images/frontier_selfie_square.jpg
     alt: "Frontier Selfie"
     title: "About Me"
-    excerpt: "I am an electrical and computer engineering PhD student at Vanderbilt University performing medical imaging research."
+    excerpt: "I am an electrical and computer engineering PhD student at Vanderbilt University performing medical imaging research in the MASI Lab."
     url: /about/
     btn_label: "Learn more"
     btn_class: "btn--info"
-  - image_path: /assets/images/tumor_canvas.jpg
-    alt: "tumor patch canvas"
-    image_caption: "Generated using [CLAM](https://github.com/mahmoodlab/CLAM) and [CAMELYON16](https://camelyon16.grand-challenge.org/)"
+  - image_path: /assets/images/journal_headers/mp2rage_t1map.png
+    alt: "quantitative T1 map of brain"
     title: "My Research"
-    excerpt: "My research experience includes using deep learning to classify whole-slide images and developing better image processing algorithms for diabetic retinopathy detection and grading."
+    excerpt: "My research focuses on estimating information from MRI where we are missing data we would like to have."
     url: "/research/"
     btn_label: "Learn more"
     btn_class: "btn--info"
-  - image_path: /assets/images/whiteboard_square.jpg
+  - image_path: /assets/images/ted_talk_square.jpg
     title: "CV"
     excerpt: "Learn more about my work and research experience, as well as what skills I have to offer."
     url: "/cv/"

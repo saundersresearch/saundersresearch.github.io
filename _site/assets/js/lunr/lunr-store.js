@@ -30,8 +30,8 @@ var store = [{
         "teaser": null
       },{
         "title": "Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement",
-        "excerpt":"We created standardized reference images for the eye using low-resolution MRI. Ho Hin Lee*, Adam M. Saunders *, Michael E. Kim, Samuel W. Remedios, Lucas W. Remedios, Yucheng Tang, Qi Yang, Xin Yu, Shunxing Bao, Chloe Cho, Louise A. Mawn, Tonia S. Rex, Kevin L. Schey, Blake E. Dewey, Jeffrey...","categories": [],
-        "tags": ["Vanderbilt MASI Lab","Eye and vision"],
+        "excerpt":"We created standardized reference images for the eye using low-resolution MRI. Ho Hin Lee*, Adam M. Saunders*, Michael E. Kim, Samuel W. Remedios, Lucas W. Remedios, Yucheng Tang, Qi Yang, Xin Yu, Shunxing Bao, Chloe Cho, Louise A. Mawn, Tonia S. Rex, Kevin L. Schey, Blake E. Dewey, Jeffrey M....","categories": [],
+        "tags": ["Vanderbilt MASI Lab","Vision"],
         "url": "/posts/eye-atlas/",
         "teaser": null
       }]
