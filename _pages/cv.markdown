@@ -122,32 +122,20 @@ focused on applying artificial intelligence tools to impute missing information 
 
 ## Professional Outreach
 
-<ul>
-<li><div style="float:left"> Reviewer, <i>Journal of Medical Imaging</i>. </div><div style="float: right"> 2024</div></li>
-<li><div style="float:left"> Secretary, VALIANT Attempt, Vanderbilt University. </div><div style="float: right">2024</div></li>
-</ul>
+* Reviewer, _Journal of Medical Imaging_, 2024
+* Secretary of VALIANT Attempt, Vanderbilt University, 2024
 
 ## Honors and Awards
 
-<ul>
-<li><div style="float:left"> Graduate School Travel Grant, <br /> Vanderbilt University </div><div style="float: right"> November 2024</div></li>
-<br />
-<li><div style="float:left"> University Graduate Fellowship, <br > Vanderbilt University </div><div style="float: right"> July 2023</div></li>
-<br />
-<li><div style="float:left"> Thomas R. Armstrong Award of Excellence<br/>for Outstanding Electrical Engineering Achievement, <br /> University of Dayton Department of Electrical and <br /> Computer Engineering</div><div style="float: right"> May 2023</div></li>
-<br />
-<br />
-<br />
-<li><div style="float:left"> Outstanding Collaborative Pianist,<br/>University of Dayton Department of Music </div><div style="float: right"> May 2023</div></li>
-<br />
-<li><div style="float:left"> Dean's List, University of Dayton </div><div style="float: right"> August 2019 - May 2023</div></li>
-<li><div style="float:left"> SPIE Travel Grant </div><div style="float: right"> February 2023</div></li>
-<li><div style="float:left"> Best Poster in Directorate, 2022 ORNL <br /> Summer Intern Symposium, Oak Ridge <br/> National Laboratory </div><div style="float: right"> August 2022</div></li>
-<br />
-<br />
-<li><div style="float:left"> Honors Thesis Fellowship, University of Dayton </div><div style="float: right"> April 2022</div></li>
-<li><div style="float:left"> International Science and Engineering Fair, Finalist </div><div style="float: right">May 2018</div></li>
-</ul>
+* Graduate School Travel Grant, Vanderbilt University, November 2024
+* University Graduate Fellowship, Vanderbilt University, July 2024
+* Thomas R. Armstrong Award of Excellence for Outstanding Electrical Engineering Achievement, University of Dayton Department of Electrical and Computer Engineering, May 2023
+* Outstanding Collaborative Pianist, University of Dayton Department of Music, May 2023
+* Dean's List, University of Dayton, August 2019 - May 2023
+* SPIE Travel Grant, February 2023
+* Best Poster in Directorate, Oak Ridge National Laboratory Summer Intern Symposium, August 2022
+* Honors Thesis Fellowship, University of Dayton, April 2022
+* Finalist, International Science and Engineering Fair, May 2018 
 
 ## Skills
 * Deep learning for medical imaging and data imputation using Python/PyTorch

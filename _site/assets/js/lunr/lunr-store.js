@@ -29,6 +29,12 @@ var store = [{
         "url": "/posts/honors-thesis/",
         "teaser": null
       },{
+        "title": "Comparison and Calibration of MP2RAGE Quantitative T1 Values to Multi-TI Inversion Recovery T1 Values",
+        "excerpt":"We found a bias between two methods for mapping quantitative values of T1 from MRI, and we corrected that bias with a patch-based deep learning model. Adam M. Saunders, Michael E. Kim, Chenyu Gao, Lucas W. Remedios, Aravind R. Krishnan, Kurt G. Schilling, Kristin P. O’Grady, Seth A. Smith, and...","categories": [],
+        "tags": ["Vanderbilt MASI Lab","Preprint"],
+        "url": "/posts/quantitative-t1/",
+        "teaser": null
+      },{
         "title": "Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement",
         "excerpt":"We created standardized reference images for the eye using low-resolution MRI. Ho Hin Lee*, Adam M. Saunders*, Michael E. Kim, Samuel W. Remedios, Lucas W. Remedios, Yucheng Tang, Qi Yang, Xin Yu, Shunxing Bao, Chloe Cho, Louise A. Mawn, Tonia S. Rex, Kevin L. Schey, Blake E. Dewey, Jeffrey M....","categories": [],
         "tags": ["Vanderbilt MASI Lab","Vision"],

@@ -7,7 +7,7 @@ excerpt: I presented a TED-style talk highlighting the aims of my honors thesis 
 ---
 
 [![Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy](https://img.youtube.com/vi/J4TdP8eGEm4/0.jpg)](https://www.youtube.com/watch?v=J4TdP8eGEm4){: style="display:block; margin-left:auto; margin-right:auto"} 
-Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy
+[Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy](https://www.youtube.com/watch?v=J4TdP8eGEm4)
 {: style="text-align: center; font-size:0.7em;"}
 
 In late April 2023, I presented a talk at the first-ever Honors Thesis Signature Talks at Stander Symposium at the University of Dayton. These talks featured four undergraduate honors researchers presenting their work in a TED-style format. In my talk, *Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy*, I discuss my family's experience with diabetic retinopathy, and how it inspired me to pursue medical imaging research. I explore how we can use deep learning models to learn patterns from medical images, making them a useful tool for detecting diseases like diabetic retinopathy. We can apply innovative transformations that recolor, resize, crop and transform the images to allow the deep learning model to learn to detect diseases more easily.

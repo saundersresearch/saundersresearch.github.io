@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement - Adam Saunders Research</title>
-<meta name="description" content="We published our work on creating eye atlases from low-resolution MRI.">
+<!-- begin _includes/seo.html --><title>Comparison and Calibration of MP2RAGE Quantitative T1 Values to Multi-TI Inversion Recovery T1 Values - Adam Saunders Research</title>
+<meta name="description" content="We found and corrected a bias in quantitative T1 methods using a patch-based deep learning model.">
 
 
   <meta name="author" content="Adam Saunders">
@@ -22,26 +22,26 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Adam Saunders Research">
-<meta property="og:title" content="Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement">
-<meta property="og:url" content="http://localhost:4000/posts/eye-atlas/">
+<meta property="og:title" content="Comparison and Calibration of MP2RAGE Quantitative T1 Values to Multi-TI Inversion Recovery T1 Values">
+<meta property="og:url" content="http://localhost:4000/posts/quantitative-t1/">
 
 
-  <meta property="og:description" content="We published our work on creating eye atlases from low-resolution MRI.">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2024-11-14T00:00:00-06:00">
+  <meta property="og:description" content="We found and corrected a bias in quantitative T1 methods using a patch-based deep learning model.">
 
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/posts/eye-atlas/">
+
+  <meta property="article:published_time" content="2024-09-20T00:00:00-05:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/posts/quantitative-t1/">
 
 
 
@@ -269,16 +269,16 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement">
-    <meta itemprop="description" content="We published our work on creating eye atlases from low-resolution MRI.">
-    <meta itemprop="datePublished" content="2024-11-14T00:00:00-06:00">
+    <meta itemprop="headline" content="Comparison and Calibration of MP2RAGE Quantitative T1 Values to Multi-TI Inversion Recovery T1 Values">
+    <meta itemprop="description" content="We found and corrected a bias in quantitative T1 methods using a patch-based deep learning model.">
+    <meta itemprop="datePublished" content="2024-09-20T00:00:00-05:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/posts/eye-atlas/" class="u-url" itemprop="url">Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement
+            <a href="http://localhost:4000/posts/quantitative-t1/" class="u-url" itemprop="url">Comparison and Calibration of MP2RAGE Quantitative T1 Values to Multi-TI Inversion Recovery T1 Values
 </a>
           </h1>
           
@@ -289,14 +289,14 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p style="text-align: center; font-size:0.7em;"><img src="/assets/images/journal_headers/eye_atlas_render.png" alt="Eye atlas rendering" style="display:block; margin-left:auto; margin-right:auto" /> 
-We created standardized reference images for the eye using low-resolution MRI.</p>
+        <p style="text-align: center; font-size:0.7em;"><img src="/assets/images/journal_headers/mp2rage_model.png" alt="Quantitative T1 bias correction model" style="display:block; margin-left:auto; margin-right:auto" /> 
+We found a bias between two methods for mapping quantitative values of T1 from MRI, and we corrected that bias with a patch-based deep learning model.</p>
 
-<p>Ho Hin Lee*, <strong>Adam M. Saunders</strong>*, Michael E. Kim, Samuel W. Remedios, Lucas W. Remedios, Yucheng Tang, Qi Yang, Xin Yu, Shunxing Bao, Chloe Cho, Louise A. Mawn, Tonia S. Rex, Kevin L. Schey, Blake E. Dewey, Jeffrey M. Spraggins, Jerry L. Prince, Yuankai Huo, Bennett A. Landman, Super-resolution multi-contrast unbiased eye atlases with deep probabilistic refinement, Journal of Medical Imaging, 11(6), 064004 (2024), <a href="https://doi.org/10.1117/1.JMI.11.6.064004">doi: 10.1117/1.JMI.11.6.064004</a>. *Equal contribution.</p>
+<p><strong>Adam M. Saunders</strong>, Michael E. Kim, Chenyu Gao, Lucas W. Remedios,  Aravind R. Krishnan, Kurt G. Schilling, Kristin P. O’Grady, Seth A. Smith, and Bennett A. Landman. Comparison and calibration of MP2RAGE quantitative T1 values to multi-TI inversion recovery T1 values. Submitted to <em>Magnetic Resonance Imaging</em>. <a href="https://arxiv.org/abs/2409.13145">[arXiv:2409.13145]</a></p>
 
 <h1 id="abstract">Abstract</h1>
 <blockquote>
-  <p><strong>Purpose:</strong> Eye morphology varies significantly across the population, especially for the orbit and optic nerve. These variations limit the feasibility and robustness of generalizing population-wise features of eye organs to an unbiased spatial reference. <strong>Approach:</strong> To tackle these limitations, we propose a process for creating high-resolution unbiased eye atlases. First, to restore spatial details from scans with a low through-plane resolution compared with a high in-plane resolution, we apply a deep learning-based super-resolution algorithm. Then, we generate an initial unbiased reference with an iterative metric-based registration using a small portion of subject scans. We register the remaining scans to this template and refine the template using an unsupervised deep probabilistic approach that generates a more expansive deformation field to enhance the organ boundary alignment. We demonstrate this framework using magnetic resonance images across four different tissue contrasts, generating four atlases in separate spatial alignments. <strong>Results:</strong> When refining the template with sufficient subjects, we find a significant improvement using the Wilcoxon signed-rank test in the average Dice score across four labeled regions compared with a standard registration framework consisting of rigid, affine, and deformable transformations. These results highlight the effective alignment of eye organs and boundaries using our proposed process. <strong>Conclusions:</strong> By combining super-resolution preprocessing and deep probabilistic models, we address the challenge of generating an eye atlas to serve as a standardized reference across a largely variable population.</p>
+  <p>While typical qualitative T1-weighted magnetic resonance images reflect scanner and protocol differences, quantitative T1 mapping aims to measure T1 independent of these effects. Changes in T1 in the brain reflect chemical and physical changes in brain tissue, such as the demyelination of axons in multiple sclerosis. Magnetization-prepared two rapid acquisition gradient echo (MP2RAGE) is an acquisition protocol that allows for efficient T1 mapping with a much lower scan time per slice compared to multi-TI inversion recovery (IR) protocols. We collect and register B1-corrected MP2RAGE acquisitions with an additional inversion time (MP3RAGE) alongside multi-TI selective inversion recovery acquisitions for four subjects and find a tissue-dependent bias between the derived T1 values. We train a patch-based ResNet-18 to calibrate the MP3RAGE T1 values to the multi-TI IR T1 values, incorporating the standard deviation of T1 calculated from a Monte Carlo simulation as an additional channel. Across four folds, the error between the MP2RAGE and T1 maps varies substantially (RMSE in white matter: 0.30 +/- 0.01 seconds, subcortical gray matter: 0.26 +/- 0.02 seconds, cortical gray matter: 0.36 +/- 0.02 seconds). Our network reduces the RMSE significantly (RMSE in white matter: 0.11 +/- 0.02 seconds, subcortical gray matter: 0.10 +/- 0.02 seconds, cortical gray matter: 0.17 +/- 0.03 seconds). Adding the standard deviation channel does not substantially change the RMSE. Using limited paired training data from both sequences, we can reduce the error between quantitative imaging methods and calibrate to one of the protocols with a neural network.</p>
 </blockquote>
 
         
@@ -314,9 +314,9 @@ We created standardized reference images for the eye using low-resolution MRI.</
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/#vanderbilt-masi-lab" class="page__taxonomy-item p-category" rel="tag">Vanderbilt MASI Lab</a><span class="sep">, </span>
+      <a href="/tags/#preprint" class="page__taxonomy-item p-category" rel="tag">Preprint</a><span class="sep">, </span>
     
-      <a href="/tags/#vision" class="page__taxonomy-item p-category" rel="tag">Vision</a>
+      <a href="/tags/#vanderbilt-masi-lab" class="page__taxonomy-item p-category" rel="tag">Vanderbilt MASI Lab</a>
     
     </span>
   </p>
@@ -326,29 +326,30 @@ We created standardized reference images for the eye using low-resolution MRI.</
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-11-14T00:00:00-06:00">November 14, 2024</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-09-20T00:00:00-05:00">September 20, 2024</time></p>
 
       </footer>
 
       <section class="page__share">
   <!---->
   <h4 class = "page__share-title">Share on: </h4>
-  <a href="https://twitter.com/intent/tweet?text=Super-resolution+Multi-Contrast+Unbiased+Eye+Atlases+with+Deep+Probabilistic+Refinement%20http%3A%2F%2Flocalhost%3A4000%2Fposts%2Feye-atlas%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Comparison+and+Calibration+of+MP2RAGE+Quantitative+T1+Values+to+Multi-TI+Inversion+Recovery+T1+Values%20http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fquantitative-t1%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Feye-atlas%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fquantitative-t1%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Feye-atlas%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fquantitative-t1%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/posts/quantitative-t1/" class="pagination--pager" title="Comparison and Calibration of MP2RAGE Quantitative T1 Values to Multi-TI Inversion Recovery T1 Values
+      <a href="/posts/honors-thesis/" class="pagination--pager" title="Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy
 ">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="/posts/eye-atlas/" class="pagination--pager" title="Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement
+">Next</a>
     
   </nav>
 
