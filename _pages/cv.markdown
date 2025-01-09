@@ -77,7 +77,7 @@ focused on applying artificial intelligence tools to impute missing information 
 </ul>
 
 ## Journal Publications
-* **Adam M. Saunders**, Michael E. Kim, Chenyu Gao, Lucas W. Remedios,  Aravind R. Krishnan, Kurt G. Schilling, Kristin P. O’Grady, Seth A. Smith, and Bennett A. Landman. Comparison and calibration of MP2RAGE quantitative T1 values to multi-TI inversion recovery T1 values. Submitted to _Magnetic Resonance Imaging_. [[arXiv:2409.13145]](https://arxiv.org/abs/2409.13145)
+* **Adam M. Saunders**, Michael E. Kim, Chenyu Gao, Lucas W. Remedios,  Aravind R. Krishnan, Kurt G. Schilling, Kristin P. O’Grady, Seth A. Smith, and Bennett A. Landman. Comparison and calibration of MP2RAGE quantitative T1 values to multi-TI inversion recovery T1 values. _Magnetic Resonance Imaging_, 117, 110322 (2025). [[doi:10.1016/j.mri.2025.110322]](https://doi.org/10.1016/j.mri.2025.110322).
 
 * Chenyu Gao, Michael E. Kim, Karthik Ramadass, Praitayini Kanakaraj, Aravind R. Krishnan, **Adam M. Saunders**, Nancy R. Newlin, Ho Hin Lee, Qi Yang, Warren D. Taylor, Brian D. Boyd, Lori L. Beason-Held, Susan M. Resnick, Lisa L. Barnes, David A. Bennett, Katherine D. Van Schaik, Derek B. Archer, Timothy J. Hohman, Angela L. Jefferson, Ivana Išgum, Daniel Moyer, Yuankai Huo, Kurt G. Schilling, Lianrui Zuo, Shunxing Bao, Nazirah Mohd Khairi, Zhiyuan Li, Christos Davatzikos, Bennett A. Landman for the Alzheimer’s Disease Neuroimaging Initiative and the BIOCARD Study team. Brain age identification from diffusion MRI synergistically predicts neurodegenerative disease. Submitted to _Imaging Neuroscience_. [[arXiv:2410.22454]](https://arxiv.org/abs/2410.22454)
 
