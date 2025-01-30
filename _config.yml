@@ -22,6 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   student at Vanderbilt University interested conducting medical
   imaging research.
 twitter_username: AdamSaunders97
+bluesky_username: saundersresearch.github.io
 github_username: saundersresearch
 linkedin_username: adamsaunders97
 #repository: saundersresearch/site
@@ -35,7 +36,7 @@ remote_theme: mmistakes/minimal-mistakes@4.24.0
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -71,11 +72,17 @@ author:
       icon: "fa fa-envelope"
       url: "mailto:&#109;ai&#108;&#116;o&#58;a&#100;&#97;m&#46;m%2Es&#97;u%6Eders&#64;%76a%6Ede&#114;b&#37;&#54;9&#108;t&#46;edu"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/adamsaunders97"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/AdamSaunders97"
+    - label: "BlueSky"
+      icon: "fab fa-bluesky"
+      url: "https://bsky.app/profile/saundersresearch.github.io"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/saundersresearch"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/AdamSaunders97"
     # - label: "Mastodon"
     #   icon: "fab fa-fw fa-mastodon"
     #   url: "https://sigmoid.social/@adamsaunders"
@@ -86,11 +93,14 @@ footer:
       icon: "fa fa-envelope"
       url: "mailto:&#109;ai&#108;&#116;o&#58;a&#100;&#97;m&#46;m%2Es&#97;u%6Eders&#64;%76a%6Ede&#114;b&#37;&#54;9&#108;t&#46;edu"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/adamsaunders97"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/AdamSaunders97"    
+    - label: "BlueSky"
+      icon: "fab fa-bluesky"
+      url: "https://bsky.app/profile/saundersresearch.github.io"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/saundersresearch"
     # - label: "Mastodon"
     #   icon: "fab fa-fw fa-mastodon"
     #   url: "https://sigmoid.social/@adamsaunders"
