@@ -72,7 +72,7 @@ author:
       icon: "fa fa-envelope"
       url: "mailto:&#109;ai&#108;&#116;o&#58;a&#100;&#97;m&#46;m%2Es&#97;u%6Eders&#64;%76a%6Ede&#114;b&#37;&#54;9&#108;t&#46;edu"
     - label: "LinkedIn"
-      icon: "fa-brands fa-linkedin"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/adamsaunders97"
     - label: "BlueSky"
       icon: "fab fa-bluesky"

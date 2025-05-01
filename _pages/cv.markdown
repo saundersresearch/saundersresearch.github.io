@@ -79,9 +79,9 @@ focused on applying artificial intelligence tools to impute missing information 
 ## Journal Publications
 * **Adam M. Saunders**, Michael E. Kim, Chenyu Gao, Lucas W. Remedios,  Aravind R. Krishnan, Kurt G. Schilling, Kristin P. O’Grady, Seth A. Smith, and Bennett A. Landman. Comparison and calibration of MP2RAGE quantitative T1 values to multi-TI inversion recovery T1 values. _Magnetic Resonance Imaging_, 117, 110322 (2025). [[doi:10.1016/j.mri.2025.110322]](https://doi.org/10.1016/j.mri.2025.110322).
 
-* Chenyu Gao, Michael E. Kim, Karthik Ramadass, Praitayini Kanakaraj, Aravind R. Krishnan, **Adam M. Saunders**, Nancy R. Newlin, Ho Hin Lee, Qi Yang, Warren D. Taylor, Brian D. Boyd, Lori L. Beason-Held, Susan M. Resnick, Lisa L. Barnes, David A. Bennett, Katherine D. Van Schaik, Derek B. Archer, Timothy J. Hohman, Angela L. Jefferson, Ivana Išgum, Daniel Moyer, Yuankai Huo, Kurt G. Schilling, Lianrui Zuo, Shunxing Bao, Nazirah Mohd Khairi, Zhiyuan Li, Christos Davatzikos, Bennett A. Landman for the Alzheimer’s Disease Neuroimaging Initiative and the BIOCARD Study team. Brain age identification from diffusion MRI synergistically predicts neurodegenerative disease. Submitted to _Imaging Neuroscience_. [[arXiv:2410.22454]](https://arxiv.org/abs/2410.22454)
+* Chenyu Gao, Michael E. Kim, Karthik Ramadass, Praitayini Kanakaraj, Aravind R. Krishnan, **Adam M. Saunders**, Nancy R. Newlin, Ho Hin Lee, Qi Yang, Warren D. Taylor, Brian D. Boyd, Lori L. Beason-Held, Susan M. Resnick, Lisa L. Barnes, David A. Bennett, Katherine D. Van Schaik, Derek B. Archer, Timothy J. Hohman, Angela L. Jefferson, Ivana Išgum, Daniel Moyer, Yuankai Huo, Kurt G. Schilling, Lianrui Zuo, Shunxing Bao, Nazirah Mohd Khairi, Zhiyuan Li, Christos Davatzikos, Bennett A. Landman for the Alzheimer’s Disease Neuroimaging Initiative and the BIOCARD Study team. Brain age identification from diffusion MRI synergistically predicts neurodegenerative disease. Accepted to _Imaging Neuroscience_. [[arXiv:2410.22454]](https://arxiv.org/abs/2410.22454)
 
-* Lucas W. Remedios, Han Liu, Samuel W. Remedios, Lianrui Zuo, **Adam M. Saunders**, Shunxing Bao, Yuankai Huo, Alvin C. Powers, John Virostko, and Bennett A. Landman. Influence of Early through Late Fusion on Pancreas Segmentation from Imperfectly Registered Multimodal MRI. Submitted to _Journal of Medical Imaging_. [[arXiv:2409.04563]](https://arxiv.org/abs/2409.04563)
+* Lucas W. Remedios, Han Liu, Samuel W. Remedios, Lianrui Zuo, **Adam M. Saunders**, Shunxing Bao, Yuankai Huo, Alvin C. Powers, John Virostko, and Bennett A. Landman. Influence of Early through Late Fusion on Pancreas Segmentation from Imperfectly Registered Multimodal MRI. _Journal of Medical Imaging_, 12(2), 024008 (2025), [[doi: 10.1117/1.JMI.12.2.024008]](https://doi.org/10.1117/1.JMI.12.2.024008).
 
 * Elyssa M. McMaster, Nancy R. Newlin, Chloe Cho, Gaurav Rudravaram, **Adam M. Saunders**, Aravind R. Krishnan, Lucas W. Remedios, Michael E. Kim, Hanliang Xu, Kurt G. Schilling, François Rheault, Laurie E. Cutting, and Bennett A. Landman. Sensitivity of quantitative diffusion MRI tractography and microstructure to anisotropic spatial sampling. Submitted to _Magnetic Resonance in Medicine_. [[arXiv:2409.18255]](https://arxiv.org/abs/2409.18255)
 
@@ -93,27 +93,34 @@ focused on applying artificial intelligence tools to impute missing information 
 
 
 ## Conference Papers
-* **Adam M. Saunders**, Michael E. Kim, Kurt G. Schilling, John C. Gore, Bennett Papers	A. Landman, and Yurui Gao. Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging. SPIE Medical Imaging: Image Processing, February 2025.
+* **Adam M. Saunders**, Michael E. Kim, Kurt G. Schilling, John C. Gore, Bennett Papers	A. Landman, and Yurui Gao. Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging. SPIE Medical Imaging: Image Processing, February 2025. [[doi: 10.1117/12.3047240]](https://doi.org/10.1117/12.3047240). **Robert F. Wagner All-Conference Best Student Paper Finalist.**
 
-* **Adam M. Saunders**, Gaurav Rudravaram, Nancy R. Newlin, Michael E. Kim, John C. Gore, Bennett A. Landman, and Yurui Gao. A 4D atlas of diffusion-informed spatial smoothing windows for BOLD signal in white matter. SPIE Medical Imaging: Image Processing, February 2025.
+* **Adam M. Saunders**, Gaurav Rudravaram, Nancy R. Newlin, Michael E. Kim, John C. Gore, Bennett A. Landman, and Yurui Gao. A 4D atlas of diffusion-informed spatial smoothing windows for BOLD signal in white matter. SPIE Medical Imaging: Image Processing, February 2025. [[doi:10.1117/12.3047240]](https://doi.org/10.1117/12.3047240). 
 
-* Elyssa McMaster, Lemuel Puglisi, Chenyu Gao, Aravind R. Krishnan, **Adam M. Saunders**, Daniele Ravi, Lori L. Beason-Held, Susan M. Resnick, Lianrui Zuo, Daniel Moyer, and Bennett A. Landman. A technical assessment of latent diffusion for Alzheimer's Disease progression. SPIE Medical Imaging: Image Processing, February 2025.
+* Elyssa McMaster, Lemuel Puglisi, Chenyu Gao, Aravind R. Krishnan, **Adam M. Saunders**, Daniele Ravi, Lori L. Beason-Held, Susan M. Resnick, Lianrui Zuo, Daniel Moyer, and Bennett A. Landman. A technical assessment of latent diffusion for Alzheimer's Disease progression. SPIE Medical Imaging: Image Processing, February 2025. [[doi: 10.1117/12.3047135]](https://doi.org/10.1117/12.3047135).
 
-* Gaurav Rudravaram, Shunxing Bao, Aravind R. Krishnan, Lucas W. Remedios, Michael E. Kim, **Adam M. Saunders**, Qi Liu, Ken S. Lau, Joseph T. Roland, Mary K. Washington, Lori A. Coburn, Keith T. Wilson, Yuankai Huo, and Bennett A. Landman. Identifying cellular neighborhood phenotypes differentiating normal and quiescent Crohn’s disease via MxIF. SPIE Medical Imaging: Digital and Computational Pathology, February 2025.
+* Gaurav Rudravaram, Shunxing Bao, Aravind R. Krishnan, Lucas W. Remedios, Michael E. Kim, **Adam M. Saunders**, Qi Liu, Ken S. Lau, Joseph T. Roland, Mary K. Washington, Lori A. Coburn, Keith T. Wilson, Yuankai Huo, and Bennett A. Landman. Identifying cellular neighborhood phenotypes differentiating normal and quiescent Crohn’s disease via MxIF. SPIE Medical Imaging: Digital and Computational Pathology, February 2025. [[doi: 10.1117/12.3047121]](https://doi.org/10.1117/12.3047121).
 
-* Jessica Samir, Karthik Ramadass, **Adam M. Saunders**, Aravind Krishnan, Lucas Remedios, Elyssa McMaster, and Bennett A. Landman. The Medical Segmentation Decathlon without a doctorate. SPIE Medical Imaging: Clinical and Biomedical Imaging, February 2025.
+* Jessica Samir, Karthik Ramadass, **Adam M. Saunders**, Aravind Krishnan, Lucas Remedios, Elyssa McMaster, and Bennett A. Landman. The Medical Segmentation Decathlon without a doctorate. SPIE Medical Imaging: Clinical and Biomedical Imaging, February 2025. [[doi: 10.1117/12.3047076]](https://doi.org/10.1117/12.3047076).
 
-* Aravind R. Krishnan, Yihao Liu, Kaiwen Xu, Michael E. Kim, Lucas W. Remedios, Gaurav Rudravaram, **Adam M. Saunders**, Bradley W. Richmond, Kim L. Sandler, Fabien Maldonado, Bennett A. Landman and Lianrui Zuo. Investigating the impact of kernel harmonization and deformable registration on inspiratory and expiratory chest CT images for people with COPD. SPIE Medical Imaging: Clinical and Biomedical Imaging, February 2025.
+* Aravind R. Krishnan, Yihao Liu, Kaiwen Xu, Michael E. Kim, Lucas W. Remedios, Gaurav Rudravaram, **Adam M. Saunders**, Bradley W. Richmond, Kim L. Sandler, Fabien Maldonado, Bennett A. Landman and Lianrui Zuo. Investigating the impact of kernel harmonization and deformable registration on inspiratory and expiratory chest CT images for people with COPD. SPIE Medical Imaging: Clinical and Biomedical Imaging, February 2025. [[doi: 10.1117/12.3048827]](https://doi.org/10.1117/12.3048827).
 
 * **Adam Saunders**, Sajal Dash, Aristeidis Tsaris, and Hong-Jun Yoon. A comparison of histopathology imaging comprehension algorithms based on multiple instance learning. SPIE Medical Imaging: Digital and Computational Pathology, February 2023. [[doi:10.1117/12.2654265]](https://doi.org/10.1117/12.2654265)
 
 
 ## Talks
+* A 4D atlas of diffusion-informed spatial smoothing windows for BOLD signal in white matter. SPIE Medical Imaging: Image Processing, February 2025.
+
 * Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging. Vanderbilt University Institute of Imaging Science Retreat, October 2024.
     
 * [Deep learning for a healthier world: Detecting and grading diabetic retinopathy](https://www.youtube.com/watch?v=J4TdP8eGEm). University of Dayton Honors Thesis Signature Talks at Stander Symposium, April 2023.
 
-## Abstracts 
+## Abstracts and Short Papers
+* Elyssa M. McMaster, Nancy Newlin, Trent Schwartz, **Adam M. Saunders**,
+Short Papers	Gaurav Rudravaram, Yehyun Suh, Jongyeon Yoon, Michael Eugene Kim, Chloe Cho, Karthik Ramadass, Yihao Liu, Lianrui Zuo, Eleftherios Garyfallidis, Talia M. Nir, Neda Jahanshad, Kurt Schilling, Daniel Moyer, Bennett Allan Landman. Introducing Beyond FA: Crowdsourcing Imaging Biomarkers for Alzheimer’s Disease. Medical Imaging with Deep Learning, July 2025.
+
+* **Adam M. Saunders**, Elyssa M. McMaster, Chris Rorden, Johaan Kathilankal Jis, Minyi Sun, Adam Sadriddinov, Lukas VanTilburg, Michael Eugene Kim, Bennett Allan Landman, Kurt Schilling. Medical Imaging with Deep Learning, July 2025.
+
 * Elyssa N. McMaster, Nancy R. Newlin, Chloe Cho, **Adam M. Saunders**, François Rheault, Kurt G. Schilling, and Bennett A. Landman. Sensitivity of NODDI metrics to anisotropic spatial sampling. International Society for Magnetic Resonance in Medicine, May 2025.
 
 * **Adam M. Saunders**, Kurt G. Schilling, Kristin P. O’Grady, Seth Smith, and Bennett A. Landman. A maximum a posteriori method for quantitative T1 mapping with uncertainty using MP2RAGE. International Society for Magnetic Resonance in Medicine, May 2024.
@@ -123,10 +130,12 @@ focused on applying artificial intelligence tools to impute missing information 
 ## Professional Outreach
 
 * Reviewer, _Journal of Medical Imaging_, 2024
-* Secretary of VALIANT Attempt, Vanderbilt University, 2024
+* Secretary of VALIANT Attempt, Vanderbilt University, 2024 - Present
 
 ## Honors and Awards
 
+* Robert F. Wagner All-Conference Best Student Paper Finalist, SPIE Medical Imaging, February 2025
+* Second Place, 3-minute Poster Competition, SPIE Medical Imaging, February 2025
 * Graduate School Travel Grant, Vanderbilt University, November 2024
 * University Graduate Fellowship, Vanderbilt University, July 2024
 * Thomas R. Armstrong Award of Excellence for Outstanding Electrical Engineering Achievement, University of Dayton Department of Electrical and Computer Engineering, May 2023
