@@ -2,7 +2,8 @@
 title: "A 4D atlas of diffusion-informed spatial smoothing windows for BOLD signal in white matter"
 permalink: /posts/diffusion-smoothing/
 tags: 
-    - Vanderbilt MASI Lab
+    - Vanderbilt MASI 
+    - SPIE Medical Imaging
     - fMRI
 excerpt: We developed an atlas for adaptive smoothing in the brain based on white matter tracts.
 ---

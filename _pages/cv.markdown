@@ -93,7 +93,7 @@ focused on applying artificial intelligence tools to impute missing information 
 
 
 ## Conference Papers
-* **Adam M. Saunders**, Michael E. Kim, Kurt G. Schilling, John C. Gore, Bennett Papers	A. Landman, and Yurui Gao. Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging. SPIE Medical Imaging: Image Processing, February 2025. [[doi: 10.1117/12.3047240]](https://doi.org/10.1117/12.3047240). **Robert F. Wagner All-Conference Best Student Paper Finalist.**
+* **Adam M. Saunders**, Michael E. Kim, Kurt G. Schilling, John C. Gore, Bennett A. Landman, and Yurui Gao. Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging. SPIE Medical Imaging: Image Processing, February 2025. [[doi: 10.1117/12.3047240]](https://doi.org/10.1117/12.3047240). **Robert F. Wagner All-Conference Best Student Paper Finalist.**
 
 * **Adam M. Saunders**, Gaurav Rudravaram, Nancy R. Newlin, Michael E. Kim, John C. Gore, Bennett A. Landman, and Yurui Gao. A 4D atlas of diffusion-informed spatial smoothing windows for BOLD signal in white matter. SPIE Medical Imaging: Image Processing, February 2025. [[doi:10.1117/12.3047240]](https://doi.org/10.1117/12.3047240). 
 
@@ -116,8 +116,7 @@ focused on applying artificial intelligence tools to impute missing information 
 * [Deep learning for a healthier world: Detecting and grading diabetic retinopathy](https://www.youtube.com/watch?v=J4TdP8eGEm). University of Dayton Honors Thesis Signature Talks at Stander Symposium, April 2023.
 
 ## Abstracts and Short Papers
-* Elyssa M. McMaster, Nancy Newlin, Trent Schwartz, **Adam M. Saunders**,
-Short Papers	Gaurav Rudravaram, Yehyun Suh, Jongyeon Yoon, Michael Eugene Kim, Chloe Cho, Karthik Ramadass, Yihao Liu, Lianrui Zuo, Eleftherios Garyfallidis, Talia M. Nir, Neda Jahanshad, Kurt Schilling, Daniel Moyer, Bennett Allan Landman. Introducing Beyond FA: Crowdsourcing Imaging Biomarkers for Alzheimer’s Disease. Medical Imaging with Deep Learning, July 2025.
+* Elyssa M. McMaster, Nancy Newlin, Trent Schwartz, **Adam M. Saunders**, Gaurav Rudravaram, Yehyun Suh, Jongyeon Yoon, Michael Eugene Kim, Chloe Cho, Karthik Ramadass, Yihao Liu, Lianrui Zuo, Eleftherios Garyfallidis, Talia M. Nir, Neda Jahanshad, Kurt Schilling, Daniel Moyer, Bennett Allan Landman. Introducing Beyond FA: Crowdsourcing Imaging Biomarkers for Alzheimer’s Disease. Medical Imaging with Deep Learning, July 2025.
 
 * **Adam M. Saunders**, Elyssa M. McMaster, Chris Rorden, Johaan Kathilankal Jis, Minyi Sun, Adam Sadriddinov, Lukas VanTilburg, Michael Eugene Kim, Bennett Allan Landman, Kurt Schilling. Medical Imaging with Deep Learning, July 2025.
 

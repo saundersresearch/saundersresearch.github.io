@@ -3,12 +3,13 @@ title: "Vasculature-informed spatial smoothing of white matter functional magnet
 permalink: /posts/vasculature-smoothing/
 tags: 
     - Vanderbilt MASI Lab
+    - SPIE Medical Imaging
     - fMRI
 excerpt: We developed a method for adaptive spatial smoothing based on the vasculature in the brain.
 ---
 
 ![Vasculature smoothing overview](/assets/images/journal_headers/vss_graphical_abstract.png){: style="display:block; margin-left:auto; margin-right:auto"} 
-With our ada
+With our adaptive vasculature smoothing, we are able to identify more anatomically-informed independent components from fMRI data.
 {: style="text-align: center; font-size:0.7em;"}
 
 **Adam M. Saunders**, Michael E. Kim, Kurt G. Schilling, John C. Gore, Bennett Papers	A. Landman, and Yurui Gao. Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging. SPIE Medical Imaging: Image Processing, February 2025. [[doi: 10.1117/12.3047240]](https://doi.org/10.1117/12.3047240). **Robert F. Wagner All-Conference Best Student Paper Finalist.**

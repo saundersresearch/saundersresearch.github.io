@@ -43,13 +43,13 @@ var store = [{
       },{
         "title": "A 4D atlas of diffusion-informed spatial smoothing windows for BOLD signal in white matter",
         "excerpt":"Using our atlas, we can adaptively smooth functional MRI data based on white matter tracts, which better preserves the underlying signal present compared to traditional smoothing methods. Adam M. Saunders, Gaurav Rudravaram, Nancy R. Newlin, Michael E. Kim, John C. Gore, Bennett A. Landman, and Yurui Gao. A 4D atlas...","categories": [],
-        "tags": ["Vanderbilt MASI Lab","fMRI"],
+        "tags": ["Vanderbilt MASI","SPIE Medical Imaging","fMRI"],
         "url": "/posts/diffusion-smoothing/",
         "teaser": null
       },{
         "title": "Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging",
-        "excerpt":"With our ada Adam M. Saunders, Michael E. Kim, Kurt G. Schilling, John C. Gore, Bennett Papers A. Landman, and Yurui Gao. Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging. SPIE Medical Imaging: Image Processing, February 2025. [doi: 10.1117/12.3047240]. Robert F. Wagner All-Conference Best Student Paper Finalist. Abstract...","categories": [],
-        "tags": ["Vanderbilt MASI Lab","fMRI"],
+        "excerpt":"With our adaptive vasculature smoothing, we are able to identify more anatomically-informed independent components from fMRI data. Adam M. Saunders, Michael E. Kim, Kurt G. Schilling, John C. Gore, Bennett Papers A. Landman, and Yurui Gao. Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging. SPIE Medical Imaging: Image...","categories": [],
+        "tags": ["Vanderbilt MASI Lab","SPIE Medical Imaging","fMRI"],
         "url": "/posts/vasculature-smoothing/",
         "teaser": null
       }]
