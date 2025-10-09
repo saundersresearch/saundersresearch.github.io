@@ -7,7 +7,7 @@ toc_icon: None
 ---
 
 ## Summary
-An electrical engineering PhD student studying medical imaging. Research 
+An electrical engineering PhD student studying medical imaging research
 focused on applying artificial intelligence tools to impute missing information from imperfect data. Strengths in analytical skills and scientific communication.
 
 ## Contact Information
@@ -79,18 +79,19 @@ focused on applying artificial intelligence tools to impute missing information 
 ## Journal Publications
 * **Adam M. Saunders**, Michael E. Kim, Chenyu Gao, Lucas W. Remedios,  Aravind R. Krishnan, Kurt G. Schilling, Kristin P. O’Grady, Seth A. Smith, and Bennett A. Landman. Comparison and calibration of MP2RAGE quantitative T1 values to multi-TI inversion recovery T1 values. _Magnetic Resonance Imaging_, 117, 110322 (2025). [[doi:10.1016/j.mri.2025.110322]](https://doi.org/10.1016/j.mri.2025.110322).
 
-* Chenyu Gao, Michael E. Kim, Karthik Ramadass, Praitayini Kanakaraj, Aravind R. Krishnan, **Adam M. Saunders**, Nancy R. Newlin, Ho Hin Lee, Qi Yang, Warren D. Taylor, Brian D. Boyd, Lori L. Beason-Held, Susan M. Resnick, Lisa L. Barnes, David A. Bennett, Katherine D. Van Schaik, Derek B. Archer, Timothy J. Hohman, Angela L. Jefferson, Ivana Išgum, Daniel Moyer, Yuankai Huo, Kurt G. Schilling, Lianrui Zuo, Shunxing Bao, Nazirah Mohd Khairi, Zhiyuan Li, Christos Davatzikos, Bennett A. Landman for the Alzheimer’s Disease Neuroimaging Initiative and the BIOCARD Study team. Brain age identification from diffusion MRI synergistically predicts neurodegenerative disease. Accepted to _Imaging Neuroscience_. [[arXiv:2410.22454]](https://arxiv.org/abs/2410.22454)
+* Elyssa M. McMaster, Nancy R. Newlin, Chloe Cho, Gaurav Rudravaram, **Adam M. Saunders**, Aravind R. Krishnan, Lucas W. Remedios, Michael E. Kim, Hanliang Xu, Kurt G. Schilling, François Rheault, Laurie E. Cutting, and Bennett A. Landman. Sensitivity of quantitative diffusion MRI tractography and microstructure to anisotropic spatial sampling. _Magnetic Resonance in Medicine_, 110539 (2025). [[doi:10.1016/j.mri.2025.110539]](https://doi.org/10.1016/j.mri.2025.110539)
 
-* Lucas W. Remedios, Han Liu, Samuel W. Remedios, Lianrui Zuo, **Adam M. Saunders**, Shunxing Bao, Yuankai Huo, Alvin C. Powers, John Virostko, and Bennett A. Landman. Influence of Early through Late Fusion on Pancreas Segmentation from Imperfectly Registered Multimodal MRI. _Journal of Medical Imaging_, 12(2), 024008 (2025), [[doi: 10.1117/1.JMI.12.2.024008]](https://doi.org/10.1117/1.JMI.12.2.024008).
+* Elyssa M. McMaster, Nancy R. Newlin, Gaurav Rudravaram, **Adam M. Saunders**, Aravind R. Krishnan, Lucas W. Remedios, Michael E. Kim, Hanliang Xu, Derek B. Archer, Kurt G. Schilling, François Rheault, Laurie E. Cutting and Bennett A. Landman. Harmonized connectome resampling for variance in voxel sizes. _Magnetic Resonance Imaging_, 121, 110424 (2025). [[doi:10.1016/j.mri.2025.110424]](https://doi.org/10.1016/j.mri.2025.110424)
 
-* Elyssa M. McMaster, Nancy R. Newlin, Chloe Cho, Gaurav Rudravaram, **Adam M. Saunders**, Aravind R. Krishnan, Lucas W. Remedios, Michael E. Kim, Hanliang Xu, Kurt G. Schilling, François Rheault, Laurie E. Cutting, and Bennett A. Landman. Sensitivity of quantitative diffusion MRI tractography and microstructure to anisotropic spatial sampling. Submitted to _Magnetic Resonance in Medicine_. [[arXiv:2409.18255]](https://arxiv.org/abs/2409.18255)
+* Chenyu Gao, Michael E. Kim, Karthik Ramadass, Praitayini Kanakaraj, Aravind R. Krishnan, **Adam M. Saunders**, Nancy R. Newlin, Ho Hin Lee, Qi Yang, Warren D. Taylor, Brian D. Boyd, Lori L. Beason-Held, Susan M. Resnick, Lisa L. Barnes, David A. Bennett, Katherine D. Van Schaik, Derek B. Archer, Timothy J. Hohman, Angela L. Jefferson, Ivana Išgum, Daniel Moyer, Yuankai Huo, Kurt G. Schilling, Lianrui Zuo, Shunxing Bao, Nazirah Mohd Khairi, Zhiyuan Li, Christos Davatzikos, Bennett A. Landman for the Alzheimer’s Disease Neuroimaging Initiative and the BIOCARD Study team. Brain age identification from diffusion MRI synergistically predicts neurodegenerative disease. _Imaging Neuroscience_, 3 (2025). [[doi:10.1162/imag_a_00552]](https://doi.org/10.1162/imag_a_00552)
 
-* Elyssa M. McMaster, Nancy R. Newlin, Gaurav Rudravaram, **Adam M. Saunders**, Aravind R. Krishnan, Lucas W. Remedios, Michael E. Kim, Hanliang Xu, Derek B. Archer, Kurt G. Schilling, François Rheault, Laurie E. Cutting and Bennett A. Landman. Harmonized connectome resampling for variance in voxel sizes. Submitted to _Magnetic Resonance Imaging_. [[arXiv:2408.01351]](https://arxiv.org/abs/2408.01351)
-    
+* Lucas W. Remedios, Han Liu, Samuel W. Remedios, Lianrui Zuo, **Adam M. Saunders**, Shunxing Bao, Yuankai Huo, Alvin C. Powers, John Virostko, and Bennett A. Landman. Influence of Early through Late Fusion on Pancreas Segmentation from Imperfectly Registered Multimodal MRI. _Journal of Medical Imaging_, 12(2), 024008 (2025), [[doi:10.1117/1.JMI.12.2.024008]](https://doi.org/10.1117/1.JMI.12.2.024008).
+
 * Ho Hin Lee\*, __Adam M. Saunders__\*, Michael E. Kim, Samuel W. Remedios,  Lucas W. Remedios, Yucheng Tang, Qi Yang, Xin Yu, Shunxing Bao, Chloe Cho, Louise A. Mawn, Tonia S. Rex, Kevin L. Schey, Blake E. Dewey, Jeffrey M. Spraggins, Jerry L. Prince, Yuankai Huo, Bennett A. Landman, Super-resolution multi-contrast unbiased eye atlases with deep probabilistic refinement. _Journal of Medical Imaging_, 11(6), 064004 (2024). \*Equal contribution. [[doi:10.1117/1.JMI.11.6.064004]](https://doi.org/10.1117/1.JMI.11.6.064004) 
 
 * Lucas W. Remedios, Shunxing Bao, Samuel W. Remedios, Ho Hin Lee, Leon Y. Cai, Thomas Li, Ruining Deng, Nancy R. Newlin, **Adam M. Saunders**, Can Cui, Jia Li, Qi Liu, Ken S. Lau, Joseph T. Roland, Mary K Washington, Lori A. Coburn, Keith T. Wilson, Yuankai Huo, Bennett A. Landman. Data-driven Nucleus Subclassification on Colon H&E using Style-transferred Digital Pathology. _Journal of Medical Imaging_, 11(6), 067501 (2024). [[doi:10.1117/1.JMI.11.6.067501]](https://doi.org/10.1117/1.JMI.11.6.064004)
 
+* Aravind R. Krishnan, Thomas Z. Li, Lucas W. Remedios, Michael E. Kim, Chenyu Gao, Gaurav Rudravaram, Elyssa M. McMaster, **Adam M. Saunders**, Shunxing Bao, Kaiwen Xu, Lianrui Zuo, Kim L. Sandler, Fabien Maldonado, Yuankai Huo, Bennett A. Landman. Multipath cycleGAN for harmonization of paired and unpaired low-dose lung computed tomography reconstruction kernels. Accepted at _Medical Physics_. [[arXiv:2505.22568]](https://arxiv.org/abs/2505.22568) 
 
 ## Conference Papers
 * **Adam M. Saunders**, Michael E. Kim, Kurt G. Schilling, John C. Gore, Bennett A. Landman, and Yurui Gao. Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging. SPIE Medical Imaging: Image Processing, February 2025. [[doi: 10.1117/12.3047240]](https://doi.org/10.1117/12.3047240). **Robert F. Wagner All-Conference Best Student Paper Finalist.**
@@ -118,7 +119,7 @@ focused on applying artificial intelligence tools to impute missing information 
 ## Abstracts and Short Papers
 * Elyssa M. McMaster, Nancy Newlin, Trent Schwartz, **Adam M. Saunders**, Gaurav Rudravaram, Yehyun Suh, Jongyeon Yoon, Michael Eugene Kim, Chloe Cho, Karthik Ramadass, Yihao Liu, Lianrui Zuo, Eleftherios Garyfallidis, Talia M. Nir, Neda Jahanshad, Kurt Schilling, Daniel Moyer, Bennett Allan Landman. Introducing Beyond FA: Crowdsourcing Imaging Biomarkers for Alzheimer’s Disease. Medical Imaging with Deep Learning, July 2025.
 
-* **Adam M. Saunders**, Elyssa M. McMaster, Chris Rorden, Johaan Kathilankal Jis, Minyi Sun, Adam Sadriddinov, Lukas VanTilburg, Michael Eugene Kim, Bennett Allan Landman, Kurt Schilling. Medical Imaging with Deep Learning, July 2025.
+* **Adam M. Saunders**, Elyssa M. McMaster, Chris Rorden, Johaan Kathilankal Jis, Minyi Sun, Adam Sadriddinov, Lukas VanTilburg, Michael Eugene Kim, Bennett Allan Landman, Kurt Schilling.  OpenDIVE: Streamlining Tractography Visualization. Medical Imaging with Deep Learning, July 2025.
 
 * Elyssa N. McMaster, Nancy R. Newlin, Chloe Cho, **Adam M. Saunders**, François Rheault, Kurt G. Schilling, and Bennett A. Landman. Sensitivity of NODDI metrics to anisotropic spatial sampling. International Society for Magnetic Resonance in Medicine, May 2025.
 
@@ -127,12 +128,10 @@ focused on applying artificial intelligence tools to impute missing information 
 * Hong-Jun Yoon, **Adam Saunders**, Folami Alamudun, Sajal Dash, Jacob Hinkle, and Aristeidis Tsaris. Ensemble learning of attention-based models for whole-slide imaging comprehension. Computational Approaches for Cancer Workshop, November 2022.
 
 ## Professional Outreach
-
 * Reviewer, _Journal of Medical Imaging_, 2024
 * Secretary of VALIANT Attempt, Vanderbilt University, 2024 - Present
 
 ## Honors and Awards
-
 * Robert F. Wagner All-Conference Best Student Paper Finalist, SPIE Medical Imaging, February 2025
 * Second Place, 3-minute Poster Competition, SPIE Medical Imaging, February 2025
 * Graduate School Travel Grant, Vanderbilt University, November 2024
