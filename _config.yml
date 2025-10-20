@@ -88,6 +88,7 @@ author:
     #   url: "https://sigmoid.social/@adamsaunders"
 
 footer:
+  since: 2022
   links: 
     - label: "Email"
       icon: "fa fa-envelope"
@@ -153,3 +154,6 @@ comments:
     discussion_term      : pathname # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : 1 # '1' for enabled (default), '0' for disabled
     theme                : light_high_contrast # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+
+lunr:
+  search_within_pages: true
