@@ -9,7 +9,7 @@ permalink: /
 splash_title: My name is Adam.
 excerpt: I do medical imaging research.
 header:
-    overlay_image: "https://github.com/saundersresearch/saundersresearch.github.io/blob/main/assets/images/header_small.JPG?raw=true"
+    overlay_image: "/assets/images/header_small.jpg"
     overlay_color: "#333"
     overlay_filter: "0.5"
 feature_row:
@@ -37,7 +37,3 @@ feature_row:
 
 {% include feature_row %}
 
-<center>
-<h1>Connect with Me</h1>
-<p><a href="/contact/" class="btn btn--info">Contact Me</a></p>
-</center>
