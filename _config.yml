@@ -18,20 +18,20 @@ title: Adam Saunders Research
 email: '&#109;ai&#108;&#116;o&#58;a&#100;&#97;m&#46;m%2Es&#97;u%6Eders&#64;%76a%6Ede&#114;b&#37;&#54;9&#108;t&#46;edu'
 html_email: '&#97;d&#97;m&#46;m&#46;s&#97;u&#110;ders&#64;&#118;ande&#114;bilt&#46;edu'
 description: >- # this means to ignore newlines until "baseurl:"
-  Adam Saunders is a electrical and computer engineering PhD 
-  student at Vanderbilt University interested conducting medical
+  Adam Saunders is a electrical engineering PhD 
+  student at Vanderbilt University working in medical
   imaging research.
 twitter_username: AdamSaunders97
-bluesky_username: saundersresearch.github.io
+bluesky_username: adamsaunders.net
 github_username: saundersresearch
 linkedin_username: adamsaunders97
-#repository: saundersresearch/site
+repository: saundersresearch/saundersresearch.github.io
 minimal_mistakes_skin: default
 search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -118,7 +118,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: false
+      comments: true
       share: true
       related: false
   # _pages
@@ -143,3 +143,13 @@ social:
     - "https://twitter.com/AdamSaunders97"
     - "https://www.linkedin.com/in/adamsaunders97"
     # - "https://sigmoid.social/@adamsaunders"
+
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id              : R_kgDOHz-69w # Shown during giscus setup at https://giscus.app
+    category_name        : Announcements # Full text name of the category
+    category_id          : DIC_kwDOHz-6984Cw2Io # Shown during giscus setup at https://giscus.app
+    discussion_term      : pathname # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : 1 # '1' for enabled (default), '0' for disabled
+    theme                : default # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
