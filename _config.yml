@@ -67,6 +67,7 @@ author:
   name   : "Adam Saunders"
   avatar : "/assets/images/headshot_square.jpg"
   bio    : "I am a PhD student researching medical imaging."
+  uri    : "https://adamsaunders.net"
   links:
     - label: "Email"
       icon: "fa fa-envelope"
