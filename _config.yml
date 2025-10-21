@@ -28,6 +28,7 @@ linkedin_username: adamsaunders97
 repository: saundersresearch/saundersresearch.github.io
 minimal_mistakes_skin: default
 search: true
+url: https://adamsaunders.net
 
 # Build settings
 markdown: kramdown
@@ -62,6 +63,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 author:
   name   : "Adam Saunders"
