@@ -123,6 +123,7 @@ defaults:
       comments: true
       share: true
       related: false
+      webmentions: true
   # _pages
   - scope:
       path: "_pages"

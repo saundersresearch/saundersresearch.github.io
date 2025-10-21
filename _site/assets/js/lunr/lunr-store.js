@@ -79,7 +79,4 @@ var store = [{
   },{
     "title": "Posts by Tag",
     "excerpt":" ","url": "http://localhost:4000/tags/"
-  },{
-    "title": "Webmentions",
-    "excerpt":"No webmentions were found. {%- if html_proofer_ignore == \"all\" -%} {%- assign html_proofer_attr = \" data-proofer-ignore\" -%} {%- endif -%} &lt;div class=\"webmentions webmentions--bookmarks\"{{ html_proofer_attr }}&gt; {% if webmentions.size &gt; 0 %} {% for webmention in webmentions %} {% if webmention.author %} {% capture author_id %} {% if webmention.author.photo %} &lt;img...","url": "http://localhost:4000/webmentions/"
   }]
