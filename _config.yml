@@ -156,3 +156,7 @@ comments:
 
 lunr:
   search_within_pages: true
+
+# https://aarongustafson.github.io/jekyll-webmention_io/
+webmentions:
+  username: adamsaunders.net
