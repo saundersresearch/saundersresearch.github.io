@@ -67,11 +67,9 @@ author:
   name   : "Adam Saunders"
   avatar : "/assets/images/headshot_square.jpg"
   bio    : "I am a PhD student researching medical imaging."
+  email  : "&#97;d&#97;m&#46;m&#46;s&#97;u&#110;ders&#64;&#118;ande&#114;bilt&#46;edu"
   uri    : "https://adamsaunders.net"
   links:
-    - label: "Email"
-      icon: "fa fa-envelope"
-      url: "mailto:&#109;ai&#108;&#116;o&#58;a&#100;&#97;m&#46;m%2Es&#97;u%6Eders&#64;%76a%6Ede&#114;b&#37;&#54;9&#108;t&#46;edu"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/adamsaunders97"
