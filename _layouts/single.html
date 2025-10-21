@@ -20,7 +20,7 @@ layout: default
 
 <div id="main" role="main">
   <article class="h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    {% include sidebar.html %}
+    {% include sidebar-post.html %}
     <div class="page">
 
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
