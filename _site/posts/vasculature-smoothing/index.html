@@ -156,7 +156,8 @@
 
 
 <div id="main" role="main">
-  
+  <article class="h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
   <div class="sidebar sticky">
   
 
@@ -280,29 +281,29 @@
   </div>
 
 
+    <div class="page">
 
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging">
-    <meta itemprop="description" content="We developed a method for adaptive spatial smoothing based on the vasculature in the brain.">
-    <meta itemprop="datePublished" content="2025-05-01T00:00:00-05:00">
-    
-
-    <div class="page__inner-wrap">
-      
-        <header>
-          <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/posts/vasculature-smoothing/" class="u-url" itemprop="url">Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging
-</a>
-          </h1>
-          
-
-
-        </header>
-      
-
-      <section class="page__content e-content" itemprop="text">
+        <meta itemprop="headline" content="Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging">
+        <meta itemprop="description" content="We developed a method for adaptive spatial smoothing based on the vasculature in the brain.">
+        <meta itemprop="datePublished" content="2025-05-01T00:00:00-05:00">
         
-        <p style="text-align: center; font-size:0.7em;"><img src="/assets/images/journal_headers/vss_graphical_abstract.png" alt="Vasculature smoothing overview" style="display:block; margin-left:auto; margin-right:auto" /> 
+
+        <div class="page__inner-wrap">
+        
+            <header>
+            <h1 id="page-title" class="page__title p-name" itemprop="headline">
+                <a href="http://localhost:4000/posts/vasculature-smoothing/" class="u-url" itemprop="url">Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging
+</a>
+            </h1>
+            
+
+
+            </header>
+        
+
+        <section class="page__content e-content" itemprop="text">
+            
+            <p style="text-align: center; font-size:0.7em;"><img src="/assets/images/journal_headers/vss_graphical_abstract.png" alt="Vasculature smoothing overview" style="display:block; margin-left:auto; margin-right:auto" /> 
 With our adaptive vasculature smoothing, we are able to identify more anatomically-informed independent components from fMRI data.</p>
 
 <p><strong>Adam M. Saunders</strong>, Michael E. Kim, Kurt G. Schilling, John C. Gore, Bennett Papers	A. Landman, and Yurui Gao. Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging. SPIE Medical Imaging: Image Processing, February 2025. <a href="https://doi.org/10.1117/12.3047240">[doi: 10.1117/12.3047240]</a>. <strong>Robert F. Wagner All-Conference Best Student Paper Finalist.</strong></p>
@@ -312,12 +313,12 @@ With our adaptive vasculature smoothing, we are able to identify more anatomical
   <p>Blood oxygenation level-dependent (BOLD) signals in white matter in the brain are anisotropically oriented, so that typical isotropic Gaussian spatial smoothing (GSS) of functional magnetic resonance images (fMRI) blurs across anatomical distributions. Abramian et al. developed a graph signal processing approach to smooth fMRI data along white matter fibers using diffusion MRI (diffusion-informed spatial smoothing, DSS). BOLD signals are modulated by the volume and oxygenation of blood carried by the vasculature, so we extend this method to provide vasculature-informed spatial smoothing (VSS). We collected susceptibility-weighted images and applied a Frangi filter to identify the peak vasculature direction in each voxel, alongside co-registered diffusion MRI and resting-state fMRI, weighting the VSS graph by the agreement of the vasculature directions aligned onto the graph’s edges. We acquired resting-state fMRI at 7T using a repetition time of 1.5 seconds and 400 time points. Applying the DSS and VSS filters significantly increased the local functional connectivity measured using regional homogeneity (ReHo) compared to GSS (𝑝 &lt; 0.01 using a paired t-test), but not when comparing DSS and VSS (p = 0.06). Independent component analysis resulted in less noisy components that agree better with labels from a white matter atlas with a significantly higher Dice score from the VSS filter compared to GSS (p &lt; 0.05 using the Mann-Whitney U-test), and the VSS filter and DSS filter performed comparably (p = 0.06). In this pilot analysis, we find that fMRI data smoothed using VSS are comparable to results generated using DSS. The filtering code is available online <a href="https://github.com/MASILab/vss_fmri">(https://github.com/MASILab/vss_fmri)</a>.</p>
 </blockquote>
 
-        
-      </section>
+            
+        </section>
 
-      <footer class="page__meta">
-        
-        
+        <footer class="page__meta">
+            
+            
   
 
 
@@ -339,13 +340,13 @@ With our adaptive vasculature smoothing, we are able to identify more anatomical
 
 
 
-        
+            
 
   <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-05-01T00:00:00-05:00">May 1, 2025</time></p>
 
-      </footer>
+        </footer>
 
-      <section class="page__share">
+        <section class="page__share">
   <!---->
   <h4 class = "page__share-title">Share on: </h4>
 
@@ -359,7 +360,7 @@ With our adaptive vasculature smoothing, we are able to identify more anatomical
 </section>
 
 
-      
+        
   <nav class="pagination">
     
       <a href="/posts/diffusion-smoothing/" class="pagination--pager" title="A 4D atlas of diffusion-informed spatial smoothing windows for BOLD signal in white matter
@@ -370,10 +371,11 @@ With our adaptive vasculature smoothing, we are able to identify more anatomical
     
   </nav>
 
-    </div>
+        </div>
 
-    
-  </article>
+        
+      </div>
+    </article>
 
   
   
@@ -469,7 +471,7 @@ With our adaptive vasculature smoothing, we are able to identify more anatomical
     script.setAttribute('data-category-id', 'DIC_kwDOHz-6984Cw2Io');
     script.setAttribute('data-mapping', 'pathname');
     script.setAttribute('data-reactions-enabled', '1');
-    script.setAttribute('data-theme', 'light_high_contrast');
+    script.setAttribute('data-theme', 'light');
     script.setAttribute('crossorigin', 'anonymous');
 
     commentContainer.appendChild(script);

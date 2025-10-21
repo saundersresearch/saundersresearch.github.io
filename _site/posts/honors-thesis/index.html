@@ -156,7 +156,8 @@
 
 
 <div id="main" role="main">
-  
+  <article class="h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
   <div class="sidebar sticky">
   
 
@@ -280,29 +281,29 @@
   </div>
 
 
+    <div class="page">
 
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy">
-    <meta itemprop="description" content="I presented a TED-style talk highlighting the aims of my honors thesis research into diabetic retinopathy imaging and deep learning.">
-    <meta itemprop="datePublished" content="2023-08-31T00:00:00-05:00">
-    
-
-    <div class="page__inner-wrap">
-      
-        <header>
-          <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/posts/honors-thesis/" class="u-url" itemprop="url">Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy
-</a>
-          </h1>
-          
-
-
-        </header>
-      
-
-      <section class="page__content e-content" itemprop="text">
+        <meta itemprop="headline" content="Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy">
+        <meta itemprop="description" content="I presented a TED-style talk highlighting the aims of my honors thesis research into diabetic retinopathy imaging and deep learning.">
+        <meta itemprop="datePublished" content="2023-08-31T00:00:00-05:00">
         
-        <p style="text-align: center; font-size:0.7em;"><a href="https://www.youtube.com/watch?v=J4TdP8eGEm4" style="display:block; margin-left:auto; margin-right:auto"><img src="https://img.youtube.com/vi/J4TdP8eGEm4/0.jpg" alt="Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy" /></a> 
+
+        <div class="page__inner-wrap">
+        
+            <header>
+            <h1 id="page-title" class="page__title p-name" itemprop="headline">
+                <a href="http://localhost:4000/posts/honors-thesis/" class="u-url" itemprop="url">Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy
+</a>
+            </h1>
+            
+
+
+            </header>
+        
+
+        <section class="page__content e-content" itemprop="text">
+            
+            <p style="text-align: center; font-size:0.7em;"><a href="https://www.youtube.com/watch?v=J4TdP8eGEm4" style="display:block; margin-left:auto; margin-right:auto"><img src="https://img.youtube.com/vi/J4TdP8eGEm4/0.jpg" alt="Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy" /></a> 
 <a href="https://www.youtube.com/watch?v=J4TdP8eGEm4">Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy</a></p>
 
 <p>In late April 2023, I presented a talk at the first-ever Honors Thesis Signature Talks at Stander Symposium at the University of Dayton. These talks featured four undergraduate honors researchers presenting their work in a TED-style format. In my talk, <em>Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy</em>, I discuss my family’s experience with diabetic retinopathy, and how it inspired me to pursue medical imaging research. I explore how we can use deep learning models to learn patterns from medical images, making them a useful tool for detecting diseases like diabetic retinopathy. We can apply innovative transformations that recolor, resize, crop and transform the images to allow the deep learning model to learn to detect diseases more easily.</p>
@@ -315,12 +316,12 @@
   <p>Diabetic retinopathy is a disease that affects the eyes of people with diabetes, and it can cause blindness. To diagnose diabetic retinopathy, ophthalmologists image the back surface of the inside of the eye, a process referred to as fundus photography. Ophthalmologists must then diagnose and grade the severity of diabetic retinopathy by analyzing details in the image, which can be difficult and time-consuming. Alternatively, due to the availability of labeled datasets containing fundus images with diabetic retinopathy, AI methods like deep learning can provide automated detection and grading algorithms. We show that the resolution of an image has a large effect on the accuracy of grading algorithms. So, we study several techniques to increase the accuracy of the algorithm by taking advantage of higher-resolution data, including using a region of interest as the input and applying an image transformation to make the circular fundus image square. While none of our proposed methods result in an increase in performance for grading diabetic retinopathy, the circle to square transformation results in an increase in accuracy and AUC for detection of diabetic retinopathy. This work provides a useful starting point for future research aimed at increasing the resolution content in a fundus image.</p>
 </blockquote>
 
-        
-      </section>
+            
+        </section>
 
-      <footer class="page__meta">
-        
-        
+        <footer class="page__meta">
+            
+            
   
 
 
@@ -338,13 +339,13 @@
 
 
 
-        
+            
 
   <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-08-31T00:00:00-05:00">August 31, 2023</time></p>
 
-      </footer>
+        </footer>
 
-      <section class="page__share">
+        <section class="page__share">
   <!---->
   <h4 class = "page__share-title">Share on: </h4>
 
@@ -358,7 +359,7 @@
 </section>
 
 
-      
+        
   <nav class="pagination">
     
       <a href="/posts/ud-graduation/" class="pagination--pager" title="Graduation from University of Dayton
@@ -370,10 +371,11 @@
     
   </nav>
 
-    </div>
+        </div>
 
-    
-  </article>
+        
+      </div>
+    </article>
 
   
   
@@ -469,7 +471,7 @@
     script.setAttribute('data-category-id', 'DIC_kwDOHz-6984Cw2Io');
     script.setAttribute('data-mapping', 'pathname');
     script.setAttribute('data-reactions-enabled', '1');
-    script.setAttribute('data-theme', 'light_high_contrast');
+    script.setAttribute('data-theme', 'light');
     script.setAttribute('crossorigin', 'anonymous');
 
     commentContainer.appendChild(script);

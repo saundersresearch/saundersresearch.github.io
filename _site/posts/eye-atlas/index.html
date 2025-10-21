@@ -156,7 +156,8 @@
 
 
 <div id="main" role="main">
-  
+  <article class="h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
   <div class="sidebar sticky">
   
 
@@ -280,29 +281,29 @@
   </div>
 
 
+    <div class="page">
 
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement">
-    <meta itemprop="description" content="We published our work on creating eye atlases from low-resolution MRI.">
-    <meta itemprop="datePublished" content="2024-11-14T00:00:00-06:00">
-    
-
-    <div class="page__inner-wrap">
-      
-        <header>
-          <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/posts/eye-atlas/" class="u-url" itemprop="url">Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement
-</a>
-          </h1>
-          
-
-
-        </header>
-      
-
-      <section class="page__content e-content" itemprop="text">
+        <meta itemprop="headline" content="Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement">
+        <meta itemprop="description" content="We published our work on creating eye atlases from low-resolution MRI.">
+        <meta itemprop="datePublished" content="2024-11-14T00:00:00-06:00">
         
-        <p style="text-align: center; font-size:0.7em;"><img src="/assets/images/journal_headers/eye_atlas_render.png" alt="Eye atlas rendering" style="display:block; margin-left:auto; margin-right:auto" /> 
+
+        <div class="page__inner-wrap">
+        
+            <header>
+            <h1 id="page-title" class="page__title p-name" itemprop="headline">
+                <a href="http://localhost:4000/posts/eye-atlas/" class="u-url" itemprop="url">Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement
+</a>
+            </h1>
+            
+
+
+            </header>
+        
+
+        <section class="page__content e-content" itemprop="text">
+            
+            <p style="text-align: center; font-size:0.7em;"><img src="/assets/images/journal_headers/eye_atlas_render.png" alt="Eye atlas rendering" style="display:block; margin-left:auto; margin-right:auto" /> 
 We created standardized reference images for the eye using low-resolution MRI.</p>
 
 <p>Ho Hin Lee*, <strong>Adam M. Saunders</strong>*, Michael E. Kim, Samuel W. Remedios,  Lucas W. Remedios, Yucheng Tang, Qi Yang, Xin Yu, Shunxing Bao, Chloe Cho, Louise A. Mawn, Tonia S. Rex, Kevin L. Schey, Blake E. Dewey, Jeffrey M. Spraggins, Jerry L. Prince, Yuankai Huo, Bennett A. Landman, Super-resolution multi-contrast unbiased eye atlases with deep probabilistic refinement. <em>Journal of Medical Imaging</em>, 11(6), 064004 (2024). *Equal contribution. <a href="https://doi.org/10.1117/1.JMI.11.6.064004">[doi:10.1117/1.JMI.11.6.064004]</a></p>
@@ -312,12 +313,12 @@ We created standardized reference images for the eye using low-resolution MRI.</
   <p><strong>Purpose:</strong> Eye morphology varies significantly across the population, especially for the orbit and optic nerve. These variations limit the feasibility and robustness of generalizing population-wise features of eye organs to an unbiased spatial reference. <strong>Approach:</strong> To tackle these limitations, we propose a process for creating high-resolution unbiased eye atlases. First, to restore spatial details from scans with a low through-plane resolution compared with a high in-plane resolution, we apply a deep learning-based super-resolution algorithm. Then, we generate an initial unbiased reference with an iterative metric-based registration using a small portion of subject scans. We register the remaining scans to this template and refine the template using an unsupervised deep probabilistic approach that generates a more expansive deformation field to enhance the organ boundary alignment. We demonstrate this framework using magnetic resonance images across four different tissue contrasts, generating four atlases in separate spatial alignments. <strong>Results:</strong> When refining the template with sufficient subjects, we find a significant improvement using the Wilcoxon signed-rank test in the average Dice score across four labeled regions compared with a standard registration framework consisting of rigid, affine, and deformable transformations. These results highlight the effective alignment of eye organs and boundaries using our proposed process. <strong>Conclusions:</strong> By combining super-resolution preprocessing and deep probabilistic models, we address the challenge of generating an eye atlas to serve as a standardized reference across a largely variable population.</p>
 </blockquote>
 
-        
-      </section>
+            
+        </section>
 
-      <footer class="page__meta">
-        
-        
+        <footer class="page__meta">
+            
+            
   
 
 
@@ -337,13 +338,13 @@ We created standardized reference images for the eye using low-resolution MRI.</
 
 
 
-        
+            
 
   <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-11-14T00:00:00-06:00">November 14, 2024</time></p>
 
-      </footer>
+        </footer>
 
-      <section class="page__share">
+        <section class="page__share">
   <!---->
   <h4 class = "page__share-title">Share on: </h4>
 
@@ -357,7 +358,7 @@ We created standardized reference images for the eye using low-resolution MRI.</
 </section>
 
 
-      
+        
   <nav class="pagination">
     
       <a href="/posts/honors-thesis/" class="pagination--pager" title="Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy
@@ -369,10 +370,11 @@ We created standardized reference images for the eye using low-resolution MRI.</
     
   </nav>
 
-    </div>
+        </div>
 
-    
-  </article>
+        
+      </div>
+    </article>
 
   
   
@@ -468,7 +470,7 @@ We created standardized reference images for the eye using low-resolution MRI.</
     script.setAttribute('data-category-id', 'DIC_kwDOHz-6984Cw2Io');
     script.setAttribute('data-mapping', 'pathname');
     script.setAttribute('data-reactions-enabled', '1');
-    script.setAttribute('data-theme', 'light_high_contrast');
+    script.setAttribute('data-theme', 'light');
     script.setAttribute('crossorigin', 'anonymous');
 
     commentContainer.appendChild(script);
