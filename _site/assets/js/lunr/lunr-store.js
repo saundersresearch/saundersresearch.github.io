@@ -1,4 +1,10 @@
 var store = [{
+        "title": "Test post for webmentions",
+        "excerpt":"This is a test I am going to mention webmention.rocks. This is coming from jekyll-webmentions_io. Here is another paragraph where I explain some things. Let me try doing a webmention for another test as well, but this time with HTML directly (though my static website generator should usually work): Test...","categories": [],
+        "tags": [],
+        "url": "/posts/test/",
+        "teaser": null
+      },{
         "title": "Using Supercomputers to Detect Cancer: My Summer at Oak Ridge National Lab",
         "excerpt":"I visited Frontier, the world’s fastest supercomputer, as a part of the SULI program this summer How many people can say they got the chance to use one of the fastest computers in the world to detect cancer? I was extremely lucky to be able to do just that this...","categories": [],
         "tags": ["Oak Ridge National Laboratory"],
@@ -54,29 +60,29 @@ var store = [{
         "teaser": null
       },{
     "title": "Page Not Found",
-    "excerpt":"Sorry, but the page you were trying to view does not exist.  ","url": "http://localhost:4000/404.html"
+    "excerpt":"Sorry, but the page you were trying to view does not exist.  ","url": "https://adamsaunders.net/404.html"
   },{
     "title": "About",
-    "excerpt":"My name is Adam Saunders. As a graduate student at Vanderbilt University in the MASI Lab, I challenge myself to learn more about the world of medical imaging. My goal is to learn more from often imperfectly-acquired medical images, rooted in the idea that the pixels represent not just a...","url": "http://localhost:4000/about/"
+    "excerpt":"My name is Adam Saunders. As a graduate student at Vanderbilt University in the MASI Lab, I challenge myself to learn more about the world of medical imaging. My goal is to learn more from often imperfectly-acquired medical images, rooted in the idea that the pixels represent not just a...","url": "https://adamsaunders.net/about/"
   },{
     "title": "Contact Me",
-    "excerpt":"I would love to start a conversation with you! I am always interested in learning more and connecting with new people, so don’t be afraid to reach out. If you’re interested in reaching me, feel free to send an email to me at adam.m.saunders@vanderbilt.edu. I would love to connect with...","url": "http://localhost:4000/contact/"
+    "excerpt":"I would love to start a conversation with you! I am always interested in learning more and connecting with new people, so don’t be afraid to reach out. If you’re interested in reaching me, feel free to send an email to me at adam.m.saunders@vanderbilt.edu. I would love to connect with...","url": "https://adamsaunders.net/contact/"
   },{
     "title": "CV",
-    "excerpt":"Summary An electrical engineering PhD student studying medical imaging research focused on applying artificial intelligence tools to impute missing information from imperfect data. Strengths in analytical skills and scientific communication. Contact Information adam.m.saunders@vanderbilt.edu adamsaunders97 Education Vanderbilt University August 2023 - Present PhD, Electrical and Computer Engineering University of Dayton August...","url": "http://localhost:4000/cv/"
+    "excerpt":"Summary An electrical engineering PhD student studying medical imaging research focused on applying artificial intelligence tools to impute missing information from imperfect data. Strengths in analytical skills and scientific communication. Contact Information adam.m.saunders@vanderbilt.edu adamsaunders97 Education Vanderbilt University August 2023 - Present PhD, Electrical and Computer Engineering University of Dayton August...","url": "https://adamsaunders.net/cv/"
   },{
     "title": "Home",
-    "excerpt":"About Me I am an electrical and computer engineering PhD student at Vanderbilt University performing medical imaging research in the MASI Lab. Learn more My Research My research focuses on estimating information from MRI where we are missing data we would like to have. Learn more CV Learn more about...","url": "http://localhost:4000/"
+    "excerpt":"About Me I am an electrical and computer engineering PhD student at Vanderbilt University performing medical imaging research in the MASI Lab. Learn more My Research My research focuses on estimating information from MRI where we are missing data we would like to have. Learn more CV Learn more about...","url": "https://adamsaunders.net/"
   },{
     "title": "Posts",
-    "excerpt":" ","url": "http://localhost:4000/posts/"
+    "excerpt":" ","url": "https://adamsaunders.net/posts/"
   },{
     "title": "Undergraduate Projects",
-    "excerpt":"Here’s some highlights of cool projects I’ve worked on while a student at the University of Dayton. Diabetic retinopathy and deep learning algorithms Presented as a featured honors thesis at the 2023 Stander Symposium at the University of Dayton Diabetic retinopathy is a disease common in diabetics that can lead...","url": "http://localhost:4000/projects/"
+    "excerpt":"Here’s some highlights of cool projects I’ve worked on while a student at the University of Dayton. Diabetic retinopathy and deep learning algorithms Presented as a featured honors thesis at the 2023 Stander Symposium at the University of Dayton Diabetic retinopathy is a disease common in diabetics that can lead...","url": "https://adamsaunders.net/projects/"
   },{
     "title": "Research",
-    "excerpt":"I study medical imaging, with a focus in magnetic resonance images (MRI) in the brain. MRI is an incredibly powerful and flexible imaging modality, allowing us to highlight different features by tuning the parameters under which we acquire the image. Unfortunately, clinically-acquired MRI varies highly based on the site the...","url": "http://localhost:4000/research/"
+    "excerpt":"I study medical imaging, with a focus in magnetic resonance images (MRI) in the brain. MRI is an incredibly powerful and flexible imaging modality, allowing us to highlight different features by tuning the parameters under which we acquire the image. Unfortunately, clinically-acquired MRI varies highly based on the site the...","url": "https://adamsaunders.net/research/"
   },{
     "title": "Posts by Tag",
-    "excerpt":" ","url": "http://localhost:4000/tags/"
+    "excerpt":" ","url": "https://adamsaunders.net/tags/"
   }]

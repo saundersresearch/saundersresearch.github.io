@@ -19,3 +19,6 @@ https://adamsaunders.net/posts/diffusion-smoothing/:
 https://adamsaunders.net/posts/vasculature-smoothing/:
   https://doi.org/10.1117/12.3047240: false
   https://github.com/MASILab/vss_fmri: false
+https://adamsaunders.net/posts/test/:
+  https://webmention.rocks/test/11: false
+  https://webmention.rocks/test/23/page: false
