@@ -1,24 +1,24 @@
 ---
 https://adamsaunders.net/posts/spie-medical-imaging-2023/:
-  https://my.vanderbilt.edu/masi/: false
-  https://www.zacharylipton.com/: false
+  https://my.vanderbilt.edu/masi/: 1
+  https://www.zacharylipton.com/: 1
 https://adamsaunders.net/posts/phd-acceptance/:
   https://my.vanderbilt.edu/masi/: false
-  https://www.vanderbilt.edu/vise/: false
+  https://www.vanderbilt.edu/vise/: 1
 https://adamsaunders.net/posts/honors-thesis/:
-  https://img.youtube.com/vi/J4TdP8eGEm4/0.jpg: false
-  https://www.youtube.com/watch?v=J4TdP8eGEm4: false
-  https://ecommons.udayton.edu/uhp_theses/423/: false
+  https://img.youtube.com/vi/J4TdP8eGEm4/0.jpg: 1
+  https://www.youtube.com/watch?v=J4TdP8eGEm4: 1
+  https://ecommons.udayton.edu/uhp_theses/423/: 1
 https://adamsaunders.net/posts/eye-atlas/:
-  https://doi.org/10.1117/1.JMI.11.6.064004: false
+  https://doi.org/10.1117/1.JMI.11.6.064004: 1
 https://adamsaunders.net/posts/quantitative-t1/:
   https://doi.org/10.1016/j.mri.2025.110322: false
 https://adamsaunders.net/posts/diffusion-smoothing/:
   https://doi.org/10.1117/12.3047240: false
-  https://github.com/MASILab/dss_fmri_atlas: false
+  https://github.com/MASILab/dss_fmri_atlas: 1
 https://adamsaunders.net/posts/vasculature-smoothing/:
   https://doi.org/10.1117/12.3047240: false
   https://github.com/MASILab/vss_fmri: false
 https://adamsaunders.net/posts/test/:
-  https://webmention.rocks/test/11: false
-  https://webmention.rocks/test/23/page: false
+  https://webmention.rocks/test/11: ''
+  https://webmention.rocks/test/23/page: ''
