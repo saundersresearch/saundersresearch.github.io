@@ -344,14 +344,16 @@ I celebrated my graduation from the University of Dayton</p>
         </footer>
 
 
+        
         <span class="page__share">
   <!---->
   <h4 class = "page__share-title">Webmentions: </h4>
-  <div class="webmentions">
+  <div class="webmentions" data-webmention-types="|,escape">
   <p class="webmentions__not-found">No webmentions were found.</p>
 </div>
 </span>
- 
+
+        
         <section class="page__share">
   <!---->
   <h4 class = "page__share-title">Share on: </h4>
@@ -487,8 +489,9 @@ I celebrated my graduation from the University of Dayton</p>
   
 
 
+
 <script src="/assets/js/JekyllWebmentionIO.js" async></script>
-<template style="display:none" id="webmention-bookmarks">{%- if html_proofer_ignore == "all" -%}
+<template style="display:none" id="webmention-bookmarks" data-proofer-ignore>{%- if html_proofer_ignore == "all" -%}
 {%- assign html_proofer_attr = " data-proofer-ignore" -%}
 {%- endif -%}
 <div class="webmentions webmentions--bookmarks"{{ html_proofer_attr }}>
@@ -553,7 +556,7 @@ I celebrated my graduation from the University of Dayton</p>
     <p class="webmentions__not-found">No bookmarks were found.</p>
   {% endif %}
 </div>
-</template><template style="display:none" id="webmention-likes">{%- if html_proofer_ignore == "all" -%}
+</template><template style="display:none" id="webmention-likes" data-proofer-ignore>{%- if html_proofer_ignore == "all" -%}
 {%- assign html_proofer_attr = " data-proofer-ignore" -%}
 {%- endif -%}
 <div class="webmentions webmentions--likes"{{ html_proofer_attr }}>
@@ -599,7 +602,7 @@ I celebrated my graduation from the University of Dayton</p>
     <p class="webmentions__not-found">No likes have been sent yet!</p>
   {% endif %}
 </div>
-</template><template style="display:none" id="webmention-links">{%- if html_proofer_ignore == "all" -%}
+</template><template style="display:none" id="webmention-links" data-proofer-ignore>{%- if html_proofer_ignore == "all" -%}
 {%- assign html_proofer_attr = " data-proofer-ignore" -%}
 {%- endif -%}
 <div class="webmentions webmentions--links"{{ html_proofer_attr }}>
@@ -664,7 +667,7 @@ I celebrated my graduation from the University of Dayton</p>
     <p class="webmentions__not-found">No links were found.</p>
   {% endif %}
 </div>
-</template><template style="display:none" id="webmention-posts">{%- if html_proofer_ignore == "all" -%}
+</template><template style="display:none" id="webmention-posts" data-proofer-ignore>{%- if html_proofer_ignore == "all" -%}
 {%- assign html_proofer_attr = " data-proofer-ignore" -%}
 {%- endif -%}
 <div class="webmentions webmentions--posts"{{ html_proofer_attr }}>
@@ -729,7 +732,7 @@ I celebrated my graduation from the University of Dayton</p>
     <p class="webmentions__not-found">No posts were found.</p>
   {% endif %}
 </div>
-</template><template style="display:none" id="webmention-replies">{%- if html_proofer_ignore == "all" -%}
+</template><template style="display:none" id="webmention-replies" data-proofer-ignore>{%- if html_proofer_ignore == "all" -%}
 {%- assign html_proofer_attr = " data-proofer-ignore" -%}
 {%- endif -%}
 <div class="webmentions webmentions--replies"{{ html_proofer_attr }}>
@@ -794,7 +797,7 @@ I celebrated my graduation from the University of Dayton</p>
     <p class="webmentions__not-found">No replies were found.</p>
   {% endif %}
 </div>
-</template><template style="display:none" id="webmention-reposts">{%- if html_proofer_ignore == "all" -%}
+</template><template style="display:none" id="webmention-reposts" data-proofer-ignore>{%- if html_proofer_ignore == "all" -%}
 {%- assign html_proofer_attr = " data-proofer-ignore" -%}
 {%- endif -%}
 <div class="webmentions webmentions--reposts"{{ html_proofer_attr }}>
@@ -840,7 +843,7 @@ I celebrated my graduation from the University of Dayton</p>
     <p class="webmentions__not-found">No reposts were found.</p>
   {% endif %}
 </div>
-</template><template style="display:none" id="webmention-rsvps">{%- if html_proofer_ignore == "all" -%}
+</template><template style="display:none" id="webmention-rsvps" data-proofer-ignore>{%- if html_proofer_ignore == "all" -%}
 {%- assign html_proofer_attr = " data-proofer-ignore" -%}
 {%- endif -%}
 <div class="webmentions webmentions--rsvps"{{ html_proofer_attr }}>
@@ -886,8 +889,8 @@ I celebrated my graduation from the University of Dayton</p>
     <p class="webmentions__not-found">No RSVPs were found.</p>
   {% endif %}
 </div>
-</template><template style="display:none" id="webmention-count">{% capture webmention_types %}{{ types | join: ',' }}{% endcapture %}
-<span class="webmention-count"{% unless webmention_types=="" %} data-webmention-types="{{ webmention_types }}"{% endunless %}>{{ count }}</span></template><template style="display:none" id="webmention-webmentions">{% capture webmention_types %}{{ types | join: ',' }}{% endcapture %}
+</template><template style="display:none" id="webmention-count" data-proofer-ignore>{% capture webmention_types %}{{ types | join: ',' }}{% endcapture %}
+<span class="webmention-count"{% unless webmention_types=="" %} data-webmention-types="{{ webmention_types }}"{% endunless %}>{{ count }}</span></template><template style="display:none" id="webmention-webmentions" data-proofer-ignore>{% capture webmention_types %}{{ types | join: ',' }}{% endcapture %}
 
 {%- if html_proofer_ignore == "all" -%}
 {%- assign html_proofer_attr = " data-proofer-ignore" -%}
@@ -955,6 +958,7 @@ I celebrated my graduation from the University of Dayton</p>
   {% endif %}
 </div>
 </template>
+
 
 
 

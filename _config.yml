@@ -164,5 +164,9 @@ lunr:
 # https://aarongustafson.github.io/jekyll-webmention_io/
 webmentions:
   username: adamsaunders.net
+  legacy_domains:
+    - https://adamsaunders.net
+  html_proofer_ignore: templates
   js:
     destination: /assets/js/
+    uglify: false

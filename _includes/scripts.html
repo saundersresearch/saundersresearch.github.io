@@ -21,7 +21,9 @@
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
 
-{% if page.webmentions %}{% webmentions_js %}{% endif %}
+{% if page.webmentions %}
+{% webmentions_js | escape %}
+{% endif %}
 
 {% if site.after_footer_scripts %}
   {% for script in site.after_footer_scripts %}
