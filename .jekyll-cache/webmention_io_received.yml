@@ -1,0 +1,41 @@
+---
+"/posts/ornl-internship/": {}
+"/posts/spie-medical-imaging-2023/": {}
+"/posts/phd-acceptance/": {}
+"/posts/ud-graduation/": {}
+"/posts/honors-thesis/": {}
+"/posts/eye-atlas/": {}
+"/posts/quantitative-t1/": {}
+"/posts/diffusion-smoothing/": {}
+"/posts/vasculature-smoothing/":
+  '1948873':
+    id: '1948873'
+    uri: https://webmention.rocks/receive/1
+    source: false
+    pubdate: 2025-10-21 12:19:38.000000000 -05:00
+    raw:
+      source: https://webmention.rocks/receive/1/a3713d07c97abe49105f66f4fdba6302
+      verified: true
+      verified_date: '2025-10-21T17:19:40+00:00'
+      id: 1948873
+      private: false
+      data:
+        author: &1
+          name: Webmention Rocks!
+          url:
+          photo: https://avatars.webmention.io/webmention.rocks/e08155b03da96cb1bdfd161ea24efdfad8d85d06afcee540ec246f1f613eb5a9.png
+        url: https://webmention.rocks/receive/1
+        name: 'Receiver Test #1'
+        content: |-
+          <p>This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the <a href="https://www.w3.org/TR/webmention/#receiving-webmentions">appropriate headers</a>.</p>
+                  <p>If your endpoint returns HTTP 201, then it MUST also return a <code>Location</code> header. If it returns HTTP 200 or 202, then it MUST NOT include a <code>Location</code> header.</p>
+        published: '2025-10-21T10:19:38-07:00'
+        published_ts: 1761067178
+      activity:
+        type: reply
+      target: https://adamsaunders.net/posts/vasculature-smoothing/
+    author: *1
+    type: reply
+    content: |-
+      <p>This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the <a href="https://www.w3.org/TR/webmention/#receiving-webmentions">appropriate headers</a>.</p>
+              <p>If your endpoint returns HTTP 201, then it MUST also return a <code>Location</code> header. If it returns HTTP 200 or 202, then it MUST NOT include a <code>Location</code> header.</p>

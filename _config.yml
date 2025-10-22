@@ -64,6 +64,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-webmention_io
 
 author:
   name   : "Adam Saunders"
@@ -163,3 +164,5 @@ lunr:
 # https://aarongustafson.github.io/jekyll-webmention_io/
 webmentions:
   username: adamsaunders.net
+  js:
+    destination: /assets/js/
