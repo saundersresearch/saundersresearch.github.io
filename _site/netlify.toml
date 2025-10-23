@@ -1,4 +1,3 @@
 [build]
     command = "bundle exec jekyll build && bundle exec jekyll webmention"
     publish = "_site"
-    environmnet = { JEKYLL_ENV = "production" }
