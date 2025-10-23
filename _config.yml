@@ -70,7 +70,7 @@ plugins:
 author:
   name   : "Adam Saunders"
   avatar : "/assets/images/headshot_square.jpg"
-  bio    : "I am a PhD student researching medical imaging."
+  bio    : "I am a PhD student at Vanderbilt University researching brain MRI and AI."
   email  : "&#97;d&#97;m&#46;m&#46;s&#97;u&#110;ders&#64;&#118;ande&#114;bilt&#46;edu"
   uri    : "https://adamsaunders.net"
   links:
