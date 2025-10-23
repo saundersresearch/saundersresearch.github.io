@@ -1,0 +1,13 @@
+# .github/workflows/netlify.yml
+
+name: Trigger Netlify Build
+on:
+  schedule:
+    - cron: '0 8 * * *'
+jobs:
+  build:
+    name: Request Netlify Webhook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl request
+        run: curl -X POST -d {} ${{ secrets.NETLIFY_WEBHOOK }}
