@@ -42,6 +42,7 @@ timezone: America/Chicago # https://en.wikipedia.org/wiki/List_of_tz_database_ti
 include:
   - _pages
   - .well-known
+  - _redirects
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
