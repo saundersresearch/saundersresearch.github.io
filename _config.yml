@@ -126,6 +126,7 @@ defaults:
       share: true
       related: false
       webmentions: true
+      bridgy_fed: true
   # _pages
   - scope:
       path: "_pages"
@@ -168,3 +169,6 @@ webmentions:
   js:
     destination: /assets/js
     deploy: false
+
+bridgy_fed:
+  url: "@adamsaunders.net@adamsaunders.net"

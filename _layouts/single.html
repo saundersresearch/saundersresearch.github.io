@@ -63,6 +63,9 @@ layout: default
         {% if page.webmentions %}
         {% include webmentions.html %}
         {% endif %}
+        {% if page.bridgy_fed %}
+        {% include bridgy_fed.html %}
+        {% endif %}
         {% if page.share %}{% include social-share.html %}{% endif %}
 
         {% include post_pagination.html %}
