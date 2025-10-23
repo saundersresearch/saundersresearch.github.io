@@ -169,6 +169,3 @@ webmentions:
   js:
     destination: /assets/js
     deploy: false
-
-bridgy_fed:
-  url: "@adamsaunders.net@adamsaunders.net"
