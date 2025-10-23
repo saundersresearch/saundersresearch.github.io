@@ -66,7 +66,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "npm"
 
       - name: Install Netlify
         run: npm install netlify-cli@17.10.1 -g
@@ -77,5 +76,5 @@ jobs:
           netlify deploy \
             --dir _site \
             --site ${{ secrets.NETLIFY_SITE_ID }} \
-            --auth ${{ secrets.NETFLIY_API_TOKEN }}
+            --auth ${{ secrets.NETLIFY_API_TOKEN }}
 
