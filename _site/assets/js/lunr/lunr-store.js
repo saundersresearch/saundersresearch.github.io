@@ -68,6 +68,9 @@ var store = [{
     "title": "Home",
     "excerpt":"About Me I am an electrical and computer engineering PhD student at Vanderbilt University performing medical imaging research in the MASI Lab. Learn more My Research My research focuses on estimating information from MRI where we are missing data we would like to have. Learn more CV Learn more about...","url": "http://localhost:4000/"
   },{
+    "title": "Notes",
+    "excerpt":"Under construction.  ","url": "http://localhost:4000/notes/"
+  },{
     "title": "Posts",
     "excerpt":" ","url": "http://localhost:4000/posts/"
   },{
