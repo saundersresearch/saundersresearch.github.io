@@ -198,6 +198,9 @@ webmentions:
   collections:
     - posts
     - notes
+  bad_uri_policy:
+    whitelist:
+      - "^https://brid.gy/publish/"
   syndication:
     mastodon:
       endpoint: https://brid.gy/publish/mastodon
