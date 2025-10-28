@@ -1,4 +1,0 @@
-[build]
-    command = "bundle exec jekyll build --baseurl '' && bundle exec jekyll webmention"
-    publish = "_site"
-    environment = { JEKYLL_ENV = "production" }
