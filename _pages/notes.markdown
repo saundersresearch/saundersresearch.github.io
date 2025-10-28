@@ -1,7 +1,7 @@
 ---
 title: Notes
-layout: single
+layout: h-feed
 permalink: /notes/
+collections:
+    - notes
 ---
-
-Under construction.

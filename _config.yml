@@ -116,6 +116,13 @@ footer:
 atom_feed:
   hide: false
 
+feed:
+  collections:
+    posts:
+      path: feed.xml
+    notes:
+      path: null
+
 defaults:
   # _posts
   - scope:
@@ -137,6 +144,24 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _notes
+  - scope:
+      path: "_notes"
+      type: notes
+    values:
+      layout: note
+      author_profile: true
+      read_time: false
+      comments: true
+      share: true
+      related: false
+      webmentions: true
+      bridgy_fed: true
+
+collections:
+  notes:
+    output: true
+    permalink: /notes/:year/:month/:day/:title/
 
 category_archive:
   type: liquid
@@ -169,6 +194,11 @@ lunr:
 # https://aarongustafson.github.io/jekyll-webmention_io/
 webmentions:
   username: adamsaunders.net
+  syndications:
+    mastodon:
+      endpoint: https://brid.gy/publish/mastodon
+    bluesky:
+      endpoint: https://brid.gy/publish/bluesky
   js:
     destination: /assets/js
     deploy: false

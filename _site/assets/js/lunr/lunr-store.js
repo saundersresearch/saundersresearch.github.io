@@ -1,4 +1,10 @@
 var store = [{
+        "title": "Testing syndication",
+        "excerpt":"I’m testing syndication here! Hopefully this posts both to my site and allows for webmentions back to my site.   ","categories": [],
+        "tags": [],
+        "url": "/notes/2025/10/27/test-note/",
+        "teaser": null
+      },{
         "title": "Using Supercomputers to Detect Cancer: My Summer at Oak Ridge National Lab",
         "excerpt":"I visited Frontier, the world’s fastest supercomputer, as a part of the SULI program this summer How many people can say they got the chance to use one of the fastest computers in the world to detect cancer? I was extremely lucky to be able to do just that this...","categories": [],
         "tags": ["Oak Ridge National Laboratory"],
@@ -59,6 +65,9 @@ var store = [{
     "title": "About",
     "excerpt":"My name is Adam Saunders. As a graduate student at Vanderbilt University in the MASI Lab, I challenge myself to learn more about the world of medical imaging. My goal is to learn more from often imperfectly-acquired medical images, rooted in the idea that the pixels represent not just a...","url": "http://localhost:4000/about/"
   },{
+    "title": "Posts by Category",
+    "excerpt":" ","url": "http://localhost:4000/categories/"
+  },{
     "title": "Contact Me",
     "excerpt":"I would love to start a conversation with you! I am always interested in learning more and connecting with new people, so don’t be afraid to reach out. If you’re interested in reaching me, feel free to send an email to me at adam.m.saunders@vanderbilt.edu. I would love to connect with...","url": "http://localhost:4000/contact/"
   },{
@@ -72,7 +81,7 @@ var store = [{
     "excerpt":"About Me I am an electrical and computer engineering PhD student at Vanderbilt University performing medical imaging research in the MASI Lab. Learn more My Research My research focuses on estimating information from MRI where we are missing data we would like to have. Learn more CV Learn more about...","url": "http://localhost:4000/"
   },{
     "title": "Notes",
-    "excerpt":"Under construction.  ","url": "http://localhost:4000/notes/"
+    "excerpt":" ","url": "http://localhost:4000/notes/"
   },{
     "title": "Posts",
     "excerpt":" ","url": "http://localhost:4000/posts/"

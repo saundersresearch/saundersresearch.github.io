@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/notes/2025/10/27/test-note/</loc>
+<lastmod>2025-10-27T21:45:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/posts/ornl-internship/</loc>
 <lastmod>2022-08-14T00:00:00-05:00</lastmod>
 </url>
@@ -38,6 +42,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/contact/</loc>

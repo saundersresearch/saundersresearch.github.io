@@ -4,21 +4,15 @@ layout: archive
 
 {{ content }}
 
-<!--
-<ul class="taxonomy__index">
-  {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-  {% for year in postsInYear %}
-    <li>
-      <a href="#{{ year.name }}">
-        <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
-      </a>
-    </li>
-  {% endfor %}
-</ul>
--->
-
 {% assign entries_layout = page.entries_layout | default: 'list' %}
-{% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% assign collections = page.collections | default: "posts" %}
+{% assign all_entries = "" | split: "" %}
+
+{% for name in collections %}
+    {% assign all_entries = all_entries | concat: site[name] %}
+{% endfor %}
+
+{% assign postsByYear = all_entries | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 <section class="h-feed">
     {% for year in postsByYear %}
     <section id="{{ year.name }}" class="taxonomy__section">
