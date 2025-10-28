@@ -65,6 +65,9 @@ var store = [{
     "title": "CV",
     "excerpt":"Summary An electrical engineering PhD student studying medical imaging research focused on applying artificial intelligence tools to impute missing information from imperfect data. Strengths in analytical skills and scientific communication. Contact Information adam.m.saunders@vanderbilt.edu adamsaunders97 Education Vanderbilt University August 2023 - Present PhD, Electrical and Computer Engineering University of Dayton August...","url": "http://localhost:4000/cv/"
   },{
+    "title": "Feed",
+    "excerpt":" ","url": "http://localhost:4000/feed/"
+  },{
     "title": "Home",
     "excerpt":"About Me I am an electrical and computer engineering PhD student at Vanderbilt University performing medical imaging research in the MASI Lab. Learn more My Research My research focuses on estimating information from MRI where we are missing data we would like to have. Learn more CV Learn more about...","url": "http://localhost:4000/"
   },{

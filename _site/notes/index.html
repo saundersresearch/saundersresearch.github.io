@@ -96,7 +96,7 @@
 
   </head>
 
-  <body class="layout--posts">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -151,13 +151,16 @@
 
 
 
+
+
 <div id="main" role="main">
-  
+  <article class="h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
   <div class="sidebar sticky">
   
 
 
-<div itemscope itemtype="https://schema.org/Person" class="h-card">
+<div itemscope itemtype="https://schema.org/Person" class="p-author h-card">
 
   
     <div class="author__avatar">
@@ -169,7 +172,7 @@
 
   <div class="author__content">
     <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Adam Saunders</a>
+      <a class="u-url" rel="author" href="http://localhost:4000/" itemprop="url">Adam Saunders</a>
     </h3>
     
       <div class="author__bio p-note" itemprop="description">
@@ -187,19 +190,19 @@
       
         
           
-            <li><a href="https://www.linkedin.com/in/adamsaunders97" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://www.linkedin.com/in/adamsaunders97" rel="nofollow noopener noreferrer author" itemprop="sameAs"><i class="fab fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
           
         
           
-            <li><a href="https://bsky.app/profile/adamsaunders.net" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-bluesky" aria-hidden="true"></i><span class="label">BlueSky</span></a></li>
+            <li><a href="https://bsky.app/profile/adamsaunders.net" rel="nofollow noopener noreferrer author" itemprop="sameAs"><i class="fab fa-bluesky" aria-hidden="true"></i><span class="label">BlueSky</span></a></li>
           
         
           
-            <li><a href="https://github.com/saundersresearch" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+            <li><a href="https://github.com/saundersresearch" rel="nofollow noopener noreferrer author" itemprop="sameAs"><i class="fab fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
           
         
           
-            <li><a href="https://indieweb.social/@adamsaunders" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i><span class="label">Mastodon</span></a></li>
+            <li><a href="https://indieweb.social/@adamsaunders" rel="nofollow noopener noreferrer author" itemprop="sameAs"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i><span class="label">Mastodon</span></a></li>
           
         
       
@@ -214,7 +217,7 @@
 
       
         <li>
-          <a href="mailto:&#97;d&#97;m&#46;m&#46;s&#97;u&#110;ders&#64;&#118;ande&#114;bilt&#46;edu" rel="me" class="u-email">
+          <a href="mailto:&#97;d&#97;m&#46;m&#46;s&#97;u&#110;ders&#64;&#118;ande&#114;bilt&#46;edu" rel="author" class="u-email">
             <meta itemprop="email" content="&#97;d&#97;m&#46;m&#46;s&#97;u&#110;ders&#64;&#118;ande&#114;bilt&#46;edu" />
             <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
           </a>
@@ -280,278 +283,58 @@
   </div>
 
 
+    <div class="page">
 
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title">Notes</h1>
-    
-    <p>Under construction.</p>
+        <meta itemprop="headline" content="Notes">
+        
+        
+        
+
+        <div class="page__inner-wrap">
+        
+            <header>
+            <h1 id="page-title" class="page__title p-name" itemprop="headline">
+                <a href="http://localhost:4000/notes/" class="u-url" itemprop="url">Notes
+</a>
+            </h1>
+            
 
 
-<ul class="taxonomy__index">
+            </header>
+        
+
+        <section class="page__content e-content" itemprop="text">
+            
+            <p>Under construction.</p>
+
+            
+        </section>
+
+        <footer class="page__meta">
+            
+            
+
+
+            
+
+        </footer>
+
+
+        
+        
+        
+
+        
+        </div>
+
+        
+      </div>
+    </article>
+
   
   
-    <li>
-      <a href="#2025">
-        <strong>2025</strong> <span class="taxonomy__count">3</span>
-      </a>
-    </li>
-  
-    <li>
-      <a href="#2024">
-        <strong>2024</strong> <span class="taxonomy__count">1</span>
-      </a>
-    </li>
-  
-    <li>
-      <a href="#2023">
-        <strong>2023</strong> <span class="taxonomy__count">4</span>
-      </a>
-    </li>
-  
-    <li>
-      <a href="#2022">
-        <strong>2022</strong> <span class="taxonomy__count">1</span>
-      </a>
-    </li>
-  
-</ul>
-
-
-
-
-  <section id="2025" class="taxonomy__section">
-    <h2 class="archive__subtitle">2025</h2>
-    <div class="entries-list">
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/posts/vasculature-smoothing/" rel="permalink">Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging
-</a>
-      
-    </h2>
-    
-
-
-    <p class="archive__item-excerpt" itemprop="description">We developed a method for adaptive spatial smoothing based on the vasculature in the brain.
-</p>
-  </article>
 </div>
 
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/posts/diffusion-smoothing/" rel="permalink">A 4D atlas of diffusion-informed spatial smoothing windows for BOLD signal in white matter
-</a>
-      
-    </h2>
-    
-
-
-    <p class="archive__item-excerpt" itemprop="description">We developed an atlas for adaptive smoothing in the brain based on white matter tracts.
-</p>
-  </article>
-</div>
-
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/posts/quantitative-t1/" rel="permalink">Comparison and Calibration of MP2RAGE Quantitative T1 Values to Multi-TI Inversion Recovery T1 Values
-</a>
-      
-    </h2>
-    
-
-
-    <p class="archive__item-excerpt" itemprop="description">We found and corrected a bias in quantitative T1 methods using a patch-based deep learning model.
-</p>
-  </article>
-</div>
-
-      
-    </div>
-    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
-  </section>
-
-  <section id="2024" class="taxonomy__section">
-    <h2 class="archive__subtitle">2024</h2>
-    <div class="entries-list">
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/posts/eye-atlas/" rel="permalink">Super-resolution Multi-Contrast Unbiased Eye Atlases with Deep Probabilistic Refinement
-</a>
-      
-    </h2>
-    
-
-
-    <p class="archive__item-excerpt" itemprop="description">We published our work on creating eye atlases from low-resolution MRI.
-</p>
-  </article>
-</div>
-
-      
-    </div>
-    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
-  </section>
-
-  <section id="2023" class="taxonomy__section">
-    <h2 class="archive__subtitle">2023</h2>
-    <div class="entries-list">
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/posts/honors-thesis/" rel="permalink">Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy
-</a>
-      
-    </h2>
-    
-
-
-    <p class="archive__item-excerpt" itemprop="description">I presented a TED-style talk highlighting the aims of my honors thesis research into diabetic retinopathy imaging and deep learning.
-</p>
-  </article>
-</div>
-
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/posts/ud-graduation/" rel="permalink">Graduation from University of Dayton
-</a>
-      
-    </h2>
-    
-
-
-    <p class="archive__item-excerpt" itemprop="description">I graduated summa cum laude from the University of Dayton with a Bachelor of Electrical Engineering.
-</p>
-  </article>
-</div>
-
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/posts/phd-acceptance/" rel="permalink">I Accepted a PhD Offer at Vanderbilt!
-</a>
-      
-    </h2>
-    
-
-
-    <p class="archive__item-excerpt" itemprop="description">I accepted a PhD offer from Vanderbilt University at the MASI Lab under Dr. Bennett Landman.
-</p>
-  </article>
-</div>
-
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/posts/spie-medical-imaging-2023/" rel="permalink">My First Time at SPIE Medical Imaging
-</a>
-      
-    </h2>
-    
-
-
-    <p class="archive__item-excerpt" itemprop="description">I attended SPIE Medical Imaging for the first time and presented research I performed last summer on comparing whole-slide image classification algorithms.
-</p>
-  </article>
-</div>
-
-      
-    </div>
-    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
-  </section>
-
-  <section id="2022" class="taxonomy__section">
-    <h2 class="archive__subtitle">2022</h2>
-    <div class="entries-list">
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/posts/ornl-internship/" rel="permalink">Using Supercomputers to Detect Cancer: My Summer at Oak Ridge National Lab
-</a>
-      
-    </h2>
-    
-
-
-    <p class="archive__item-excerpt" itemprop="description">I spent the summer at Oak Ridge National Lab, performing exciting research into designing machine learning algorithms for cancer detection from whole-slide i...</p>
-  </article>
-</div>
-
-      
-    </div>
-    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
-  </section>
-
-
-  </div>
-</div>
     </div>
 
     

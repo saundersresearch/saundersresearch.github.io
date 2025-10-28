@@ -1,6 +1,6 @@
 ---
 title: Notes
-layout: posts
+layout: single
 permalink: /notes/
 ---
 
