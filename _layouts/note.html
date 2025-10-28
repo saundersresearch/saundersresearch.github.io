@@ -60,7 +60,7 @@ layout: default
         </footer>
         
         {% for target in page.syndicate_to %}
-          {% assign synd = site.webmentions.syndications[target] %}
+          {% assign synd = site.webmentions.syndication[target] %}
           <a href="{{ synd.endpoint }}"></a>
         {% endfor %}
 

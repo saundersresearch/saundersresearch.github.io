@@ -194,7 +194,10 @@ lunr:
 # https://aarongustafson.github.io/jekyll-webmention_io/
 webmentions:
   username: adamsaunders.net
-  syndications:
+  collections:
+    - posts
+    - notes
+  syndication:
     mastodon:
       endpoint: https://brid.gy/publish/mastodon
       response_mapping:
