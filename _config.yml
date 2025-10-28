@@ -157,6 +157,7 @@ defaults:
       related: false
       webmentions: true
       bridgy_fed: true
+      bridgy-omit-link: maybe
 
 collections:
   notes:

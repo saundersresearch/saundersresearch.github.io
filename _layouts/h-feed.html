@@ -12,7 +12,11 @@ layout: archive
     {% assign all_entries = all_entries | concat: site[name] %}
 {% endfor %}
 
-{% assign postsByYear = all_entries | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% assign postsByYear = all_entries
+  | where_exp: "item", "item.hidden != true"
+  | sort: "date"
+  | reverse
+  | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 <section class="h-feed">
     {% for year in postsByYear %}
     <section id="{{ year.name }}" class="taxonomy__section">
