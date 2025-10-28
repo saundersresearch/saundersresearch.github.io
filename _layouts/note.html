@@ -58,6 +58,15 @@ layout: default
             {% include page__taxonomy.html %}
             {% include page__date.html %}
         </footer>
+        
+        {% for target in page.syndicate_to %}
+          {% assign synd = site.webmentions.syndications[target] %}
+          <a href="{{ synd.endpoint }}"></a>
+        {% endfor %}
+
+        {%- for url in page.syndication -%}
+        <a class="u-syndication small" href="{{ url }}">Syndicated to {{ url }}</a>
+        {%- endfor -%}
 
         <p><a href="/notes" class="btn btn--info btn--small">More Notes</a></p>
 

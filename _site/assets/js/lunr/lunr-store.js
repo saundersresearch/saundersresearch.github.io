@@ -1,6 +1,6 @@
 var store = [{
         "title": "Testing syndication",
-        "excerpt":"I’m testing syndication here! Hopefully this posts both to my site and allows for webmentions back to my site.   ","categories": [],
+        "excerpt":"I’m testing syndication here! Hopefully this posts to my site and Mastodon and allows for webmentions back to my site.   ","categories": [],
         "tags": [],
         "url": "/notes/2025/10/27/test-note/",
         "teaser": null
