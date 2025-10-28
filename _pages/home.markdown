@@ -37,7 +37,3 @@ feature_row:
 
 {% include feature_row %}
 
-<div class="h-entry" style="display: none;">
-  <p class="e-content">This hidden post allows for Bridgy Fed to discover my posts.</p>
-  <a class="u-bridgy-fed" href="https://fed.brid.gy/" hidden="from-humans"></a>
-</div>
