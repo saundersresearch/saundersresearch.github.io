@@ -48,6 +48,12 @@ jobs:
       - name: Upload site artifact for Pages
         uses: actions/upload-pages-artifact@v3
 
+      - name: Debug and list cache location
+        run: |
+          echo "Working directory: $(pwd)"
+          find . -maxdepth 3 -type d -name ".jekyll-cache" -print
+          ls -R .jekyll-cache || echo "No local cache found"
+
       - name: Upload .jekyll-cache for reuse
         uses: actions/upload-artifact@v4
         with:
