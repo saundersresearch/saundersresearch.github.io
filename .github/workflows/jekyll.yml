@@ -91,6 +91,9 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Print Jekyll webmention cache
+        run: cat .jekyll-cache/webmention_io_*.yml
+
       - name: Upload updated .jekyll-cache
         uses: actions/upload-artifact@v4
         with:
