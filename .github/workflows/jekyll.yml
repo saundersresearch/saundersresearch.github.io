@@ -15,22 +15,14 @@ jobs:
   webmention-and-rebuild:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout main branch
         uses: actions/checkout@v4
 
-      # Download the .jekyll-cache from Workflow A
-      - name: Download .jekyll-cache
-        uses: actions/download-artifact@v4
-        with:
-          name: jekyll-cache
-          path: .jekyll-cache
-
-      # Download the _site artifact from Workflow A
-      - name: Download _site artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: site-artifact
-          path: ./_site
+      # Fetch the .jekyll-cache from gh-pages-cache branch
+      - name: Restore .jekyll-cache from cache branch
+        run: |
+          git fetch origin gh-pages-cache
+          git checkout origin/gh-pages-cache -- .jekyll-cache
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -48,7 +40,7 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-      - name: Upload rebuilt site artifact for Pages
+      - name: Upload rebuilt site artifact
         uses: actions/upload-pages-artifact@v4
         with:
           path: ./_site
@@ -56,4 +48,14 @@ jobs:
       - name: Deploy updated site
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # Update the cache branch with the new .jekyll-cache
+      - name: Commit updated .jekyll-cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B gh-pages-cache
+          git add .jekyll-cache
+          git commit -m "Update Jekyll cache with webmentions [skip ci]" || echo "No changes to cache"
+          git push -f origin gh-pages-cache
 

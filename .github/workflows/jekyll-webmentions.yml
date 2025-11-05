@@ -48,16 +48,13 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Upload .jekyll-cache for reuse
-        uses: actions/upload-artifact@v4
-        with:
-          name: jekyll-cache
-          include-hidden-files: true
-          path: .jekyll-cache
-
-      - name: Upload _site for reuse in Workflow B
-        uses: actions/upload-artifact@v4
-        with:
-          name: site-artifact
-          path: ./_site
+      # Push .jekyll-cache to a dedicated branch
+      - name: Commit .jekyll-cache to cache branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B gh-pages-cache
+          git add .jekyll-cache
+          git commit -m "Update Jekyll cache [skip ci]" || echo "No changes to cache"
+          git push -f origin gh-pages-cache
 
