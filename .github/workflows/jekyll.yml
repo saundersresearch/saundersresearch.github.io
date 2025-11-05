@@ -1,9 +1,10 @@
-name: Build & Deploy Jekyll Site
+name: Webmention & Rebuild
 
 on:
-  push:
-    branches: ["main"]
-  workflow_dispatch:
+  workflow_run:
+    workflows: ["Build & Deploy Jekyll Site"]
+    types:
+      - completed
 
 permissions:
   contents: read
@@ -11,18 +12,25 @@ permissions:
   id-token: write
 
 jobs:
-  build-and-deploy:
+  webmention-and-rebuild:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Restore Jekyll cache
-        uses: actions/cache@v4
+      # Download the .jekyll-cache from Workflow A
+      - name: Download .jekyll-cache
+        uses: actions/download-artifact@v4
         with:
+          name: jekyll-cache
           path: .jekyll-cache
-          key: jekyll-cache-${{ runner.os }}-${{ hashFiles('**/*.md', '_config.yml') }}
-          restore-keys: jekyll-cache-${{ runner.os }}-
+
+      # Download the _site artifact from Workflow A
+      - name: Download _site artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site-artifact
+          path: ./_site
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -30,33 +38,22 @@ jobs:
           ruby-version: '3.3.6'
           bundler-cache: true
 
-      - name: Set up Pages
-        id: pages
-        uses: actions/configure-pages@v5
-
-      - name: Build site
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+      - name: Send webmentions
+        run: bundle exec jekyll webmention
         env:
           JEKYLL_ENV: production
 
-      - name: Upload site artifact for Pages
+      - name: Rebuild site with updated webmentions
+        run: bundle exec jekyll build --baseurl "/"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload rebuilt site artifact for Pages
         uses: actions/upload-pages-artifact@v4
         with:
           path: ./_site
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy updated site
         id: deployment
         uses: actions/deploy-pages@v4
-
-      - name: Upload .jekyll-cache for reuse
-        uses: actions/upload-artifact@v4
-        with:
-          name: jekyll-cache
-          path: .jekyll-cache
-
-      - name: Upload _site for reuse in Workflow B
-        uses: actions/upload-artifact@v4
-        with:
-          name: site-artifact
-          path: ./_site
 

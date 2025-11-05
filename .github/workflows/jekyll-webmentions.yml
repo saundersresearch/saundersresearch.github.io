@@ -52,6 +52,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: jekyll-cache
+          include-hidden-files: true
           path: .jekyll-cache
 
       - name: Upload _site for reuse in Workflow B
