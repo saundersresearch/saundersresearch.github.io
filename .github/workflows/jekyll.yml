@@ -58,7 +58,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: jekyll-cache
-          path: .jekyll-cache/**
+          path: ${{ github.workspace}}/.jekyll-cache
           if-no-files-found: error
 
   deploy:
@@ -103,7 +103,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: jekyll-cache-after-webmention
-          path: .jekyll-cache/**
+          path: ${{ github.workspace}}/.jekyll-cache
           if-no-files-found: error
 
   rebuild:
