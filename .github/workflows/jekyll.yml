@@ -45,9 +45,6 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-      - name: Upload site artifact for Pages
-        uses: actions/upload-pages-artifact@v3
-
       - name: Debug list cache location
         run: |
           echo "Working directory: $(pwd)"
