@@ -1,1 +1,1 @@
-Sitemap: https://adamsaunders.net/pages/saundersresearch/sitemap.xml
+Sitemap: https://adamsaunders.net/sitemap.xml
