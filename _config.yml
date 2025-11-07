@@ -206,7 +206,7 @@ webmentions:
       endpoint: https://brid.gy/publish/mastodon
       response_mapping:
         syndication: $.url
-        username: $.user.screen_name
+        username: $.account.username
     bluesky:
       endpoint: https://brid.gy/publish/bluesky
   js:

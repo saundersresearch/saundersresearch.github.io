@@ -1,1 +1,33 @@
---- {}
+---
+my.vanderbilt.edu:
+  state: unsupported
+  attempts: 2
+  last_checked: '2025-11-06 15:13:51 -0600'
+www.zacharylipton.com:
+  state: unsupported
+  attempts: 2
+  last_checked: '2025-11-06 15:13:52 -0600'
+www.vanderbilt.edu:
+  state: unsupported
+  attempts: 2
+  last_checked: '2025-11-06 15:13:52 -0600'
+img.youtube.com:
+  state: unsupported
+  attempts: 2
+  last_checked: '2025-11-06 15:13:52 -0600'
+www.youtube.com:
+  state: unsupported
+  attempts: 2
+  last_checked: '2025-11-06 15:13:53 -0600'
+ecommons.udayton.edu:
+  state: unsupported
+  attempts: 2
+  last_checked: '2025-11-06 15:13:53 -0600'
+doi.org:
+  state: unsupported
+  attempts: 2
+  last_checked: '2025-11-06 15:13:56 -0600'
+github.com:
+  state: unsupported
+  attempts: 2
+  last_checked: '2025-11-06 15:13:57 -0600'
