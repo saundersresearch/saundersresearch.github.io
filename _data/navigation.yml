@@ -9,5 +9,7 @@ main:
     url: /cv/
   - title: "Undergrad Projects"
     url: /projects/
+  - title: "Notes"
+    url : /notes/
   - title: "Contact Me"
     url: /contact/
