@@ -23,13 +23,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Restore Jekyll cache
-        uses: actions/cache@v4
-        with:
-          path: .jekyll-cache
-          key: jekyll-cache-${{ runner.os }}-${{ hashFiles('**/*.md', '_config.yml') }}
-          restore-keys: jekyll-cache-${{ runner.os }}-
-
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -51,14 +44,6 @@ jobs:
           find . -maxdepth 3 -type d -name ".jekyll-cache" -print
           ls -R .jekyll-cache || echo "No local cache found"
 
-      - name: Upload .jekyll-cache for reuse
-        uses: actions/upload-artifact@v4
-        with:
-          name: jekyll-cache
-          include-hidden-files: true
-          path: .jekyll-cache
-          if-no-files-found: error
-
       - name: Upload rebuilt site artifact
         uses: actions/upload-pages-artifact@v3
 
@@ -77,12 +62,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download .jekyll-cache from build
-        uses: actions/download-artifact@v4
-        with:
-          name: jekyll-cache
-          path: .jekyll-cache
-
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -96,14 +75,6 @@ jobs:
 
       - name: Print Jekyll webmention cache
         run: ls -lh .jekyll-cache && cat .jekyll-cache/webmention_io_*.yml || true
-
-      - name: Upload updated .jekyll-cache
-        uses: actions/upload-artifact@v4
-        with:
-          name: jekyll-cache-after-webmention
-          include-hidden-files: true
-          path: .jekyll-cache
-          if-no-files-found: error
 
   deploy:
     environment:
