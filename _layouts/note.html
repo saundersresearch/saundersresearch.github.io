@@ -18,12 +18,13 @@ layout: default
   {% endunless %}
 {% endif %}
 
+{% assign date_format = site.date_format | default "%B %d, %Y at %-I:%M %p %Z" %}
+
 <div id="main" role="main">
   <article class="h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     {% include sidebar-post.html %}
     <div class="page">
 
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
         {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
@@ -31,9 +32,12 @@ layout: default
         <div class="page__inner-wrap h-entry">
         {% unless page.header.overlay_color or page.header.overlay_image %}
             <header>
-            {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">
-                <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
-            </h1>{% endif %}
+            {% if page.date %}
+            <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">
+            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time></a>
+            </h1>
+            {% endif %}
             {% include page__meta.html %}
             </header>
         {% endunless %}
