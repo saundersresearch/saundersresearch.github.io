@@ -1,9 +1,9 @@
 ---
-date: 2025-11-07 15:48:00
+date: 2025-11-07 15:48:00 -0500
 excerpt: ""
 syndicate_to: [ mastodon ]
 layout: note
-bridge-omit-link: true
+bridgy-omit-link: true
 title: Syndication
 ---
 
