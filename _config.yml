@@ -210,7 +210,7 @@ webmentions:
     bluesky:
       endpoint: https://brid.gy/publish/bluesky
       response_mapping:
-        syndication: $.uri
+        syndication: $.url
   js:
     destination: /assets/js
     deploy: false
