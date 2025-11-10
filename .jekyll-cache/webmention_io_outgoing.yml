@@ -20,23 +20,23 @@ https://adamsaunders.net/posts/vasculature-smoothing/:
   https://doi.org/10.1117/12.3047240: false
   https://github.com/MASILab/vss_fmri: false
 https://adamsaunders.net/notes/2025/10/27/test-note/:
-  https://brid.gy/publish/mastodon: 10
+  https://brid.gy/publish/mastodon: 11
 https://adamsaunders.net/notes/2025/10/28/test-note-again/:
-  https://brid.gy/publish/mastodon: 10
+  https://brid.gy/publish/mastodon: 11
 https://adamsaunders.net/notes/2025/10/29/test_node_three/:
-  https://brid.gy/publish/mastodon: 10
+  https://brid.gy/publish/mastodon: 11
 https://adamsaunders.net/notes/2025/11/05/test_note_five/:
-  https://brid.gy/publish/mastodon: 10
+  https://brid.gy/publish/mastodon: 11
 https://adamsaunders.net/notes/2025/11/05/test_note_four/:
-  https://brid.gy/publish/mastodon: 10
+  https://brid.gy/publish/mastodon: 11
 https://adamsaunders.net/notes/2025/11/05/test_note_six/:
-  https://brid.gy/publish/mastodon: 10
+  https://brid.gy/publish/mastodon: 11
 https://adamsaunders.net/notes/2025/11/05/test_note_seven/:
-  https://brid.gy/publish/mastodon: 10
+  https://brid.gy/publish/mastodon: 11
 https://adamsaunders.net/notes/2025/11/06/test_note/:
-  https://brid.gy/publish/mastodon: 10
+  https://brid.gy/publish/mastodon: 11
 https://adamsaunders.net/notes/2025/11/07/test_note/:
-  https://brid.gy/publish/mastodon: 10
+  https://brid.gy/publish/mastodon: 11
 https://adamsaunders.net/notes/2025/11/07/test_note_2/:
   https://brid.gy/publish/mastodon:
     id: '115510170828444371'
@@ -191,3 +191,7 @@ https://adamsaunders.net/notes/2025/11/07/syndication/:
       - public
       manual: []
       current_user: automatic
+https://adamsaunders.net/notes/2025/11/09/2025-11-09_bluesky_syndication/:
+  https://brid.gy/publish/bluesky:
+    id: at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3m5aktzak7a2s
+    url: https://bsky.app/profile/adamsaunders.net/post/3m5aktzak7a2s
