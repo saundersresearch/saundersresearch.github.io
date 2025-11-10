@@ -1,42 +1,42 @@
 ---
 https://adamsaunders.net/posts/spie-medical-imaging-2023/:
-  https://my.vanderbilt.edu/masi/: 3
-  https://www.zacharylipton.com/: 3
+  https://my.vanderbilt.edu/masi/: 4
+  https://www.zacharylipton.com/: 4
 https://adamsaunders.net/posts/phd-acceptance/:
   https://my.vanderbilt.edu/masi/: false
-  https://www.vanderbilt.edu/vise/: 3
+  https://www.vanderbilt.edu/vise/: 4
 https://adamsaunders.net/posts/honors-thesis/:
-  https://img.youtube.com/vi/J4TdP8eGEm4/0.jpg: 3
-  https://www.youtube.com/watch?v=J4TdP8eGEm4: 3
-  https://ecommons.udayton.edu/uhp_theses/423/: 3
+  https://img.youtube.com/vi/J4TdP8eGEm4/0.jpg: 4
+  https://www.youtube.com/watch?v=J4TdP8eGEm4: 4
+  https://ecommons.udayton.edu/uhp_theses/423/: 4
 https://adamsaunders.net/posts/eye-atlas/:
-  https://doi.org/10.1117/1.JMI.11.6.064004: 3
+  https://doi.org/10.1117/1.JMI.11.6.064004: 4
 https://adamsaunders.net/posts/quantitative-t1/:
   https://doi.org/10.1016/j.mri.2025.110322: false
 https://adamsaunders.net/posts/diffusion-smoothing/:
   https://doi.org/10.1117/12.3047240: false
-  https://github.com/MASILab/dss_fmri_atlas: 3
+  https://github.com/MASILab/dss_fmri_atlas: 4
 https://adamsaunders.net/posts/vasculature-smoothing/:
   https://doi.org/10.1117/12.3047240: false
   https://github.com/MASILab/vss_fmri: false
 https://adamsaunders.net/notes/2025/10/27/test-note/:
-  https://brid.gy/publish/mastodon: 9
+  https://brid.gy/publish/mastodon: 10
 https://adamsaunders.net/notes/2025/10/28/test-note-again/:
-  https://brid.gy/publish/mastodon: 9
+  https://brid.gy/publish/mastodon: 10
 https://adamsaunders.net/notes/2025/10/29/test_node_three/:
-  https://brid.gy/publish/mastodon: 9
+  https://brid.gy/publish/mastodon: 10
 https://adamsaunders.net/notes/2025/11/05/test_note_five/:
-  https://brid.gy/publish/mastodon: 9
+  https://brid.gy/publish/mastodon: 10
 https://adamsaunders.net/notes/2025/11/05/test_note_four/:
-  https://brid.gy/publish/mastodon: 9
+  https://brid.gy/publish/mastodon: 10
 https://adamsaunders.net/notes/2025/11/05/test_note_six/:
-  https://brid.gy/publish/mastodon: 9
+  https://brid.gy/publish/mastodon: 10
 https://adamsaunders.net/notes/2025/11/05/test_note_seven/:
-  https://brid.gy/publish/mastodon: 9
+  https://brid.gy/publish/mastodon: 10
 https://adamsaunders.net/notes/2025/11/06/test_note/:
-  https://brid.gy/publish/mastodon: 9
+  https://brid.gy/publish/mastodon: 10
 https://adamsaunders.net/notes/2025/11/07/test_note/:
-  https://brid.gy/publish/mastodon: 9
+  https://brid.gy/publish/mastodon: 10
 https://adamsaunders.net/notes/2025/11/07/test_note_2/:
   https://brid.gy/publish/mastodon:
     id: '115510170828444371'
