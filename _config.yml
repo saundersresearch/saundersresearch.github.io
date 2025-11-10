@@ -209,6 +209,8 @@ webmentions:
         username: $.account.username
     bluesky:
       endpoint: https://brid.gy/publish/bluesky
+      response_mapping:
+        syndication: $.uri
   js:
     destination: /assets/js
     deploy: false

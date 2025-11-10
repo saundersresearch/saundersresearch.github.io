@@ -70,8 +70,18 @@ layout: default
             <data class="p-bridy-omit-link" value="{{ page.bridgy-omit-link }}"></data>
             {% endif %}
 
-            {% for syndication_url in page.syndication %}
-            <div class="page__date small">Syndicated to <a class="u-syndication" href="{{ syndication_url }}">{{ syndication_url }}</a></div>
+            {% for url in page.syndication %}
+            {% if url contains 'at://' %}
+                {% assign parts = url | split: '/' %}
+                {% assign rkey = parts | last %}
+                {% assign handle = handle | default: parts[2] %}
+                {% assign resolved_url = 'https://bsky.app/profile/' | append: handle | append: '/post/' | append: rkey %}
+            {% else %}
+                {% assign resolved_url = url %}
+            {% endif %}
+
+            <div class="page__date small">Syndicated to <a class="u-syndication" href="{{ resolved_url }}">{{ resolved_url }}</a></div>
+
             {% endfor %}
 
         </footer>
