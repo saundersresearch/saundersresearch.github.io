@@ -1,5 +1,4 @@
 ---
-date: 2025-11-09 20:19:00 -0500
 excerpt: ""
 syndicate_to: [ bluesky ]
 layout: note
