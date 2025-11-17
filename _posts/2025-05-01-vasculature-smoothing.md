@@ -5,6 +5,7 @@ tags:
     - Vanderbilt MASI Lab
     - SPIE Medical Imaging
     - fMRI
+    - Research
 excerpt: We developed a method for adaptive spatial smoothing based on the vasculature in the brain.
 ---
 
