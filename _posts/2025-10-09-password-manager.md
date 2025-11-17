@@ -4,7 +4,7 @@ permalink: /posts/password-manager/
 tags:
     - Personal
 excerpt: One password to rule them all, one password to find them, one password to bring them all and in the darkness bind them.
-syndication:
+syndicate_to:
     - Mastodon
 ---
 

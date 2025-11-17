@@ -57,6 +57,21 @@ layout: default
             {% endif %}
             {% include page__taxonomy.html %}
             {% include page__date.html %}
+
+            {% for target in page.syndicate_to %}
+            {% assign synd = site.webmentions.syndication[target] %}
+            <a href="{{ synd.endpoint }}"></a>
+            {% endfor %}
+            {% if page.bridgy-omit-link %}
+            <data class="p-bridy-omit-link" value="{{ page.bridgy-omit-link }}"></data>
+            {% endif %}
+
+            {% for syndication_url in page.syndication %}
+
+            <div class="page__date small">Syndicated to <a class="u-syndication" href="{{ syndication_url }}">{{ syndication_url }}</a></div>
+
+            {% endfor %}
+
         </footer>
 
 
