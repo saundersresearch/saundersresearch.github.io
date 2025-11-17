@@ -5,7 +5,7 @@ tags:
     - Personal
 excerpt: One password to rule them all, one password to find them, one password to bring them all and in the darkness bind them.
 syndicate_to:
-    - Mastodon
+    - mastodon
 ---
 
 ## The need for password managers
