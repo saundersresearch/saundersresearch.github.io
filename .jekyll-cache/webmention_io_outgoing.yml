@@ -1,42 +1,42 @@
 ---
 https://adamsaunders.net/posts/spie-medical-imaging-2023/:
-  https://my.vanderbilt.edu/masi/: 8
-  https://www.zacharylipton.com/: 8
+  https://my.vanderbilt.edu/masi/: 9
+  https://www.zacharylipton.com/: 9
 https://adamsaunders.net/posts/phd-acceptance/:
   https://my.vanderbilt.edu/masi/: false
-  https://www.vanderbilt.edu/vise/: 8
+  https://www.vanderbilt.edu/vise/: 9
 https://adamsaunders.net/posts/honors-thesis/:
-  https://img.youtube.com/vi/J4TdP8eGEm4/0.jpg: 8
-  https://www.youtube.com/watch?v=J4TdP8eGEm4: 8
-  https://ecommons.udayton.edu/uhp_theses/423/: 8
+  https://img.youtube.com/vi/J4TdP8eGEm4/0.jpg: 9
+  https://www.youtube.com/watch?v=J4TdP8eGEm4: 9
+  https://ecommons.udayton.edu/uhp_theses/423/: 9
 https://adamsaunders.net/posts/eye-atlas/:
-  https://doi.org/10.1117/1.JMI.11.6.064004: 8
+  https://doi.org/10.1117/1.JMI.11.6.064004: 9
 https://adamsaunders.net/posts/quantitative-t1/:
   https://doi.org/10.1016/j.mri.2025.110322: false
 https://adamsaunders.net/posts/diffusion-smoothing/:
   https://doi.org/10.1117/12.3047240: false
-  https://github.com/MASILab/dss_fmri_atlas: 8
+  https://github.com/MASILab/dss_fmri_atlas: 9
 https://adamsaunders.net/posts/vasculature-smoothing/:
   https://doi.org/10.1117/12.3047240: false
   https://github.com/MASILab/vss_fmri: false
 https://adamsaunders.net/notes/2025/10/27/test-note/:
-  https://brid.gy/publish/mastodon: 22
+  https://brid.gy/publish/mastodon: 23
 https://adamsaunders.net/notes/2025/10/28/test-note-again/:
-  https://brid.gy/publish/mastodon: 22
+  https://brid.gy/publish/mastodon: 23
 https://adamsaunders.net/notes/2025/10/29/test_node_three/:
-  https://brid.gy/publish/mastodon: 22
+  https://brid.gy/publish/mastodon: 23
 https://adamsaunders.net/notes/2025/11/05/test_note_five/:
-  https://brid.gy/publish/mastodon: 22
+  https://brid.gy/publish/mastodon: 23
 https://adamsaunders.net/notes/2025/11/05/test_note_four/:
-  https://brid.gy/publish/mastodon: 22
+  https://brid.gy/publish/mastodon: 23
 https://adamsaunders.net/notes/2025/11/05/test_note_six/:
-  https://brid.gy/publish/mastodon: 22
+  https://brid.gy/publish/mastodon: 23
 https://adamsaunders.net/notes/2025/11/05/test_note_seven/:
-  https://brid.gy/publish/mastodon: 22
+  https://brid.gy/publish/mastodon: 23
 https://adamsaunders.net/notes/2025/11/06/test_note/:
-  https://brid.gy/publish/mastodon: 22
+  https://brid.gy/publish/mastodon: 23
 https://adamsaunders.net/notes/2025/11/07/test_note/:
-  https://brid.gy/publish/mastodon: 22
+  https://brid.gy/publish/mastodon: 23
 https://adamsaunders.net/notes/2025/11/07/test_note_2/:
   https://brid.gy/publish/mastodon:
     id: '115510170828444371'
@@ -203,3 +203,21 @@ https://adamsaunders.net/notes/2025/11/11/2025-11-09_bluesky_syndication/:
   https://brid.gy/publish/bluesky:
     id: at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3m5fkne3rts22
     url: https://bsky.app/profile/adamsaunders.net/post/3m5fkne3rts22
+https://adamsaunders.net/posts/password-manager/:
+  https://doi.org/10.1037/0096-1523.2.2.291: false
+  https://en.wikipedia.org/wiki/List_of_the_most_common_passwords: 1
+  https://oauth.net/2/:
+    status: queued
+    summary: Webmention was queued for processing
+    location: https://webmention.io/oauth/webmention/I3vQQmvp5IG57mcH19Ty
+    source: https://adamsaunders.net/posts/password-manager/
+    target: https://oauth.net/2/
+  https://indieweb.org/IndieAuth:
+    status: queued
+    summary: Webmention was queued for processing
+    location: https://webmention.io/indiewebcamp/webmention/s60NnARTRUX6XZbzJOau
+    source: https://adamsaunders.net/posts/password-manager/
+    target: https://indieweb.org/IndieAuth
+  ? https://www.forbes.com/sites/daveywinder/2023/03/03/why-you-should-stop-using-lastpass-after-new-hack-method-update/?sh=79b0f4bd28fc
+  : 1
+  https://keepassxc.org/: 1
