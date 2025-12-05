@@ -51,6 +51,9 @@ layout: default
                 </nav>
             </aside>
             {% endif %}
+            {% if page.photo %}
+            <img class="u-featured" src="{{ page.photo }}" alt="{{ page.alt_text | default: '' }}" />
+            {% endif %}
             {{ content }}
             {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
         </section>
@@ -67,7 +70,7 @@ layout: default
             <a href="{{ synd.endpoint }}"></a>
             {% endfor %}
             {% if page.bridgy-omit-link %}
-            <data class="p-bridy-omit-link" value="{{ page.bridgy-omit-link }}"></data>
+            <data class="p-bridgy-omit-link" value="{{ page.bridgy-omit-link }}"></data>
             {% endif %}
 
             {% for syndication_url in page.syndication %}
