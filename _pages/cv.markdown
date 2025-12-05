@@ -128,7 +128,9 @@ focused on applying artificial intelligence tools to impute missing information 
 * Hong-Jun Yoon, **Adam Saunders**, Folami Alamudun, Sajal Dash, Jacob Hinkle, and Aristeidis Tsaris. Ensemble learning of attention-based models for whole-slide imaging comprehension. Computational Approaches for Cancer Workshop, November 2022.
 
 ## Professional Outreach
-* Reviewer, _Journal of Medical Imaging_, 2024
+* Reviewer, _Medical Image Analysis_ (1 paper)
+* Reviewer, _Journal of Medical Imaging_ (1 paper)
+* Reviewer, _Scientific Reports_ (1 paper)
 * Secretary of VALIANT Attempt, Vanderbilt University, 2024 - Present
 
 ## Honors and Awards
