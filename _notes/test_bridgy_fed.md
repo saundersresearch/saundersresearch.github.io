@@ -6,4 +6,4 @@ bridgy-omit-link: false
 title: Test Bridgy Fed
 ---
 
-I am testing Bridgy Fed for federation. To do this, I need to [link to Bridgy Fed](https://fed.brid.gy/) from this note.
+I am testing Bridgy Fed for federation. To do this, I need to [link to Bridgy Fed](https://fed.brid.gy/webmention) from this note.
