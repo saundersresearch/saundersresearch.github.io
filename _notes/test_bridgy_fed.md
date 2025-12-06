@@ -7,3 +7,4 @@ title: Test Bridgy Fed
 ---
 
 I am testing Bridgy Fed for federation. To do this, I need to [link to Bridgy Fed](https://fed.brid.gy/webmention) from this note.
+<a class="u-bridgy-fed" href="https://fed.brid.gy/" hidden="from-humans"></a>
