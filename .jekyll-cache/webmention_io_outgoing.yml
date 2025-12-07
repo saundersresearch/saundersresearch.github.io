@@ -396,10 +396,3 @@ https://adamsaunders.net/notes/2025/12/04/adversarial_dolly/:
       - public
       manual: []
       current_user: automatic
-https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed/:
-  https://fed.brid.gy/: ''
-  https://fed.brid.gy/webmention: 2
-https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed_again/:
-  https://fed.brid.gy/webmention: false
-  https://fed.brid.gy: false
-  https://fed.brid.gy/: false
