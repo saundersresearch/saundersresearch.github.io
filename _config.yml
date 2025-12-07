@@ -200,7 +200,8 @@ webmentions:
     - notes
   bad_uri_policy:
     whitelist:
-      - "^https://brid.gy/publish/"
+      - "^https:\/\/brid.gy\/publish"
+      - "^https:\/\/fed.brid.gy"
   syndication:
     mastodon:
       endpoint: https://brid.gy/publish/mastodon
@@ -211,6 +212,8 @@ webmentions:
       endpoint: https://brid.gy/publish/bluesky
       response_mapping:
         syndication: $.url
+    bridgy_fed:
+      endpoint: https://fed.brid.gy
   js:
     destination: /assets/js
     deploy: false
