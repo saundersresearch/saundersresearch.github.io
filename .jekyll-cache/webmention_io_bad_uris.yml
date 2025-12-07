@@ -43,7 +43,3 @@ keepassxc.org:
   state: unsupported
   attempts: 14
   last_checked: '2025-12-07 16:33:03 -0600'
-fed.brid.gy:
-  state: unsupported
-  attempts: 1
-  last_checked: '2025-12-07 17:01:01 -0600'
