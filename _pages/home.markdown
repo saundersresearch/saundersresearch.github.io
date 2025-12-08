@@ -13,23 +13,23 @@ header:
     overlay_color: "#333"
     overlay_filter: "0.5"
 feature_row:
-  - image_path: /assets/images/frontier_selfie_square_small.jpg
+  - image_path: /assets/images/ted_talk_square_small.jpg
     alt: "Frontier Selfie"
     title: "About Me"
-    excerpt: "I am an electrical and computer engineering PhD student at Vanderbilt University performing medical imaging research in the MASI Lab."
+    excerpt: "I am an electrical and computer engineering PhD student at Vanderbilt University."
     url: /about/
     btn_label: "Learn more"
     btn_class: "btn--info"
   - image_path: /assets/images/journal_headers/mp2rage_t1map_small.png
     alt: "quantitative T1 map of brain"
     title: "My Research"
-    excerpt: "My research focuses on estimating information from MRI where we are missing data we would like to have."
+    excerpt: "My research focuses on using AI to estimate missing information from MRI."
     url: "/research/"
     btn_label: "Learn more"
     btn_class: "btn--info"
-  - image_path: /assets/images/ted_talk_square_small.jpg
+  - image_path: /assets/images/masi_fall_2025.jpeg
     title: "CV"
-    excerpt: "Learn more about my work and research experience, as well as what skills I have to offer."
+    excerpt: "See a full list of my publications and presentations."
     url: "/cv/"
     btn_label: "Learn more"
     btn_class: "btn--info"
