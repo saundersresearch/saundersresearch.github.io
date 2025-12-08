@@ -31,14 +31,6 @@
         </li>
       {% endif %}
 
-      {% if author.links %}
-        {% for link in author.links %}
-          {% if link.label and link.url %}
-            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer author"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-
       {% if author.uri %}
         <li>
           <a href="{{ author.uri }}" itemprop="url" rel="me">
@@ -240,6 +232,14 @@
         </li>
       {% endif %}
 
+      {% if author.links %}
+        {% for link in author.links %}
+          {% if link.label and link.url %}
+            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer author"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
