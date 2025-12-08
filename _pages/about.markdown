@@ -13,7 +13,7 @@ redirect_from:
         padding: 20px
     }
 </style>
-<img src="/assets/images/headshot.jpg" class="headshot">
+<img src="/assets/images/headshot_2022.jpg" class="headshot">
 
 My name is Adam Saunders. As a graduate student at Vanderbilt University in the [MASI Lab](https://my.vanderbilt.edu/masi/), I challenge myself to learn more about the world of medical imaging. My goal is to learn more from often imperfectly-acquired medical images, rooted in the idea that the pixels represent not just a picture, but a person. I have a passion for research and scientific communication, and I am working to earn a PhD. I am a member of the Vanderbilt Lab for Immersive AI Translation [(VALIANT)](https://www.vanderbilt.edu/valiant/), a multidisciplinary center of labs who work to translate AI from foundational research to application. I firmly believe that leveraging the tools of AI and machine learning is key to creating powerful, accessible, and accurate medical technologies. 
 
