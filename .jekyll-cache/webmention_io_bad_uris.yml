@@ -43,3 +43,15 @@ keepassxc.org:
   state: unsupported
   attempts: 14
   last_checked: '2025-12-07 16:33:03 -0600'
+udayton.edu:
+  state: unsupported
+  attempts: 1
+  last_checked: '2025-12-07 21:06:13 -0600'
+youtu.be:
+  state: unsupported
+  attempts: 1
+  last_checked: '2025-12-07 21:06:14 -0600'
+journal.bit.edu.cn:
+  state: unsupported
+  attempts: 1
+  last_checked: '2025-12-07 21:06:17 -0600'
