@@ -229,3 +229,4 @@ webmentions:
       endpoint: https://fed.brid.gy
   js:
     destination: /assets/js
+    uglify: false
