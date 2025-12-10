@@ -14,13 +14,14 @@
             <div class="webmention__author p-author h-card">
               {% capture author_id %}
                 {% if webmention.author.photo %}
-                  <img
+                {% capture title_attr %}
+                {% if webmention.author.name %} title="{{ webmention.author.name }}" {% endif %}
+                {% endcapture %}                  
+                <img
                     class="webmention__author__photo u-photo"
                     src="{{ webmention.author.photo }}"
                     alt=""
-                    {% if webmention.author.name %}
-                    title="{{ webmention.author.name }}"
-                    {% endif %}
+                    {{ title_attr }}
                     >
                 {% endif %}
 
