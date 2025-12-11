@@ -3,7 +3,38 @@
 "/posts/spie-medical-imaging-2023/": {}
 "/posts/phd-acceptance/": {}
 "/posts/ud-graduation/": {}
-"/posts/honors-thesis/": {}
+"/posts/honors-thesis/":
+  '1958696':
+    id: '1958696'
+    uri: https://webmention.rocks/receive/1
+    source: false
+    pubdate: 2025-12-09 20:23:04.000000000 -06:00
+    raw:
+      source: https://webmention.rocks/receive/1/248fb1b0f072490fb86151eef015f7e7
+      verified: true
+      verified_date: '2025-12-10T02:23:06+00:00'
+      id: 1958696
+      private: false
+      data:
+        author: &1
+          name: Webmention Rocks!
+          url:
+          photo: https://avatars.webmention.io/webmention.rocks/e08155b03da96cb1bdfd161ea24efdfad8d85d06afcee540ec246f1f613eb5a9.png
+        url: https://webmention.rocks/receive/1
+        name: 'Receiver Test #1'
+        content: |-
+          <p>This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the <a href="https://www.w3.org/TR/webmention/#receiving-webmentions">appropriate headers</a>.</p>
+                  <p>If your endpoint returns HTTP 201, then it MUST also return a <code>Location</code> header. If it returns HTTP 200 or 202, then it MUST NOT include a <code>Location</code> header.</p>
+        published: '2025-12-09T18:23:04-08:00'
+        published_ts: 1765333384
+      activity:
+        type: reply
+      target: https://adamsaunders.net/posts/honors-thesis/
+    author: *1
+    type: reply
+    content: |-
+      <p>This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the <a href="https://www.w3.org/TR/webmention/#receiving-webmentions">appropriate headers</a>.</p>
+              <p>If your endpoint returns HTTP 201, then it MUST also return a <code>Location</code> header. If it returns HTTP 200 or 202, then it MUST NOT include a <code>Location</code> header.</p>
 "/posts/eye-atlas/": {}
 "/posts/quantitative-t1/": {}
 "/posts/diffusion-smoothing/": {}
@@ -20,7 +51,7 @@
       id: 1948873
       private: false
       data:
-        author: &1
+        author: &2
           name: Webmention Rocks!
           url:
           photo: https://avatars.webmention.io/webmention.rocks/e08155b03da96cb1bdfd161ea24efdfad8d85d06afcee540ec246f1f613eb5a9.png
@@ -34,7 +65,7 @@
       activity:
         type: reply
       target: https://adamsaunders.net/posts/vasculature-smoothing/
-    author: *1
+    author: *2
     type: reply
     content: |-
       <p>This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the <a href="https://www.w3.org/TR/webmention/#receiving-webmentions">appropriate headers</a>.</p>
@@ -66,7 +97,7 @@
       id: 1958664
       private: false
       data:
-        author: &2
+        author: &3
           name: Adam Saunders
           url: https://indieweb.social/@adamsaunders
           photo: https://avatars.webmention.io/cdn.masto.host/e13f0f2f87de5c698d5880701e942b27e39f47b3433a5b37d84fcdb4a042e378.jpg
@@ -78,7 +109,7 @@
       activity:
         type: like
       target: https://adamsaunders.net/posts/password-manager/
-    author: *2
+    author: *3
     type: like
     content: ''
 "/notes/2025/12/04/adversarial_dolly/": {}
@@ -97,7 +128,7 @@
       id: 1958655
       private: false
       data:
-        author: &3
+        author: &4
           name: Adam Saunders
           url: https://indieweb.social/@adamsaunders
           photo: https://avatars.webmention.io/cdn.masto.host/e13f0f2f87de5c698d5880701e942b27e39f47b3433a5b37d84fcdb4a042e378.jpg
@@ -110,7 +141,7 @@
       activity:
         type: like
       target: https://adamsaunders.net/notes/2025/12/07/bridgy_fed/
-    author: *3
+    author: *4
     type: like
     content: ''
   '1958648':
@@ -125,7 +156,7 @@
       id: 1958648
       private: false
       data:
-        author: &4
+        author: &5
           name: Webmention Rocks!
           url:
           photo: https://avatars.webmention.io/webmention.rocks/e08155b03da96cb1bdfd161ea24efdfad8d85d06afcee540ec246f1f613eb5a9.png
@@ -139,7 +170,7 @@
       activity:
         type: reply
       target: https://adamsaunders.net/notes/2025/12/07/bridgy_fed/
-    author: *4
+    author: *5
     type: reply
     content: |-
       <p>This test verifies that you accept a Webmention request that contains a valid source and target URL. To pass this test, your Webmention endpoint must return either HTTP 200, 201 or 202 along with the <a href="https://www.w3.org/TR/webmention/#receiving-webmentions">appropriate headers</a>.</p>
