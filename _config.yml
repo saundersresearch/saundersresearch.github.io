@@ -175,7 +175,7 @@ defaults:
 collections:
   notes:
     output: true
-    permalink: /notes/:year/:month/:day/:title/
+    permalink: /notes/:year/:month/:day/:slug/
 
 category_archive:
   type: liquid

@@ -5,6 +5,8 @@ syndicate_to: [ mastodon ]
 layout: note
 bridgy-omit-link: true
 title: Syndication
+redirect_from:
+  - /notes/2025/11/07/2025-11-07-syndication/
 ---
 
 I should be set up so that notes syndicate from my site on Mastodon! Hopefully, replies and likes will also be sent to my site as webmentions.
