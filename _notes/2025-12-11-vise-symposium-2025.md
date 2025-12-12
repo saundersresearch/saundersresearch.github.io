@@ -1,6 +1,6 @@
 ---
 excerpt: ""
-date: 22:05 CST
+date: 2025-12-11 22:05 CST
 layout: note
 bridgy-omit-link: true
 title: VISE Symposium 2025
