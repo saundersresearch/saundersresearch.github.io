@@ -20,23 +20,23 @@ https://adamsaunders.net/posts/vasculature-smoothing/:
   https://doi.org/10.1117/12.3047240: false
   https://github.com/MASILab/vss_fmri: false
 https://adamsaunders.net/notes/2025/10/27/test-note/:
-  https://brid.gy/publish/mastodon: 74
+  https://brid.gy/publish/mastodon: 75
 https://adamsaunders.net/notes/2025/10/28/test-note-again/:
-  https://brid.gy/publish/mastodon: 74
+  https://brid.gy/publish/mastodon: 75
 https://adamsaunders.net/notes/2025/10/29/test_node_three/:
-  https://brid.gy/publish/mastodon: 74
+  https://brid.gy/publish/mastodon: 75
 https://adamsaunders.net/notes/2025/11/05/test_note_five/:
-  https://brid.gy/publish/mastodon: 74
+  https://brid.gy/publish/mastodon: 75
 https://adamsaunders.net/notes/2025/11/05/test_note_four/:
-  https://brid.gy/publish/mastodon: 74
+  https://brid.gy/publish/mastodon: 75
 https://adamsaunders.net/notes/2025/11/05/test_note_six/:
-  https://brid.gy/publish/mastodon: 74
+  https://brid.gy/publish/mastodon: 75
 https://adamsaunders.net/notes/2025/11/05/test_note_seven/:
-  https://brid.gy/publish/mastodon: 74
+  https://brid.gy/publish/mastodon: 75
 https://adamsaunders.net/notes/2025/11/06/test_note/:
-  https://brid.gy/publish/mastodon: 74
+  https://brid.gy/publish/mastodon: 75
 https://adamsaunders.net/notes/2025/11/07/test_note/:
-  https://brid.gy/publish/mastodon: 74
+  https://brid.gy/publish/mastodon: 75
 https://adamsaunders.net/notes/2025/11/07/test_note_2/:
   https://brid.gy/publish/mastodon:
     id: '115510170828444371'
@@ -204,7 +204,7 @@ https://adamsaunders.net/notes/2025/11/11/2025-11-09_bluesky_syndication/:
     id: at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3m5fkne3rts22
     url: https://bsky.app/profile/adamsaunders.net/post/3m5fkne3rts22
 https://adamsaunders.net/posts/password-manager/:
-  https://doi.org/10.1037/0096-1523.2.2.291: false
+  https://doi.org/10.1037/0096-1523.2.2.291: 1
   https://en.wikipedia.org/wiki/List_of_the_most_common_passwords: 17
   https://oauth.net/2/:
     status: queued
@@ -397,10 +397,10 @@ https://adamsaunders.net/notes/2025/12/04/adversarial_dolly/:
       manual: []
       current_user: automatic
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed/:
-  https://fed.brid.gy/webmention: 17
+  https://fed.brid.gy/webmention: 18
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed_again/:
-  https://fed.brid.gy/webmention: 16
+  https://fed.brid.gy/webmention: 17
   https://fed.brid.gy: ''
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/07/bridgy_fed_2/:
@@ -408,7 +408,7 @@ https://adamsaunders.net/notes/2025/12/07/bridgy_fed_2/:
 https://adamsaunders.net/notes/2025/12/07/bridgy_fed/:
   https://fed.brid.gy: ''
 https://adamsaunders.net/projects/:
-  https://ecommons.udayton.edu/uhp_theses/423/: false
+  https://ecommons.udayton.edu/uhp_theses/423/: 1
   https://udayton.edu/directory/engineering/electrical_and_computer/hardie_russell.php: 3
   https://youtu.be/FgrBV8P1mJo: 3
   https://udayton.edu/directory/engineering/electrical_and_computer/aspiras-theus.php: false
