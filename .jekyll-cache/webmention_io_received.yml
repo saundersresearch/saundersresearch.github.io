@@ -181,4 +181,87 @@
 "/notes/2025/11/09/bluesky-syndication/": {}
 "/notes/2025/12/04/adversarial-dolly/": {}
 "/notes/2025/12/07/bridgy-fed/": {}
-"/notes/2025/12/11/vise-symposium-2025/": {}
+"/notes/2025/12/11/vise-symposium-2025/":
+  '1959413':
+    id: '1959413'
+    uri: https://ap.brid.gy/convert/web/https://indieweb.social/users/adamsaunders%23likes/2624001
+    source: false
+    pubdate: 2025-12-12 20:42:31.000000000 +00:00
+    raw:
+      source: https://ap.brid.gy/convert/web/https://indieweb.social/users/adamsaunders%23likes/2624001
+      verified: true
+      verified_date: '2025-12-12T20:42:31+00:00'
+      id: 1959413
+      private: false
+      data:
+        author: &6
+          name: Adam Saunders
+          url: https://indieweb.social/@adamsaunders
+          photo: https://avatars.webmention.io/cdn.masto.host/e13f0f2f87de5c698d5880701e942b27e39f47b3433a5b37d84fcdb4a042e378.jpg
+        url: https://ap.brid.gy/convert/web/https://indieweb.social/users/adamsaunders%23likes/2624001
+        name:
+        content: <a href="https://adamsaunders.net/notes/2025/12/11/vise-symposium-2025/">likes
+          this.</a>
+        published:
+        published_ts:
+      activity:
+        type: like
+      target: https://adamsaunders.net/notes/2025/12/11/vise-symposium-2025/
+    author: *6
+    type: like
+    content: ''
+  '1959426':
+    id: '1959426'
+    uri: https://bsky.app/profile/adamsaunders.net/post/3m7ra7kfnan2o#liked_by_did:plc:quozz3hcdgl7dmc3ovdg42ap
+    source: false
+    pubdate: 2025-12-12 22:06:18.000000000 +00:00
+    raw:
+      source: https://brid.gy/like/bluesky/did:plc:betxd4ieuf6y5ativp7aiz3w/at%253A%252F%252Fdid%253Aplc%253Abetxd4ieuf6y5ativp7aiz3w%252Fapp.bsky.feed.post%252F3m7ra7kfnan2o/did%253Aplc%253Aquozz3hcdgl7dmc3ovdg42ap
+      verified: true
+      verified_date: '2025-12-12T22:06:18+00:00'
+      id: 1959426
+      private: false
+      data:
+        author: &7
+          name: James
+          url: https://bsky.app/profile/nonzerosumjames.bsky.social
+          photo: https://avatars.webmention.io/cdn.bsky.app/96c4772dd3552f1c19876adaf036493a029c1fb4f625cf6b8831bb5996f1fab2.jpg
+        url: https://bsky.app/profile/adamsaunders.net/post/3m7ra7kfnan2o#liked_by_did:plc:quozz3hcdgl7dmc3ovdg42ap
+        name:
+        content:
+        published:
+        published_ts:
+      activity:
+        type: like
+      target: https://adamsaunders.net/notes/2025/12/11/vise-symposium-2025/
+    author: *7
+    type: like
+    content: ''
+  '1959427':
+    id: '1959427'
+    uri: https://bsky.app/profile/did:plc:276x53foegyib4vlciyn3kd3/post/3m7ra7fltnyt2#liked_by_did:plc:quozz3hcdgl7dmc3ovdg42ap
+    source: false
+    pubdate: 2025-12-12 22:07:31.000000000 +00:00
+    raw:
+      source: https://bsky.brid.gy/convert/web/at://did:plc:quozz3hcdgl7dmc3ovdg42ap/app.bsky.feed.like/3m7t3q3rwja2s
+      verified: true
+      verified_date: '2025-12-12T22:07:31+00:00'
+      id: 1959427
+      private: false
+      data:
+        author: &8
+          name: James
+          url: https://bsky.app/profile/nonzerosumjames.bsky.social
+          photo: https://avatars.webmention.io/lionsmane.us-east.host.bsky.network/aa7fd383a10be49e3c8816c5e94c45f9d1db7d66b4a598b7e0991feecc2d53e1.jpg
+        url: https://bsky.app/profile/did:plc:276x53foegyib4vlciyn3kd3/post/3m7ra7fltnyt2#liked_by_did:plc:quozz3hcdgl7dmc3ovdg42ap
+        name:
+        content: <a href="https://adamsaunders.net/notes/2025/12/11/vise-symposium-2025/">likes
+          this.</a>
+        published:
+        published_ts:
+      activity:
+        type: like
+      target: https://adamsaunders.net/notes/2025/12/11/vise-symposium-2025/
+    author: *8
+    type: like
+    content: ''
