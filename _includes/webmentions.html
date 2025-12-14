@@ -3,7 +3,14 @@
     <h4 class="page__share-title">{{ site.data.ui-text[site.locale].webmentions_label | default: "Webmentions: " }}</h4>
   {% endif %}-->
   <h4 class = "page__share-title">Webmentions: </h4>
-  {% webmentions page.url %}
+
+  <h5 class = "page__share-title">Likes</h5>
+  {% webmention_likes page.url %}
+  
+  <h5 class = "page__share-title">Other</h5>
+  {% webmentions page.url links posts replies reposts webmentions %}
+
+
 </span>
 
 {% webmentions_js %}

@@ -89,7 +89,7 @@ author:
       url: "https://indieweb.social/@adamsaunders"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/citations?user=Z1W1b2IAAAAJ&hl=en"
+      url: "https://scholar.google.com/citations?user=P15oxm0AAAAJ"
     - label: "ORCID"
       icon: "ai ai-orcid"
       url: "https://orcid.org/0000-0003-2912-9759"
@@ -211,7 +211,7 @@ webmentions:
   templates:
     bookmarks: _includes/webmentions/bookmarks.html
     count: _includes/webmentions/count.html
-    likes: _includes/webmentions/likes.html
+    likes: _includes/webmentions/likes-custom.html
     links: _includes/webmentions/links.html
     posts: _includes/webmentions/posts.html
     replies: _includes/webmentions/replies.html
