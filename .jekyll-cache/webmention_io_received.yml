@@ -293,3 +293,31 @@
     author: *9
     type: like
     content: ''
+  '1959921':
+    id: '1959921'
+    uri: https://ap.brid.gy/convert/web/https://indieweb.social/users/adamsaunders%23likes/2627854
+    source: false
+    pubdate: 2025-12-15 16:37:58.000000000 +00:00
+    raw:
+      source: https://ap.brid.gy/convert/web/https://indieweb.social/users/adamsaunders%23likes/2627854
+      verified: true
+      verified_date: '2025-12-15T16:37:58+00:00'
+      id: 1959921
+      private: false
+      data:
+        author: &10
+          name: Adam Saunders
+          url: https://indieweb.social/@adamsaunders
+          photo: https://avatars.webmention.io/cdn.masto.host/e13f0f2f87de5c698d5880701e942b27e39f47b3433a5b37d84fcdb4a042e378.jpg
+        url: https://ap.brid.gy/convert/web/https://indieweb.social/users/adamsaunders%23likes/2627854
+        name:
+        content: <a href="https://adamsaunders.net/notes/2025/12/15/advent-of-code-2025/">likes
+          this.</a>
+        published:
+        published_ts:
+      activity:
+        type: like
+      target: https://adamsaunders.net/notes/2025/12/15/advent-of-code-2025/
+    author: *10
+    type: like
+    content: ''
