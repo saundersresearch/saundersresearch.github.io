@@ -237,5 +237,7 @@ webmentions:
     bridgy_fed:
       endpoint: https://fed.brid.gy
   js:
-    destination: /assets/js
+    deploy: false # Using my own JS file
+    source: false
+    destination: /assets/js/JekyllWebmentionIO.js
     uglify: false
