@@ -265,4 +265,31 @@
     author: *8
     type: like
     content: ''
-"/notes/2025/12/15/advent-of-code-2025/": {}
+"/notes/2025/12/15/advent-of-code-2025/":
+  '1959916':
+    id: '1959916'
+    uri: https://bsky.app/profile/adamsaunders.net/post/3m7zwecnaem2v#liked_by_did:plc:52whuubw2qeimpcl7fehb6hd
+    source: false
+    pubdate: 2025-12-15 15:44:37.000000000 +00:00
+    raw:
+      source: https://brid.gy/like/bluesky/did:plc:betxd4ieuf6y5ativp7aiz3w/at%253A%252F%252Fdid%253Aplc%253Abetxd4ieuf6y5ativp7aiz3w%252Fapp.bsky.feed.post%252F3m7zwecnaem2v/did%253Aplc%253A52whuubw2qeimpcl7fehb6hd
+      verified: true
+      verified_date: '2025-12-15T15:44:37+00:00'
+      id: 1959916
+      private: false
+      data:
+        author: &9
+          name: ''
+          url: https://bsky.app/profile/frank-schwidom.bsky.social
+          photo: https://avatars.webmention.io/cdn.bsky.app/436e67b4aa0925b34f41fea51e7a7c836fa1604ef1a4cbfd77497f3319b7f090.jpg
+        url: https://bsky.app/profile/adamsaunders.net/post/3m7zwecnaem2v#liked_by_did:plc:52whuubw2qeimpcl7fehb6hd
+        name:
+        content:
+        published:
+        published_ts:
+      activity:
+        type: like
+      target: https://adamsaunders.net/notes/2025/12/15/advent-of-code-2025/
+    author: *9
+    type: like
+    content: ''
