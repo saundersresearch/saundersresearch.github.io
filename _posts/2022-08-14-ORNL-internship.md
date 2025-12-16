@@ -6,7 +6,7 @@ tags:
 excerpt: I spent the summer at Oak Ridge National Lab, performing exciting research into designing machine learning algorithms for cancer detection from whole-slide images.
 ---
 
-![Adam Saunders with Frontier](/assets/images/frontier_selfie_square_small.JPG){: style="display:block; margin-left:auto; margin-right:auto"} 
+![Adam Saunders with Frontier](/assets/images/frontier_selfie_square_small.jpg){: style="display:block; margin-left:auto; margin-right:auto"} 
 I visited Frontier, the world's fastest supercomputer, as a part of the SULI program this summer
 {: style="text-align: center; font-size:0.7em;"}
 

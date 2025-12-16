@@ -171,6 +171,7 @@ defaults:
       webmentions: true
       bridgy_fed: true
       bridgy-omit-link: maybe
+      category: Notes
 
 collections:
   notes:

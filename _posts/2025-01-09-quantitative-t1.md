@@ -3,6 +3,8 @@ title: "Comparison and Calibration of MP2RAGE Quantitative T1 Values to Multi-TI
 permalink: /posts/quantitative-t1/
 tags: 
     - Vanderbilt MASI Lab
+category:
+    - Research
 excerpt: We found and corrected a bias in quantitative T1 methods using a patch-based deep learning model.
 ---
 

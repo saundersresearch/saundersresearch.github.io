@@ -5,6 +5,7 @@ tags:
     - Vanderbilt MASI 
     - SPIE Medical Imaging
     - fMRI
+category:
     - Research
 excerpt: We developed an atlas for adaptive smoothing in the brain based on white matter tracts.
 ---

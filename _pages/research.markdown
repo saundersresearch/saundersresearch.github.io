@@ -1,8 +1,8 @@
 ---
 title: Research
 permalink: /research/
-layout: single_tag
-filter_tag: Research
+layout: category
+taxonomy: Research
 ---
 
 I study medical imaging, with a focus in magnetic resonance images (MRI) in the brain. MRI is an incredibly powerful and flexible imaging modality, allowing us to highlight different features by tuning the parameters under which we acquire the image.
