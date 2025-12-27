@@ -363,7 +363,7 @@
       }
       if ( pubdate )
       {
-        pubdate = new Date(pubdate).getTime();
+        pubdate = new Date(pubdate / 1000).getTime();
       }
       
       webmention_object = {
