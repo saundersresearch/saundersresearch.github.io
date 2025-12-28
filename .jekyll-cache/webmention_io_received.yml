@@ -515,3 +515,31 @@
     author: *17
     type: like
     content: ''
+  '1962494':
+    id: '1962494'
+    uri: https://bsky.app/profile/did:plc:276x53foegyib4vlciyn3kd3/post/3mau7joyuol22#liked_by_did:plc:betxd4ieuf6y5ativp7aiz3w
+    source: false
+    pubdate: 2025-12-27 19:34:52.000000000 +00:00
+    raw:
+      source: https://bsky.brid.gy/convert/web/at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.like/3maykh6ipmq2y
+      verified: true
+      verified_date: '2025-12-27T19:34:52+00:00'
+      id: 1962494
+      private: false
+      data:
+        author: &18
+          name: Adam Saunders
+          url: https://bsky.app/profile/adamsaunders.net
+          photo: https://avatars.webmention.io/blusher.us-east.host.bsky.network/d0643456e008d3632b6f2ff9aa0591441033e9f2a7c176c2bcb5a1649803b7b7.jpg
+        url: https://bsky.app/profile/did:plc:276x53foegyib4vlciyn3kd3/post/3mau7joyuol22#liked_by_did:plc:betxd4ieuf6y5ativp7aiz3w
+        name:
+        content: <a href="https://adamsaunders.net/notes/2025/12/25/dolly-christmas/">likes
+          this.</a>
+        published:
+        published_ts:
+      activity:
+        type: like
+      target: https://adamsaunders.net/notes/2025/12/25/dolly-christmas/
+    author: *18
+    type: like
+    content: ''
