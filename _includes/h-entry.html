@@ -33,6 +33,7 @@
         {{ post.date | date: "%B %d, %Y at %-I:%M %p %Z" }}
         </time></a>
         </h2>
+
     {% else %}
         <i class="archive__item-except"><time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">
         {{ post.date | date: "%B %d, %Y" }}
@@ -40,6 +41,13 @@
     {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt p-summary" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
     <section class="e-content">
+        {% if post.in-reply-to %}
+        Replied to <a class="u-in-reply-to" href="{{ post.in-reply-to }}">{{ post.in-reply-to }}</a>:
+        {% elsif post.like-of %}
+        Liked <a class="u-like-of" href="{{ post.like-of }}">{{ post.like-of }}</a>.
+        {% elsif post.repost-of %}
+        Reposted <a class="u-repost-of" href="{{ post.repost-of }}">{{ post.repost-of }}</a>.
+        {% endif %}
         {{ post.content }}
     </section>
     {% if post.tags %}

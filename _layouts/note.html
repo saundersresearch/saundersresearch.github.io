@@ -54,7 +54,17 @@ layout: default
             {% if page.photo %}
             <img class="u-photo u-featured" src="{{ page.photo }}" alt="{{ page.alt_text | default: '' }}" />
             {% endif %}
+
+            {% if page.in-reply-to %}
+            Replied to <a class="u-in-reply-to" href="{{ page.in-reply-to }}">{{ page.in-reply-to }}</a>:
+            {% elsif page.like-of %}
+            Liked <a class="u-like-of" href="{{ page.like-of }}">{{ page.like-of }}</a>.
+            {% elsif page.repost-of %}
+            Reposted <a class="u-repost-of" href="{{ page.repost-of }}">{{ page.repost-of }}</a>.
+            {% endif %}
+
             {{ content }}
+
             {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
         </section>
 
