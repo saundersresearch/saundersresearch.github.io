@@ -20,23 +20,23 @@ https://adamsaunders.net/posts/vasculature-smoothing/:
   https://doi.org/10.1117/12.3047240: false
   https://github.com/MASILab/vss_fmri: false
 https://adamsaunders.net/notes/2025/10/27/test-note/:
-  https://brid.gy/publish/mastodon: 123
+  https://brid.gy/publish/mastodon: 124
 https://adamsaunders.net/notes/2025/10/28/test-note-again/:
-  https://brid.gy/publish/mastodon: 123
+  https://brid.gy/publish/mastodon: 124
 https://adamsaunders.net/notes/2025/10/29/test_node_three/:
-  https://brid.gy/publish/mastodon: 123
+  https://brid.gy/publish/mastodon: 124
 https://adamsaunders.net/notes/2025/11/05/test_note_five/:
-  https://brid.gy/publish/mastodon: 123
+  https://brid.gy/publish/mastodon: 124
 https://adamsaunders.net/notes/2025/11/05/test_note_four/:
-  https://brid.gy/publish/mastodon: 123
+  https://brid.gy/publish/mastodon: 124
 https://adamsaunders.net/notes/2025/11/05/test_note_six/:
-  https://brid.gy/publish/mastodon: 123
+  https://brid.gy/publish/mastodon: 124
 https://adamsaunders.net/notes/2025/11/05/test_note_seven/:
-  https://brid.gy/publish/mastodon: 123
+  https://brid.gy/publish/mastodon: 124
 https://adamsaunders.net/notes/2025/11/06/test_note/:
-  https://brid.gy/publish/mastodon: 123
+  https://brid.gy/publish/mastodon: 124
 https://adamsaunders.net/notes/2025/11/07/test_note/:
-  https://brid.gy/publish/mastodon: 123
+  https://brid.gy/publish/mastodon: 124
 https://adamsaunders.net/notes/2025/11/07/test_note_2/:
   https://brid.gy/publish/mastodon:
     id: '115510170828444371'
@@ -397,10 +397,10 @@ https://adamsaunders.net/notes/2025/12/04/adversarial_dolly/:
       manual: []
       current_user: automatic
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed/:
-  https://fed.brid.gy/webmention: 66
+  https://fed.brid.gy/webmention: 67
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed_again/:
-  https://fed.brid.gy/webmention: 65
+  https://fed.brid.gy/webmention: 66
   https://fed.brid.gy: ''
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/07/bridgy_fed_2/:
@@ -806,4 +806,4 @@ https://adamsaunders.net/notes/2025/12/25/dolly-christmas/:
     url: https://bsky.app/profile/adamsaunders.net/post/3mau7jv2rea2u
 https://adamsaunders.net/notes/2026/01/09/static-cms/:
   https://fed.brid.gy: ''
-  https://brid.gy/publish/mastodon: 8
+  https://brid.gy/publish/mastodon: 9
