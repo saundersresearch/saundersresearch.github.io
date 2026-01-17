@@ -1,7 +1,4 @@
 <span class="page__webmentions">
-  <!--{% if site.data.ui-text[site.locale].webmentions_label %}
-    <h4 class="page__webmentions-title">{{ site.data.ui-text[site.locale].webmentions_label | default: "Webmentions: " }}</h4>
-  {% endif %}-->
 
   <h4 class = "webmentions__title">Webmentions: </h4>
 
@@ -11,6 +8,13 @@
   <h5 class = "webmention__title">Other</h5>
   {% webmentions page.url links posts replies reposts %}
 
+  <span class = "page__meta">
+    <form class="btn btn--primary btn--large" method="get" action="https://quill.p3k.io/">
+      <input type="hidden" name="reply" value="{{ page.url | absolute_url }}">
+      <input type="hidden" name="me" value="https://commentpara.de">
+      <button type="submit" value="Reply via commentpara.de" style="all:unset; cursor:pointer;">Reply via commentpara.de</button>
+    </form>
+  </span>
 
 </span>
 
