@@ -555,7 +555,7 @@
       id: 1968373
       private: false
       data:
-        author: &21
+        author: &19
           name: Nick
           url:
           photo: https://avatars.webmention.io/commentpara.de/ef200c8b639d79d1cfbc0abf0e25f42dcbc585b4398003dd90f5a56c9d56e3bf.svg
@@ -567,7 +567,7 @@
       activity:
         type: reply
       target: https://adamsaunders.net/notes/2025/12/25/dolly-christmas/
-    author: *21
+    author: *19
     type: reply
     content: She looks very cute!
 "/notes/2026/01/09/static-cms/": {}
