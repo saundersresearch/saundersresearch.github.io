@@ -72,7 +72,7 @@ layout: default
             {% if site.data.ui-text[site.locale].meta_label %}
             <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
             {% endif %}
-            {% include page__taxonomy.html %}
+            <!-- {% include page__taxonomy.html %} -->
             {% include page__date.html %}
 
             {% for target in page.syndicate_to %}
@@ -91,9 +91,9 @@ layout: default
 
         </footer>
         
-        <span class = "page__meta">
+        <!-- <span class = "page__meta">
         <p><a href="/notes" class="btn btn--info btn--small">More Notes</a></p>
-        </span>
+        </span> -->
 
         {% if page.webmentions %}
         {% include webmentions.html %}

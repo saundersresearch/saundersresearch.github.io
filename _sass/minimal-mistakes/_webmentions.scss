@@ -1,11 +1,56 @@
 /* Compact webmentions layout */
-.webmentions {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+
+.page__webmentions {
+  margin-top: 2em;
+  border-top: 1px solid $border-color;
+  @include breakpoint(max-width $small) {
+    .btn span {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+  }
+}
+
+.page {
+  .page__webmentions {
+      position: relative;
+      float: inline-start;
+      margin-inline: 0;
+      width: 100%;
+      clear: both;
+    }
+}
+
+.webmentions__title {
+  border: none;
+  margin-bottom: 10px;
+  font-size: $type-size-6;
+  text-transform: uppercase;
+  margin-top: 2em;
+  padding-top: 0.5em;
+}
+
+.webmention__title {
+  border: none;
+  margin-top: 2em;
+  padding-top: 0.5em; 
+  margin-bottom: 10px;
+  font-size: $type-size-6;
+  text-transform: uppercase;
+}
+
+.webmentions--likes .webmentions__list {
+  display: flex;
 }
 
 .webmentions__list {
-  display: flex;
+  border: none;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -21,6 +66,7 @@
 
 .webmentions__item:last-child {
   border-bottom: none;
+  border: none;
 }
 
 .webmention__author__photo {
@@ -40,14 +86,34 @@
   -webkit-box-orient: vertical;
 }
 
-.webmention__content::after {
-  content: '…';
-  color: #999;
-}
-
 .webmention__meta {
   font-size: 0.8rem;
   color: #888;
   margin-top: 0.15rem;
 }
 
+
+// .webmentions__title {
+//   margin-top: 50px;
+//   margin-bottom: 10px;
+//   font-size: $type-size-6;
+//   text-transform: uppercase;
+// }
+
+// .page__comments-form {
+//   -webkit-transition: $global-transition;
+//   transition: $global-transition;
+
+//   &.disabled {
+//     input,
+//     button,
+//     textarea,
+//     label {
+//       pointer-events: none;
+//       cursor: not-allowed;
+//       filter: alpha(opacity=65);
+//       box-shadow: none;
+//       opacity: 0.65;
+//     }
+//   }
+// }
