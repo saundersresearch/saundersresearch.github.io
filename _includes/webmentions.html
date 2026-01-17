@@ -10,6 +10,7 @@
 
   <span class = "page__meta">
     <form class="btn btn--primary btn--large" method="get" action="https://quill.p3k.io/">
+      <input type="hidden" name="dontask" value="1">
       <input type="hidden" name="reply" value="{{ page.url | absolute_url }}">
       <input type="hidden" name="me" value="https://commentpara.de">
       <button type="submit" value="Reply via commentpara.de" style="all:unset; cursor:pointer;">Reply via commentpara.de</button>
