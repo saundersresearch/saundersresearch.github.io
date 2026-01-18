@@ -8,4 +8,4 @@ title: aboutideasnow.com
 tags:
 - IndieWeb
 ---
-I've added a /now and /ideas page on my site to share what I'm up to and ideas I'm thinking over. Inspired by [aboutideasnow.com](https://aboutideasnow.com)! #IndieWeb
+I've added a /now and /ideas page on [adamsaunders.net](https://adamsaunders.net) to share what I'm up to and ideas I'm thinking over. Inspired by [aboutideasnow.com](https://aboutideasnow.com)! #IndieWeb
