@@ -1,9 +1,11 @@
 ---
 title: Ideas
 permalink: /ideas/
+last_modified_at: 2026-01-18
 ---
 
-A list of ideas, goals, or projects that I'm thinking about. See [aboutideasnow.com/about](https://aboutideasnow.com/about).
+Here's list of ideas, goals, or projects that I'm thinking about. See [aboutideasnow.com/about](https://aboutideasnow.com/about).
+{: .notice--info} 
 
 - Create a page with games and small apps I've built
 - 100% Legend of Zelda: Twilight Princess
@@ -20,5 +22,12 @@ A list of ideas, goals, or projects that I'm thinking about. See [aboutideasnow.
 - Set up an RSS feed aggregator, potentially with IndieWeb integration
 - Create a way to log radio signals I receive and map them on my site
 - Share a technical deep dive on a very specific topic I've worked on (e.g., rotating spherical harmonics)
-- Add a now page like [nownownow.com](https://nownownow.com/)
 - Set up a retro handheld gaming device
+
+### Completed
+- Add a [now page](/now)
+
+### More
+[About](/about){: .btn .btn--info}
+[Ideas](/ideas){: .btn .btn--info}
+[Now](/now){: .btn .btn--info}
