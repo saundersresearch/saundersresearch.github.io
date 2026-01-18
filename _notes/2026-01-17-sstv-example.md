@@ -1,11 +1,11 @@
 ---
 excerpt: ""
-date: 2026-01-17 8:22 CST
+date: 2026-01-17 8:39 CST
 layout: note
 bridgy-omit-link: true
 syndicate_to: [ bridgy_fed, mastodon, bluesky ]
 photo: /assets/images/notes/sstv_example.jpg
-reply-to: https://adamsaunders.net/notes/2026/01/17/random-wire-antenna/
+in-reply-to: https://adamsaunders.net/notes/2026/01/17/random-wire-antenna/
 tags:
 - hamradio
 ---
