@@ -1,8 +1,8 @@
 ---
 title: Now
 permalink: /now/
-layout: single
-last_modified_at: 2026-01-18
+date: 2026-01-18
+show_date: true
 ---
 
 Here's what's happening in my life currently. See [aboutideasnow.com/about](https://aboutideasnow.com/about).

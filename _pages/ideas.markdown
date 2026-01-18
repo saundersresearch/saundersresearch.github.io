@@ -1,7 +1,8 @@
 ---
 title: Ideas
 permalink: /ideas/
-last_modified_at: 2026-01-18
+date: 2026-01-18
+show_date: true
 ---
 
 Here's list of ideas, goals, or projects that I'm thinking about. See [aboutideasnow.com/about](https://aboutideasnow.com/about).
