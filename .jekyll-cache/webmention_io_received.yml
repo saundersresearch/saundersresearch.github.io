@@ -571,7 +571,38 @@
     type: reply
     content: She looks very cute!
 "/notes/2026/01/09/static-cms/": {}
-"/notes/2026/01/17/random-wire-antenna/": {}
+"/notes/2026/01/17/random-wire-antenna/":
+  '1968530':
+    id: '1968530'
+    uri: https://bsky.app/profile/adamsaunders.net/post/3mco55jznc32w
+    source: false
+    pubdate: 2026-01-17 08:39:00.000000000 -06:00
+    raw:
+      source: https://brid.gy/comment/bluesky/did:plc:betxd4ieuf6y5ativp7aiz3w/at%253A%252F%252Fdid%253Aplc%253Abetxd4ieuf6y5ativp7aiz3w%252Fapp.bsky.feed.post%252F3mco2zhid6b27/at%253A%252F%252Fdid%253Aplc%253Abetxd4ieuf6y5ativp7aiz3w%252Fapp.bsky.feed.post%252F3mco55jznc32w
+      verified: true
+      verified_date: '2026-01-18T04:20:19+00:00'
+      id: 1968530
+      private: false
+      data:
+        author: &20
+          name: Adam Saunders
+          url: https://bsky.app/profile/adamsaunders.net
+          photo: https://avatars.webmention.io/cdn.bsky.app/d44327e85118bc294ab054549661a7b6a9d225c4e5391b145cdb7964ea81c45b.jpg
+        url: https://bsky.app/profile/adamsaunders.net/post/3mco55jznc32w
+        name:
+        content: |-
+          I never knew people sent images across the world that I can decode with a long wire and a $25 software-defined radio USB. The results were shockingly clear! <a href="https://bsky.app/search?q=%23hamradio">#hamradio</a>
+          <a class="p-category" href="https://bsky.app/search?q=%23Notes">Notes</a>
+        published: '2026-01-17T14:39:00+00:00'
+        published_ts: 1768660740
+      activity:
+        type: reply
+      target: https://adamsaunders.net/notes/2026/01/17/random-wire-antenna/
+    author: *20
+    type: reply
+    content: |-
+      I never knew people sent images across the world that I can decode with a long wire and a $25 software-defined radio USB. The results were shockingly clear! <a href="https://bsky.app/search?q=%23hamradio">#hamradio</a>
+      <a class="p-category" href="https://bsky.app/search?q=%23Notes">Notes</a>
 "/notes/2026/01/17/sstv/": {}
 "/notes/2026/01/17/sstv-example/": {}
 "/notes/2026/01/17/sstv-example-image/": {}
