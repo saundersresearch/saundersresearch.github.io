@@ -1,6 +1,6 @@
 ---
 excerpt: ""
-date: 2026-01-17 8:39 CST
+date: 2026-01-18 3:05 CST
 layout: note
 bridgy-omit-link: true
 syndicate_to: [ bridgy_fed, mastodon, bluesky ]
