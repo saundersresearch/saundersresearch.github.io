@@ -52,7 +52,11 @@
     </p>
     {% endif %}
     <section class="e-content">
+        {% if post.layout == "note" %}
+        {{ post.content | remove: '<p>' | remove: '</p>'  }}
+        {% else %}
         {{ post.content }}
+        {% endif %}
     </section>
     {% if post.tags %}
     {% for tag in post.tags %}
