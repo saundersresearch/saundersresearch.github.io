@@ -92,28 +92,7 @@
   margin-top: 0.15rem;
 }
 
-
-// .webmentions__title {
-//   margin-top: 50px;
-//   margin-bottom: 10px;
-//   font-size: $type-size-6;
-//   text-transform: uppercase;
-// }
-
-// .page__comments-form {
-//   -webkit-transition: $global-transition;
-//   transition: $global-transition;
-
-//   &.disabled {
-//     input,
-//     button,
-//     textarea,
-//     label {
-//       pointer-events: none;
-//       cursor: not-allowed;
-//       filter: alpha(opacity=65);
-//       box-shadow: none;
-//       opacity: 0.65;
-//     }
-//   }
-// }
+.page__photo {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
