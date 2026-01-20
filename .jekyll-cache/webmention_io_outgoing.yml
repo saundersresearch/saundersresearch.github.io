@@ -20,23 +20,23 @@ https://adamsaunders.net/posts/vasculature-smoothing/:
   https://doi.org/10.1117/12.3047240: false
   https://github.com/MASILab/vss_fmri: false
 https://adamsaunders.net/notes/2025/10/27/test-note/:
-  https://brid.gy/publish/mastodon: 144
+  https://brid.gy/publish/mastodon: 145
 https://adamsaunders.net/notes/2025/10/28/test-note-again/:
-  https://brid.gy/publish/mastodon: 144
+  https://brid.gy/publish/mastodon: 145
 https://adamsaunders.net/notes/2025/10/29/test_node_three/:
-  https://brid.gy/publish/mastodon: 144
+  https://brid.gy/publish/mastodon: 145
 https://adamsaunders.net/notes/2025/11/05/test_note_five/:
-  https://brid.gy/publish/mastodon: 144
+  https://brid.gy/publish/mastodon: 145
 https://adamsaunders.net/notes/2025/11/05/test_note_four/:
-  https://brid.gy/publish/mastodon: 144
+  https://brid.gy/publish/mastodon: 145
 https://adamsaunders.net/notes/2025/11/05/test_note_six/:
-  https://brid.gy/publish/mastodon: 144
+  https://brid.gy/publish/mastodon: 145
 https://adamsaunders.net/notes/2025/11/05/test_note_seven/:
-  https://brid.gy/publish/mastodon: 144
+  https://brid.gy/publish/mastodon: 145
 https://adamsaunders.net/notes/2025/11/06/test_note/:
-  https://brid.gy/publish/mastodon: 144
+  https://brid.gy/publish/mastodon: 145
 https://adamsaunders.net/notes/2025/11/07/test_note/:
-  https://brid.gy/publish/mastodon: 144
+  https://brid.gy/publish/mastodon: 145
 https://adamsaunders.net/notes/2025/11/07/test_note_2/:
   https://brid.gy/publish/mastodon:
     id: '115510170828444371'
@@ -397,10 +397,10 @@ https://adamsaunders.net/notes/2025/12/04/adversarial_dolly/:
       manual: []
       current_user: automatic
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed/:
-  https://fed.brid.gy/webmention: 87
+  https://fed.brid.gy/webmention: 88
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed_again/:
-  https://fed.brid.gy/webmention: 86
+  https://fed.brid.gy/webmention: 87
   https://fed.brid.gy: ''
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/07/bridgy_fed_2/:
@@ -806,7 +806,7 @@ https://adamsaunders.net/notes/2025/12/25/dolly-christmas/:
     url: https://bsky.app/profile/adamsaunders.net/post/3mau7jv2rea2u
 https://adamsaunders.net/notes/2026/01/09/static-cms/:
   https://fed.brid.gy: ''
-  https://brid.gy/publish/mastodon: 29
+  https://brid.gy/publish/mastodon: 30
 https://adamsaunders.net/notes/2026/01/17/random-wire-antenna/:
   https://fed.brid.gy: ''
   https://brid.gy/publish/mastodon:
@@ -989,7 +989,7 @@ https://adamsaunders.net/notes/2026/01/17/sstv/:
       - public
       manual: []
       current_user: automatic
-  https://brid.gy/publish/bluesky: 11
+  https://brid.gy/publish/bluesky: 12
 https://adamsaunders.net/notes/2026/01/17/sstv-example/:
   https://fed.brid.gy: ''
   https://brid.gy/publish/mastodon:
@@ -1286,7 +1286,7 @@ https://adamsaunders.net/notes/2026/01/17/about-ideas-now/:
     location: https://webmention.io/adamsaunders.net/webmention/aR2QOClO0K2hlNx9r1dP
     source: https://adamsaunders.net/notes/2026/01/17/about-ideas-now/
     target: https://adamsaunders.net
-  https://aboutideasnow.com: 1
+  https://aboutideasnow.com: 2
 https://adamsaunders.net/notes/2026/01/18/aboutideasnow/:
   https://fed.brid.gy: ''
   https://brid.gy/publish/mastodon:
