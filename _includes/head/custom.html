@@ -9,5 +9,17 @@
 <link rel="manifest" href="/assets/images/site.webmanifest">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
+{% if page.css %}
+  {% for css in page.css %}
+    <link rel="stylesheet" href="{{ css | relative_url }}">
+  {% endfor %}
+{% endif %}
+
+{% if page.scripts %}
+  {% for script in page.scripts %}
+    <script src="{{ script | relative_url }}" defer></script>
+  {% endfor %}
+{% endif %}
+
 {% webmentions_head %}
 <!-- end custom head snippets -->
