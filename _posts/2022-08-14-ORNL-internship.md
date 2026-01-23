@@ -1,6 +1,6 @@
 ---
 title: "Using Supercomputers to Detect Cancer: My Summer at Oak Ridge National Lab"
-permalink: /posts/ornl-internship/
+redirect_from: /posts/ornl-internship/
 tags: 
     - Oak Ridge National Laboratory
 excerpt: I spent the summer at Oak Ridge National Lab, performing exciting research into designing machine learning algorithms for cancer detection from whole-slide images.

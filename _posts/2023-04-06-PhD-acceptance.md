@@ -1,6 +1,6 @@
 ---
 title: "I Accepted a PhD Offer at Vanderbilt!"
-permalink: /posts/phd-acceptance/
+redirect_from: /posts/phd-acceptance/
 tags: 
     - Vanderbilt MASI Lab
 excerpt: I accepted a PhD offer from Vanderbilt University at the MASI Lab under Dr. Bennett Landman.

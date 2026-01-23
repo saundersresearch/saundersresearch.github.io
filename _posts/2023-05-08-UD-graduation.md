@@ -1,6 +1,6 @@
 ---
 title: "Graduation from University of Dayton"
-permalink: /posts/ud-graduation/
+redirect_from: /posts/ud-graduation/
 tags: 
     - University of Dayton
 excerpt: I graduated summa cum laude from the University of Dayton with a Bachelor of Electrical Engineering.

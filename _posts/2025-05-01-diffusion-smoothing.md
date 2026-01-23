@@ -1,6 +1,6 @@
 ---
 title: "A 4D atlas of diffusion-informed spatial smoothing windows for BOLD signal in white matter"
-permalink: /posts/diffusion-smoothing/
+redirect_from: /posts/diffusion-smoothing/
 tags: 
     - Vanderbilt MASI 
     - SPIE Medical Imaging

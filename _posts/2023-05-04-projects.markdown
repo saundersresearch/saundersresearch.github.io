@@ -1,6 +1,6 @@
 ---
 title: Undergraduate Projects
-permalink: /projects/
+redirect_from: /projects/
 toc: true
 toc_label: "Contents"
 toc_icon: None

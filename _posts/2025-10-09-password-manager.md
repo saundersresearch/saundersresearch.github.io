@@ -1,6 +1,6 @@
 ---
 title: How I've set up a password manager, and why you should too
-permalink: /posts/password-manager/
+redirect_from: /posts/password-manager/
 category:
     - Personal
 excerpt: One password to rule them all, one password to find them, one password to bring them all and in the darkness bind them.

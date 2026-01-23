@@ -1,6 +1,6 @@
 ---
 title: "Vasculature-informed spatial smoothing of white matter functional magnetic resonance imaging"
-permalink: /posts/vasculature-smoothing/
+redirect_from: /posts/vasculature-smoothing/
 tags: 
     - Vanderbilt MASI Lab
     - SPIE Medical Imaging

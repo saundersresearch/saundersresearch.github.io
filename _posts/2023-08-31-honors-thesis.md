@@ -1,6 +1,6 @@
 ---
 title: "Deep Learning for a Healthier World: Detecting and Grading Diabetic Retinopathy"
-permalink: /posts/honors-thesis/
+redirect_from: /posts/honors-thesis/
 tags: 
     - University of Dayton
 excerpt: I presented a TED-style talk highlighting the aims of my honors thesis research into diabetic retinopathy imaging and deep learning.

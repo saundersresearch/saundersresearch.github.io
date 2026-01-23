@@ -1,6 +1,6 @@
 ---
 title: "Comparison and Calibration of MP2RAGE Quantitative T1 Values to Multi-TI Inversion Recovery T1 Values"
-permalink: /posts/quantitative-t1/
+redirect_from: /posts/quantitative-t1/
 tags: 
     - Vanderbilt MASI Lab
 category:
