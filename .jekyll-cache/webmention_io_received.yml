@@ -666,3 +666,41 @@
 "/notes/2026/01/17/sstv-example-image/": {}
 "/notes/2026/01/17/about-ideas-now/": {}
 "/notes/2026/01/18/aboutideasnow/": {}
+"/posts/2022/08/14/ORNL-internship/": {}
+"/posts/2023/03/08/SPIE-2023/": {}
+"/posts/2023/04/06/PhD-acceptance/": {}
+"/posts/2023/05/04/projects/": {}
+"/posts/2023/05/08/UD-graduation/": {}
+"/posts/2023/08/31/honors-thesis/": {}
+"/posts/2024/11/14/eye-atlas/": {}
+"/posts/2025/01/09/quantitative-t1/": {}
+"/posts/2025/05/01/diffusion-smoothing/": {}
+"/posts/2025/05/01/vasculature-smoothing/": {}
+"/posts/2025/10/09/password-manager/":
+  '1958664':
+    id: '1958664'
+    uri: https://indieweb.social/@adamsaunders/115562859821082009#favorited-by-115338993822150008
+    source: false
+    pubdate: 2025-12-09 22:44:52.000000000 +00:00
+    raw:
+      source: https://brid.gy/like/mastodon/@adamsaunders@indieweb.social/115562859821082009/115338993822150008
+      verified: true
+      verified_date: '2025-12-09T22:44:52+00:00'
+      id: 1958664
+      private: false
+      data:
+        author: &23
+          name: Adam Saunders
+          url: https://indieweb.social/@adamsaunders
+          photo: https://avatars.webmention.io/cdn.masto.host/e13f0f2f87de5c698d5880701e942b27e39f47b3433a5b37d84fcdb4a042e378.jpg
+        url: https://indieweb.social/@adamsaunders/115562859821082009#favorited-by-115338993822150008
+        name:
+        content:
+        published:
+        published_ts:
+      activity:
+        type: like
+      target: https://adamsaunders.net/posts/password-manager/
+    author: *23
+    type: like
+    content: ''
