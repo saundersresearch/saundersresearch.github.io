@@ -379,10 +379,10 @@ https://adamsaunders.net/notes/2025/12/04/adversarial_dolly/:
       manual: []
       current_user: automatic
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed/:
-  https://fed.brid.gy/webmention: 175
+  https://fed.brid.gy/webmention: 176
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed_again/:
-  https://fed.brid.gy/webmention: 174
+  https://fed.brid.gy/webmention: 175
   https://fed.brid.gy: ''
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/07/bridgy_fed_2/:
@@ -788,7 +788,7 @@ https://adamsaunders.net/notes/2025/12/25/dolly-christmas/:
     url: https://bsky.app/profile/adamsaunders.net/post/3mau7jv2rea2u
 https://adamsaunders.net/notes/2026/01/09/static-cms/:
   https://fed.brid.gy: ''
-  https://brid.gy/publish/mastodon: 117
+  https://brid.gy/publish/mastodon: 118
 https://adamsaunders.net/notes/2026/01/17/random-wire-antenna/:
   https://fed.brid.gy: ''
   https://brid.gy/publish/mastodon:
