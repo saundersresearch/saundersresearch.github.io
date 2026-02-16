@@ -63,3 +63,7 @@ aboutideasnow.com:
   state: unsupported
   attempts: 20
   last_checked: '2026-02-16 10:52:24 -0600'
+bsky.app:
+  state: unsupported
+  attempts: 1
+  last_checked: '2026-02-16 11:10:33 -0600'
