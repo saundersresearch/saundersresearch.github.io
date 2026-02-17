@@ -825,4 +825,33 @@
     content: Welcome back, Adam! ????????????
 "/notes/2026/02/16/1771275960/": {}
 "/notes/2026/02/17/1771311006/": {}
-"/notes/2026/02/17/1771312138/": {}
+"/notes/2026/02/17/1771312138/":
+  '1976481':
+    id: '1976481'
+    uri: https://bsky.app/profile/adamsaunders.net/post/3mezzd67bjc2r
+    source: false
+    pubdate: 2026-02-17 01:14:24.000000000 -06:00
+    raw:
+      source: https://brid.gy/comment/bluesky/did:plc:betxd4ieuf6y5ativp7aiz3w/at%253A%252F%252Fdid%253Aplc%253Abetxd4ieuf6y5ativp7aiz3w%252Fapp.bsky.feed.post%252F3mezz6g7rvi22/at%253A%252F%252Fdid%253Aplc%253Abetxd4ieuf6y5ativp7aiz3w%252Fapp.bsky.feed.post%252F3mezzd67bjc2r
+      verified: true
+      verified_date: '2026-02-17T07:19:45+00:00'
+      id: 1976481
+      private: false
+      data:
+        author: &27
+          name: Adam Saunders
+          url: https://bsky.app/profile/adamsaunders.net
+          photo: https://avatars.webmention.io/cdn.bsky.app/d44327e85118bc294ab054549661a7b6a9d225c4e5391b145cdb7964ea81c45b.jpg
+        url: https://bsky.app/profile/adamsaunders.net/post/3mezzd67bjc2r
+        name:
+        content: <a href="https://bsky.app/profile/did:plc:kqywjzp7tszpxhb3p36o2dy2">@spie.org</a>
+          <a href="https://bsky.app/profile/did:plc:liye3wpk5tnhrxf4ifdgsgwq">@vandyvaliant.bsky.social</a>
+        published: '2026-02-17T07:14:24+00:00'
+        published_ts: 1771312464
+      activity:
+        type: reply
+      target: https://adamsaunders.net/notes/2026/02/17/1771312138/
+    author: *27
+    type: reply
+    content: <a href="https://bsky.app/profile/did:plc:kqywjzp7tszpxhb3p36o2dy2">@spie.org</a>
+      <a href="https://bsky.app/profile/did:plc:liye3wpk5tnhrxf4ifdgsgwq">@vandyvaliant.bsky.social</a>
