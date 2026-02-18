@@ -42,7 +42,7 @@ layout: default
             </header>
         {% endunless %}
 
-        {% if page.in-reply-to or page.like-of or page.repost-of %}
+        {% if page.in-reply-to or page.like-of or page.repost-of or page.bookmark-of %}
         <p class="notice">
         {% if page.in-reply-to %}
         Replied to <a class="u-in-reply-to" href="{{ page.in-reply-to }}">{{ page.in-reply-to }}</a>:
@@ -50,6 +50,8 @@ layout: default
         Liked <a class="u-like-of" href="{{ page.like-of }}">{{ page.like-of }}</a>.
         {% elsif page.repost-of %}
         Reposted <a class="u-repost-of" href="{{ page.repost-of }}">{{ page.repost-of }}</a>.
+        {% elsif page.bookmark-of %}
+        Bookmarked <a class="u-bookmark-of" href="{{ page.bookmark-of }}">{{ page.bookmark-of }}</a>.
         {% endif %}
         </p>
         {% endif %}
