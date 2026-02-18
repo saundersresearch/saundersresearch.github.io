@@ -823,6 +823,33 @@
     author: *26
     type: reply
     content: Welcome back, Adam! ????????????
+  '1976664':
+    id: '1976664'
+    uri: https://bsky.app/profile/adamsaunders.net/post/3meyk67ud5d2q#liked_by_did:plc:irlk6date3bwhoavai6mch7f
+    source: false
+    pubdate: 2026-02-17 18:16:58.000000000 +00:00
+    raw:
+      source: https://brid.gy/like/bluesky/did:plc:betxd4ieuf6y5ativp7aiz3w/at%253A%252F%252Fdid%253Aplc%253Abetxd4ieuf6y5ativp7aiz3w%252Fapp.bsky.feed.post%252F3meyk67ud5d2q/did%253Aplc%253Airlk6date3bwhoavai6mch7f
+      verified: true
+      verified_date: '2026-02-17T18:16:58+00:00'
+      id: 1976664
+      private: false
+      data:
+        author: &27
+          name: Elyssa McMaster
+          url: https://bsky.app/profile/elyssamcmaster.bsky.social
+          photo: https://avatars.webmention.io/cdn.bsky.app/8e32dca959ca0f79d1a71bc1175ac8323d4b313e8ff3eb80333771dfed05ada1.jpg
+        url: https://bsky.app/profile/adamsaunders.net/post/3meyk67ud5d2q#liked_by_did:plc:irlk6date3bwhoavai6mch7f
+        name:
+        content:
+        published:
+        published_ts:
+      activity:
+        type: like
+      target: https://adamsaunders.net/notes/2026/02/16/1771261359/
+    author: *27
+    type: like
+    content: ''
 "/notes/2026/02/16/1771275960/": {}
 "/notes/2026/02/17/1771311006/": {}
 "/notes/2026/02/17/1771312138/":
@@ -838,7 +865,7 @@
       id: 1976481
       private: false
       data:
-        author: &27
+        author: &28
           name: Adam Saunders
           url: https://bsky.app/profile/adamsaunders.net
           photo: https://avatars.webmention.io/cdn.bsky.app/d44327e85118bc294ab054549661a7b6a9d225c4e5391b145cdb7964ea81c45b.jpg
@@ -851,8 +878,143 @@
       activity:
         type: reply
       target: https://adamsaunders.net/notes/2026/02/17/1771312138/
-    author: *27
+    author: *28
     type: reply
     content: <a href="https://bsky.app/profile/did:plc:kqywjzp7tszpxhb3p36o2dy2">@spie.org</a>
       <a href="https://bsky.app/profile/did:plc:liye3wpk5tnhrxf4ifdgsgwq">@vandyvaliant.bsky.social</a>
+  '1976661':
+    id: '1976661'
+    uri: https://bsky.app/profile/adamsaunders.net/post/3mezz6g7rvi22#liked_by_did:plc:irlk6date3bwhoavai6mch7f
+    source: false
+    pubdate: 2026-02-17 18:16:39.000000000 +00:00
+    raw:
+      source: https://brid.gy/like/bluesky/did:plc:betxd4ieuf6y5ativp7aiz3w/at%253A%252F%252Fdid%253Aplc%253Abetxd4ieuf6y5ativp7aiz3w%252Fapp.bsky.feed.post%252F3mezz6g7rvi22/did%253Aplc%253Airlk6date3bwhoavai6mch7f
+      verified: true
+      verified_date: '2026-02-17T18:16:39+00:00'
+      id: 1976661
+      private: false
+      data:
+        author: &29
+          name: Elyssa McMaster
+          url: https://bsky.app/profile/elyssamcmaster.bsky.social
+          photo: https://avatars.webmention.io/cdn.bsky.app/8e32dca959ca0f79d1a71bc1175ac8323d4b313e8ff3eb80333771dfed05ada1.jpg
+        url: https://bsky.app/profile/adamsaunders.net/post/3mezz6g7rvi22#liked_by_did:plc:irlk6date3bwhoavai6mch7f
+        name:
+        content:
+        published:
+        published_ts:
+      activity:
+        type: like
+      target: https://adamsaunders.net/notes/2026/02/17/1771312138/
+    author: *29
+    type: like
+    content: ''
+  '1976660':
+    id: '1976660'
+    uri: https://bsky.app/profile/adamsaunders.net/post/3mezz6g7rvi22#liked_by_did:plc:kqywjzp7tszpxhb3p36o2dy2
+    source: false
+    pubdate: 2026-02-17 18:16:38.000000000 +00:00
+    raw:
+      source: https://brid.gy/like/bluesky/did:plc:betxd4ieuf6y5ativp7aiz3w/at%253A%252F%252Fdid%253Aplc%253Abetxd4ieuf6y5ativp7aiz3w%252Fapp.bsky.feed.post%252F3mezz6g7rvi22/did%253Aplc%253Akqywjzp7tszpxhb3p36o2dy2
+      verified: true
+      verified_date: '2026-02-17T18:16:38+00:00'
+      id: 1976660
+      private: false
+      data:
+        author: &30
+          name: SPIE
+          url: https://bsky.app/profile/spie.org
+          photo: https://avatars.webmention.io/cdn.bsky.app/2384a9aad7ada7de1092975948a88b69d736995c6e2eb6868312c6aba1510505.jpg
+        url: https://bsky.app/profile/adamsaunders.net/post/3mezz6g7rvi22#liked_by_did:plc:kqywjzp7tszpxhb3p36o2dy2
+        name:
+        content:
+        published:
+        published_ts:
+      activity:
+        type: like
+      target: https://adamsaunders.net/notes/2026/02/17/1771312138/
+    author: *30
+    type: like
+    content: ''
+  '1976662':
+    id: '1976662'
+    uri: https://bsky.app/profile/adamsaunders.net/post/3mezz6g7rvi22#reposted_by_did:plc:kqywjzp7tszpxhb3p36o2dy2
+    source: false
+    pubdate: 2026-02-17 18:16:48.000000000 +00:00
+    raw:
+      source: https://brid.gy/repost/bluesky/did:plc:betxd4ieuf6y5ativp7aiz3w/at%253A%252F%252Fdid%253Aplc%253Abetxd4ieuf6y5ativp7aiz3w%252Fapp.bsky.feed.post%252F3mezz6g7rvi22/did%253Aplc%253Akqywjzp7tszpxhb3p36o2dy2
+      verified: true
+      verified_date: '2026-02-17T18:16:48+00:00'
+      id: 1976662
+      private: false
+      data:
+        author: &31
+          name: SPIE
+          url: https://bsky.app/profile/spie.org
+          photo: https://avatars.webmention.io/cdn.bsky.app/2384a9aad7ada7de1092975948a88b69d736995c6e2eb6868312c6aba1510505.jpg
+        url: https://bsky.app/profile/adamsaunders.net/post/3mezz6g7rvi22#reposted_by_did:plc:kqywjzp7tszpxhb3p36o2dy2
+        name:
+        content:
+        published:
+        published_ts:
+      activity:
+        type: repost
+      target: https://adamsaunders.net/notes/2026/02/17/1771312138/
+    author: *31
+    type: repost
+    content: ''
+  '1976663':
+    id: '1976663'
+    uri: https://bsky.app/profile/adamsaunders.net/post/3mezz6g7rvi22#reposted_by_did:plc:irlk6date3bwhoavai6mch7f
+    source: false
+    pubdate: 2026-02-17 18:16:57.000000000 +00:00
+    raw:
+      source: https://brid.gy/repost/bluesky/did:plc:betxd4ieuf6y5ativp7aiz3w/at%253A%252F%252Fdid%253Aplc%253Abetxd4ieuf6y5ativp7aiz3w%252Fapp.bsky.feed.post%252F3mezz6g7rvi22/did%253Aplc%253Airlk6date3bwhoavai6mch7f
+      verified: true
+      verified_date: '2026-02-17T18:16:57+00:00'
+      id: 1976663
+      private: false
+      data:
+        author: &32
+          name: Elyssa McMaster
+          url: https://bsky.app/profile/elyssamcmaster.bsky.social
+          photo: https://avatars.webmention.io/cdn.bsky.app/8e32dca959ca0f79d1a71bc1175ac8323d4b313e8ff3eb80333771dfed05ada1.jpg
+        url: https://bsky.app/profile/adamsaunders.net/post/3mezz6g7rvi22#reposted_by_did:plc:irlk6date3bwhoavai6mch7f
+        name:
+        content:
+        published:
+        published_ts:
+      activity:
+        type: repost
+      target: https://adamsaunders.net/notes/2026/02/17/1771312138/
+    author: *32
+    type: repost
+    content: ''
+  '1976667':
+    id: '1976667'
+    uri: https://bsky.app/profile/adamsaunders.net/post/3mezz6g7rvi22#liked_by_did:plc:6cq67q2ijx7oulnvqjg55htr
+    source: false
+    pubdate: 2026-02-17 18:55:09.000000000 +00:00
+    raw:
+      source: https://brid.gy/like/bluesky/did:plc:betxd4ieuf6y5ativp7aiz3w/at%253A%252F%252Fdid%253Aplc%253Abetxd4ieuf6y5ativp7aiz3w%252Fapp.bsky.feed.post%252F3mezz6g7rvi22/did%253Aplc%253A6cq67q2ijx7oulnvqjg55htr
+      verified: true
+      verified_date: '2026-02-17T18:55:09+00:00'
+      id: 1976667
+      private: false
+      data:
+        author: &33
+          name: Josh Halpern trading as
+          url: https://bsky.app/profile/elirabett.bsky.social
+          photo: https://avatars.webmention.io/cdn.bsky.app/113e4669c619f095053f9135d521862c35e3d8edf6697e6c0e69fe2c5060ada4.jpg
+        url: https://bsky.app/profile/adamsaunders.net/post/3mezz6g7rvi22#liked_by_did:plc:6cq67q2ijx7oulnvqjg55htr
+        name:
+        content:
+        published:
+        published_ts:
+      activity:
+        type: like
+      target: https://adamsaunders.net/notes/2026/02/17/1771312138/
+    author: *33
+    type: like
+    content: ''
 "/notes/2026/02/17/1771315255/": {}
