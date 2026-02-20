@@ -379,10 +379,10 @@ https://adamsaunders.net/notes/2025/12/04/adversarial_dolly/:
       manual: []
       current_user: automatic
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed/:
-  https://fed.brid.gy/webmention: 189
+  https://fed.brid.gy/webmention: 190
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed_again/:
-  https://fed.brid.gy/webmention: 188
+  https://fed.brid.gy/webmention: 189
   https://fed.brid.gy: ''
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/07/bridgy_fed_2/:
@@ -788,7 +788,7 @@ https://adamsaunders.net/notes/2025/12/25/dolly-christmas/:
     url: https://bsky.app/profile/adamsaunders.net/post/3mau7jv2rea2u
 https://adamsaunders.net/notes/2026/01/09/static-cms/:
   https://fed.brid.gy: ''
-  https://brid.gy/publish/mastodon: 131
+  https://brid.gy/publish/mastodon: 132
 https://adamsaunders.net/notes/2026/01/17/random-wire-antenna/:
   https://fed.brid.gy: ''
   https://brid.gy/publish/mastodon:
@@ -1419,7 +1419,7 @@ https://adamsaunders.net/notes/2026/02/16/1771261359/:
     url: https://bsky.app/profile/adamsaunders.net/post/3meyk67ud5d2q
   https://bsky.app/profile/spie.org: 3
 https://adamsaunders.net/notes/2026/02/17/1771311006/:
-  https://brid.gy/publish/bluesky: 11
+  https://brid.gy/publish/bluesky: 12
 https://adamsaunders.net/notes/2026/02/17/1771312138/:
   https://brid.gy/publish/bluesky:
     id: at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3mezz6g7rvi22
