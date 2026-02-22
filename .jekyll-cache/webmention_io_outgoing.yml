@@ -1,21 +1,21 @@
 ---
 https://adamsaunders.net/posts/spie-medical-imaging-2023/:
-  https://my.vanderbilt.edu/masi/: 72
-  https://www.zacharylipton.com/: 72
+  https://my.vanderbilt.edu/masi/: 73
+  https://www.zacharylipton.com/: 73
 https://adamsaunders.net/posts/phd-acceptance/:
   https://my.vanderbilt.edu/masi/: false
-  https://www.vanderbilt.edu/vise/: 72
+  https://www.vanderbilt.edu/vise/: 73
 https://adamsaunders.net/posts/honors-thesis/:
-  https://img.youtube.com/vi/J4TdP8eGEm4/0.jpg: 72
-  https://www.youtube.com/watch?v=J4TdP8eGEm4: 72
-  https://ecommons.udayton.edu/uhp_theses/423/: 71
+  https://img.youtube.com/vi/J4TdP8eGEm4/0.jpg: 73
+  https://www.youtube.com/watch?v=J4TdP8eGEm4: 73
+  https://ecommons.udayton.edu/uhp_theses/423/: 72
 https://adamsaunders.net/posts/eye-atlas/:
-  https://doi.org/10.1117/1.JMI.11.6.064004: 71
+  https://doi.org/10.1117/1.JMI.11.6.064004: 72
 https://adamsaunders.net/posts/quantitative-t1/:
   https://doi.org/10.1016/j.mri.2025.110322: false
 https://adamsaunders.net/posts/diffusion-smoothing/:
   https://doi.org/10.1117/12.3047240: false
-  https://github.com/MASILab/dss_fmri_atlas: 72
+  https://github.com/MASILab/dss_fmri_atlas: 73
 https://adamsaunders.net/posts/vasculature-smoothing/:
   https://doi.org/10.1117/12.3047240: false
   https://github.com/MASILab/vss_fmri: false
@@ -187,7 +187,7 @@ https://adamsaunders.net/notes/2025/11/11/2025-11-09_bluesky_syndication/:
     url: https://bsky.app/profile/adamsaunders.net/post/3m5fkne3rts22
 https://adamsaunders.net/posts/password-manager/:
   https://doi.org/10.1037/0096-1523.2.2.291: 1
-  https://en.wikipedia.org/wiki/List_of_the_most_common_passwords: 64
+  https://en.wikipedia.org/wiki/List_of_the_most_common_passwords: 65
   https://oauth.net/2/:
     status: queued
     summary: Webmention was queued for processing
@@ -201,8 +201,8 @@ https://adamsaunders.net/posts/password-manager/:
     source: https://adamsaunders.net/posts/password-manager/
     target: https://indieweb.org/IndieAuth
   ? https://www.forbes.com/sites/daveywinder/2023/03/03/why-you-should-stop-using-lastpass-after-new-hack-method-update/?sh=79b0f4bd28fc
-  : 64
-  https://keepassxc.org/: 64
+  : 65
+  https://keepassxc.org/: 65
   https://brid.gy/publish/mastodon:
     id: '115562859821082009'
     created_at: '2025-11-17T03:15:01.468Z'
@@ -379,10 +379,10 @@ https://adamsaunders.net/notes/2025/12/04/adversarial_dolly/:
       manual: []
       current_user: automatic
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed/:
-  https://fed.brid.gy/webmention: 191
+  https://fed.brid.gy/webmention: 192
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed_again/:
-  https://fed.brid.gy/webmention: 190
+  https://fed.brid.gy/webmention: 191
   https://fed.brid.gy: ''
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/07/bridgy_fed_2/:
@@ -391,10 +391,10 @@ https://adamsaunders.net/notes/2025/12/07/bridgy_fed/:
   https://fed.brid.gy: ''
 https://adamsaunders.net/projects/:
   https://ecommons.udayton.edu/uhp_theses/423/: 1
-  https://udayton.edu/directory/engineering/electrical_and_computer/hardie_russell.php: 50
-  https://youtu.be/FgrBV8P1mJo: 50
+  https://udayton.edu/directory/engineering/electrical_and_computer/hardie_russell.php: 51
+  https://youtu.be/FgrBV8P1mJo: 51
   https://udayton.edu/directory/engineering/electrical_and_computer/aspiras-theus.php: false
-  http://journal.bit.edu.cn/jbit/en/article/id/20040206: 50
+  http://journal.bit.edu.cn/jbit/en/article/id/20040206: 51
 https://adamsaunders.net/notes/2025/11/09/bluesky-syndication/:
   https://brid.gy/publish/bluesky:
     id: at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3m7ra72qc5e2m
@@ -683,7 +683,7 @@ https://adamsaunders.net/notes/2025/12/15/advent-of-code-2025/:
   https://brid.gy/publish/bluesky:
     id: at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3m7zwecnaem2v
     url: https://bsky.app/profile/adamsaunders.net/post/3m7zwecnaem2v
-  https://adventofcode.com/: 45
+  https://adventofcode.com/: 46
 https://adamsaunders.net/notes/2025/12/25/dolly-christmas/:
   https://fed.brid.gy: ''
   https://brid.gy/publish/mastodon:
@@ -788,7 +788,7 @@ https://adamsaunders.net/notes/2025/12/25/dolly-christmas/:
     url: https://bsky.app/profile/adamsaunders.net/post/3mau7jv2rea2u
 https://adamsaunders.net/notes/2026/01/09/static-cms/:
   https://fed.brid.gy: ''
-  https://brid.gy/publish/mastodon: 133
+  https://brid.gy/publish/mastodon: 134
 https://adamsaunders.net/notes/2026/01/17/random-wire-antenna/:
   https://fed.brid.gy: ''
   https://brid.gy/publish/mastodon:
@@ -1062,7 +1062,7 @@ https://adamsaunders.net/notes/2026/01/18/aboutideasnow/:
     location: https://webmention.io/adamsaunders.net/webmention/vI6bdPWhgrrRvKRcs4s8
     source: https://adamsaunders.net/notes/2026/01/18/aboutideasnow/
     target: https://adamsaunders.net
-  https://aboutideasnow.com: 21
+  https://aboutideasnow.com: 22
 https://adamsaunders.net/posts/2023/03/08/SPIE-2023/:
   https://my.vanderbilt.edu/masi/: false
   https://www.zacharylipton.com/: false
@@ -1417,9 +1417,9 @@ https://adamsaunders.net/notes/2026/02/16/1771261359/:
   https://brid.gy/publish/bluesky:
     id: at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3meyk67ud5d2q
     url: https://bsky.app/profile/adamsaunders.net/post/3meyk67ud5d2q
-  https://bsky.app/profile/spie.org: 4
+  https://bsky.app/profile/spie.org: 5
 https://adamsaunders.net/notes/2026/02/17/1771311006/:
-  https://brid.gy/publish/bluesky: 13
+  https://brid.gy/publish/bluesky: 14
 https://adamsaunders.net/notes/2026/02/17/1771312138/:
   https://brid.gy/publish/bluesky:
     id: at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3mezz6g7rvi22
