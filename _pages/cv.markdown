@@ -153,6 +153,7 @@ focused on applying artificial intelligence tools to impute missing information 
 * Secretary of VALIANT Attempt, Vanderbilt University, 2024 - Present
 
 ## Honors and Awards
+* Third Place, 3-minute Poster Competition, SPIE Medical Imaging, February 2026
 * Robert F. Wagner All-Conference Best Student Paper Finalist, SPIE Medical Imaging, February 2025
 * Second Place, 3-minute Poster Competition, SPIE Medical Imaging, February 2025
 * Graduate School Travel Grant, Vanderbilt University, November 2024
