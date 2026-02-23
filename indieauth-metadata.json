@@ -1,0 +1,5 @@
+{
+  "issuer": "https://adamsaunders.net",
+  "authorization_endpoint": "https://indieauth.com/auth",
+  "token_endpoint": "https://tokens.indieauth.com/token",
+}
