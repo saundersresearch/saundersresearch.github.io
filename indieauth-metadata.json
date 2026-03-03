@@ -1,5 +1,5 @@
 {
   "issuer": "https://adamsaunders.net",
-  "authorization_endpoint": "https://indieauth.com/auth",
-  "token_endpoint": "https://tokens.indieauth.com/token"
+  "authorization_endpoint": "https://indiekit-adamsaundersnet-production.up.railway.app/auth",
+  "token_endpoint": "https://indiekit-adamsaundersnet-production.up.railway.app/auth/token"
 }
