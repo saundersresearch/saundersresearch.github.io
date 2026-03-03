@@ -1237,7 +1237,35 @@
 "/notes/2026/03/01/1772419961/": {}
 "/notes/2026/03/01/1772420554/": {}
 "/notes/2026/03/01/1772420751/": {}
-"/notes/2026/03/01/1772422598/": {}
+"/notes/2026/03/01/1772422598/":
+  '1980113':
+    id: '1980113'
+    uri: https://ap.brid.gy/convert/web/https://sigmoid.social/users/BenjaminHan%23likes/630170
+    source: false
+    pubdate: 2026-03-02 03:54:03.000000000 +00:00
+    raw:
+      source: https://ap.brid.gy/convert/web/https://sigmoid.social/users/BenjaminHan%23likes/630170
+      verified: true
+      verified_date: '2026-03-02T03:54:03+00:00'
+      id: 1980113
+      private: false
+      data:
+        author: &41
+          name: Benjamin Han
+          url: https://sigmoid.social/@BenjaminHan
+          photo: https://avatars.webmention.io/cdn.masto.host/b0bdd6f930c6503e3f62f97d518184c74e032df4950c73b3da445c095af28d11.png
+        url: https://ap.brid.gy/convert/web/https://sigmoid.social/users/BenjaminHan%23likes/630170
+        name:
+        content: <a href="https://adamsaunders.net/notes/2026/03/01/1772422598/">likes
+          this.</a>
+        published:
+        published_ts:
+      activity:
+        type: like
+      target: https://adamsaunders.net/notes/2026/03/01/1772422598/
+    author: *41
+    type: like
+    content: ''
 "/notes/2026/03/02/1772403320/": {}
 "/notes/2026/03/02/1772403545/": {}
 "/notes/2026/03/02/1772403564/": {}
@@ -1298,7 +1326,7 @@
       id: 1980618
       private: false
       data:
-        author: &41
+        author: &42
           name: Benjamin Han
           url: https://sigmoid.social/@BenjaminHan
           photo: https://avatars.webmention.io/cdn.masto.host/b0bdd6f930c6503e3f62f97d518184c74e032df4950c73b3da445c095af28d11.png
@@ -1311,6 +1339,6 @@
       activity:
         type: like
       target: https://adamsaunders.net/notes/2026/03/03/1772422598/
-    author: *41
+    author: *42
     type: like
     content: ''
