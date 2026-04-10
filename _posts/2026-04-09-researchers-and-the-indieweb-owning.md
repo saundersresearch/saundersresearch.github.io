@@ -1,7 +1,7 @@
 ---
 date: 2026-04-09T22:04:07.937-05:00
 title: "Researchers and the IndieWeb: Owning your presence online"
-visibility: unlisted
+published: false
 updated: 2026-04-09T22:14:23.687-05:00
 tags: /lost+found/net
 excerpt: Tools from the IndieWeb can help researchers develop an online identity.
