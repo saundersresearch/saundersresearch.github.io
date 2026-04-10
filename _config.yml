@@ -239,6 +239,8 @@ webmentions:
         syndication: $.url
     bridgy_fed:
       endpoint: https://fed.brid.gy
+    indienews:
+      endpoint: https://news.indieweb.org/en
   js:
     deploy: false # Using my own JS file
     source: false
