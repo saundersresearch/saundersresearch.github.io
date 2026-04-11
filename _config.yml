@@ -198,6 +198,7 @@ lunr:
 
 # https://aarongustafson.github.io/jekyll-webmention_io/
 webmentions:
+  debug: true
   username: adamsaunders.net
   cache_folder: webmentions
   templates:
