@@ -51,7 +51,7 @@ jobs:
           if-no-files-found: error
 
       - name: Print webmentions/outgoing.yml for debugging
-        run: cat webmentions/outgoing.yml
+        run: tail webmentions/outgoing.yml -n 500
 
   deploy:
     runs-on: ubuntu-latest
