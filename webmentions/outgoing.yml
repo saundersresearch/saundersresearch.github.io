@@ -1808,7 +1808,12 @@ https://adamsaunders.net/posts/2026/04/09/researchers-and-the-indieweb/:
   https://fed.brid.gy: ''
   https://news.indieweb.org/en:
     result: success
+<<<<<<< Updated upstream
     notices: []
+=======
+    notices:
+    - Already registered, updating properties of the post.
+>>>>>>> Stashed changes
     data:
       title: 'Researchers and the IndieWeb: Owning your presence online'
       body: true
