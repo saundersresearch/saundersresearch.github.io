@@ -47,6 +47,12 @@ layout: default
                 </nav>
             </aside>
             {% endif %}
+            {% for photo in page.photo %}
+
+            {% assign photo = page.photo | first %}
+            <img class="u-photo page__photo" src="{{ photo.url | default: photo }}" alt="{{ photo.alt | default: '' }}" />
+            {% endfor %}
+            
             {{ content }}
             {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
         </section>
