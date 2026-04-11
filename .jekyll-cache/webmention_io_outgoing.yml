@@ -1462,5 +1462,7 @@ https://adamsaunders.net/notes/2026/04/10/1775871542/:
   https://brid.gy/publish/bluesky: 5
   https://fed.brid.gy: 5
 https://adamsaunders.net/notes/2026/04/10/1775873702/:
-  https://brid.gy/publish/bluesky: 3
+  https://brid.gy/publish/bluesky:
+    id: "at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3mj6rot5xdo2t",
+    url: "https://bsky.app/profile/adamsaunders.net/post/3mj6rot5xdo2t"
   https://fed.brid.gy: 3
