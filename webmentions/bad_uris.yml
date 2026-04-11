@@ -75,3 +75,7 @@ webmention.rocks:
   state: failure
   attempts: 1
   last_checked: '2026-04-11 12:31:43 -0500'
+google.com:
+  state: unsupported
+  attempts: 1
+  last_checked: '2026-04-11 17:33:55 -0500'
