@@ -71,3 +71,7 @@ indieweb.org:
   state: failure
   attempts: 2
   last_checked: '2026-04-11 10:55:54 -0500'
+webmention.rocks:
+  state: failure
+  attempts: 1
+  last_checked: '2026-04-11 12:31:43 -0500'
