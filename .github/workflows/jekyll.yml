@@ -43,8 +43,8 @@ jobs:
       - name: Debug list cache location
         run: |
           echo "Working directory: $(pwd)"
-          find . -maxdepth 3 -type d -name ".jekyll-cache" -print
-          ls -R .jekyll-cache || echo "No local cache found"
+          find . -maxdepth 3 -type d -name "webmentions" -print
+          ls -R webmentions || echo "No local cache found"
 
       - name: Upload rebuilt site artifact
         uses: actions/upload-pages-artifact@v3
@@ -62,6 +62,10 @@ jobs:
         with:
           ruby-version: '3.3.6'
           bundler-cache: true
+            
+      - name: Set up Pages
+        id: pages
+        uses: actions/configure-pages@v5
 
       - name: Rebuild with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
@@ -73,23 +77,23 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-      - name: Commit .jekyll-cache to repo
+      - name: Commit webmentions to repo
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -f .jekyll-cache
-          git commit -m "Update .jekyll-cache" || echo "No changes to commit"
+          git add webmentions
+          git commit -m "Update webmentions" || echo "No changes to commit"
           git push
     
       - name: Print Jekyll webmention cache
-        run: ls -lh .jekyll-cache && cat .jekyll-cache/webmention_io_*.yml || true
+        run: ls -lh webmentions && cat webmentions/webmention_io_*.yml || true
 
-      - name: Upload updated .jekyll-cache
+      - name: Upload updated webmentions
         uses: actions/upload-artifact@v4
         with:
-          name: jekyll-cache-after-webmention
+          name: cache-after-webmention
           include-hidden-files: true
-          path: .jekyll-cache
+          path: webmentions
           if-no-files-found: error
 
   deploy:

@@ -211,6 +211,7 @@ lunr:
 # https://aarongustafson.github.io/jekyll-webmention_io/
 webmentions:
   username: adamsaunders.net
+  cache_folder: webmentions
   templates:
     bookmarks: _includes/webmentions/bookmarks.html
     count: _includes/webmentions/count.html
