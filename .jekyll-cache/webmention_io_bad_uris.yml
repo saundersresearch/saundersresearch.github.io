@@ -71,7 +71,3 @@ indieweb.org:
   state: failure
   attempts: 1
   last_checked: '2026-04-09 21:53:48 -0500'
-brid.gy:
-  state: failure
-  attempts: 1
-  last_checked: '2026-04-10 20:40:21 -0500'
