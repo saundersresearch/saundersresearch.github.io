@@ -50,6 +50,9 @@ jobs:
           path: webmentions
           if-no-files-found: error
 
+      - name: Print webmentions/outgoing.yml for debugging
+        run: cat webmentions/outgoing.yml
+
   deploy:
     runs-on: ubuntu-latest
     needs: build
@@ -91,6 +94,7 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
+          git pull --rebase --autostash origin main
 
           git add -A webmentions
 
@@ -100,5 +104,4 @@ jobs:
           fi
 
           git commit -m "Update webmentions"
-          git pull --rebase --autostash origin main
           git push origin HEAD:main
