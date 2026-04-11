@@ -86,7 +86,7 @@ jobs:
           git push
     
       - name: Print Jekyll webmention cache
-        run: ls -lh webmentions && cat webmentions/webmention_io_*.yml || true
+        run: ls -lh webmentions && cat webmentions/*.yml || true
 
       - name: Upload updated webmentions
         uses: actions/upload-artifact@v4
