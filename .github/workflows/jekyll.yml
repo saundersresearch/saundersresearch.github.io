@@ -40,6 +40,14 @@ jobs:
         env:
           JEKYLL_ENV: production
 
+      - name: Commit webmentions to repo
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add webmentions
+          git commit -m "Update webmentions" || echo "No changes to commit"
+          git push
+    
       - name: Debug list cache location
         run: |
           echo "Working directory: $(pwd)"
