@@ -83,7 +83,7 @@ jobs:
         uses: actions/download-artifact@v5
         with:
           name: webmentions
-          path: .
+          path: webmentions
 
       - name: Send webmentions with Jekyll
         run: bundle exec jekyll webmention
