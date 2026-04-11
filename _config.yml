@@ -230,10 +230,8 @@ webmentions:
       endpoint: https://fed.brid.gy
     indienews:
       endpoint: https://news.indieweb.org/en
-    test:
-      endpoint: https://google.com
       response_mapping:
-        syndication: https://google.com
+        syndication: $.url
   js:
     deploy: false # Using my own JS file
     source: false
