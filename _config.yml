@@ -233,7 +233,6 @@ webmentions:
       endpoint: https://brid.gy/publish/mastodon
       response_mapping:
         syndication: $.url
-        username: $.account.username
     bluesky:
       endpoint: https://brid.gy/publish/bluesky
       response_mapping:
