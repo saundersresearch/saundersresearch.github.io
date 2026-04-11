@@ -17,22 +17,19 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  all-in-one:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.6"
           bundler-cache: true
 
-      - name: Set up Pages
-        id: pages
+      - id: pages
         uses: actions/configure-pages@v5
 
       - name: Build with Jekyll
@@ -40,60 +37,35 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Debug outgoing before webmention
+        run: |
+          echo "=== OUTGOING BEFORE ==="
+          ls -R webmentions || true
+          tail -n 200 webmentions/outgoing.yml || echo "No outgoing file"
 
-      - name: Upload webmentions folder
-        uses: actions/upload-artifact@v4
-        with:
-          name: webmentions
-          path: webmentions
-          if-no-files-found: error
+      - uses: actions/upload-pages-artifact@v3
 
-      - name: Print webmentions/outgoing.yml for debugging
-        run: tail webmentions/outgoing.yml -n 500
-
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
 
-  webmention:
-    runs-on: ubuntu-latest
-    needs: deploy
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.3.6"
-          bundler-cache: true
-
-      - name: Download webmentions folder
-        uses: actions/download-artifact@v5
-        with:
-          name: webmentions
-          path: webmentions
-
-      - name: Send webmentions with Jekyll
+      - name: Send webmentions
         run: bundle exec jekyll webmention
         env:
           JEKYLL_ENV: production
 
-      - name: Commit webmentions to repo safely
+      - name: Debug after webmention
+        run: |
+          echo "=== OUTGOING AFTER ==="
+          tail -n 200 webmentions/outgoing.yml || echo "No outgoing file"
+          echo "=== RECEIVED AFTER ==="
+          tail -n 200 webmentions/received.yml || echo "No received file"
+
+      - name: Commit webmentions
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
+
           git pull --rebase --autostash origin main
 
           git add -A webmentions
