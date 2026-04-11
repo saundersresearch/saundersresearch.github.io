@@ -79,3 +79,15 @@ google.com:
   state: unsupported
   attempts: 1
   last_checked: '2026-04-11 17:33:55 -0500'
+news.indieweb.org:
+  state: error
+  attempts: 1
+  last_checked: '2026-04-11 17:52:18 -0500'
+adamsaunders.net:
+  state: unsupported
+  attempts: 1
+  last_checked: '2026-04-11 17:52:18 -0500'
+brid.gy:
+  state: unsupported
+  attempts: 1
+  last_checked: '2026-04-11 17:52:18 -0500'
