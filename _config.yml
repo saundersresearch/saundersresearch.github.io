@@ -208,7 +208,7 @@ webmentions:
     links: _includes/webmentions/links.html
     posts: _includes/webmentions/posts.html
     replies: _includes/webmentions/replies.html
-    reposts: _includes/webmentions/reposts.html
+    reposts: _includes/webmentions/reposts-custom.html
     webmentions: _includes/webmentions/webmentions.html
   collections:
     - posts

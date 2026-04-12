@@ -4,9 +4,12 @@
 
   <h5 class = "webmention__title">Likes</h5>
   {% webmention_likes page.url %}
+
+  <h5 class = "webmention__title">Reposts</h5>
+  {% webmention_reposts page.url %}
   
   <h5 class = "webmention__title">Other</h5>
-  {% webmentions page.url links posts replies reposts %}
+  {% webmentions page.url links posts replies %}
 
   <span class = "page__meta">
     <form class="btn btn--primary btn--large" method="get" action="https://quill.p3k.io/">
