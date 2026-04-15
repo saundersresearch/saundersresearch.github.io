@@ -134,6 +134,8 @@ focused on applying artificial intelligence tools to impute missing information 
 * Hong-Jun Yoon, **Adam Saunders**, Folami Alamudun, Sajal Dash, Jacob Hinkle, and Aristeidis Tsaris. Ensemble learning of attention-based models for whole-slide imaging comprehension. Computational Approaches for Cancer Workshop, November 2022.
 
 ## Talks
+* Phenotype discovery of traumatic brain injury segmentations from heterogeneous multi-site data. SPIE Medical Imaging: Image Processing, February 2026.
+
 * DeepN4: Learning ITKN4 bias field correction for T1-weighted images. DIPY Workshop, March 2025.
 
 * A 4D atlas of diffusion-informed spatial smoothing windows for BOLD signal in white matter. SPIE Medical Imaging: Image Processing, February 2025.
