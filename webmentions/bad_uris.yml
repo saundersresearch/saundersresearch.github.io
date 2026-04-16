@@ -69,16 +69,16 @@ bsky.app:
   last_checked: '2026-04-15 10:51:49 -0500'
 webmention.rocks:
   state: error
-  attempts: 3
-  last_checked: '2026-04-14 22:26:11 -0500'
+  attempts: 4
+  last_checked: '2026-04-15 22:34:04 -0500'
 google.com:
   state: unsupported
-  attempts: 3
-  last_checked: '2026-04-14 22:26:11 -0500'
+  attempts: 4
+  last_checked: '2026-04-15 22:34:04 -0500'
 adamsaunders.net:
   state: unsupported
-  attempts: 3
-  last_checked: '2026-04-14 22:26:11 -0500'
+  attempts: 4
+  last_checked: '2026-04-15 22:34:04 -0500'
 arxiv.org:
   state: unsupported
   attempts: 3
@@ -86,4 +86,4 @@ arxiv.org:
 brid.gy:
   state: unsupported
   attempts: 1
-  last_checked: '2026-04-15 21:36:52 -0500'
+  last_checked: '2026-04-15 22:34:04 -0500'
