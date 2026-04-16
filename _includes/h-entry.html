@@ -21,6 +21,8 @@
       {% if include.type != "notes" %}
         {% if post.link %}
             <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | absolute_url }}" rel="permalink" class="u-url p-name"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% elsif post.layout == "note" %}
+            <!-- Note -->
         {% else %}
             <a href="{{ post.url | absolute_url }}" rel="permalink" class="u-url p-name">{{ title }}</a>
         {% endif %}
@@ -35,9 +37,17 @@
         </h2>
 
     {% else %}
+        {% if post.layout == "note" %}
+          <h2 class="archive__item-title no_toc" itemprop="headline">
+          <a href="{{ post.url | absolute_url }}" rel="permalink" class="u-url p-name"><time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date: "%B %d, %Y at %-I:%M %p %Z" }}
+          </time></a>
+          </h2>
+        {% else %}
         <i class="archive__item-except"><time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">
         {{ post.date | date: "%B %d, %Y" }}
         </time></i>
+        {% endif %}
     {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt p-summary" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
     {% if post.in-reply-to or post.like-of or post.repost-of or post.bookmark-of %}
