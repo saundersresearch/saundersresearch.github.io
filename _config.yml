@@ -200,7 +200,7 @@ lunr:
 webmentions:
   debug: true
   username: adamsaunders.net
-  cache_folder: webmentions
+  cache_folder: _data/webmentions
   templates:
     bookmarks: _includes/webmentions/bookmarks.html
     count: _includes/webmentions/count.html
