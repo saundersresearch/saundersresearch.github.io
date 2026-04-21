@@ -379,10 +379,10 @@ https://adamsaunders.net/notes/2025/12/04/adversarial_dolly/:
       manual: []
       current_user: automatic
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed/:
-  https://fed.brid.gy/webmention: 338
+  https://fed.brid.gy/webmention: 339
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed_again/:
-  https://fed.brid.gy/webmention: 337
+  https://fed.brid.gy/webmention: 338
   https://fed.brid.gy: ''
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/07/bridgy_fed_2/:
@@ -788,7 +788,7 @@ https://adamsaunders.net/notes/2025/12/25/dolly-christmas/:
     url: https://bsky.app/profile/adamsaunders.net/post/3mau7jv2rea2u
 https://adamsaunders.net/notes/2026/01/09/static-cms/:
   https://fed.brid.gy: ''
-  https://brid.gy/publish/mastodon: 280
+  https://brid.gy/publish/mastodon: 281
 https://adamsaunders.net/notes/2026/01/17/random-wire-antenna/:
   https://fed.brid.gy: ''
   https://brid.gy/publish/mastodon:
@@ -1419,7 +1419,7 @@ https://adamsaunders.net/notes/2026/02/16/1771261359/:
     url: https://bsky.app/profile/adamsaunders.net/post/3meyk67ud5d2q
   https://bsky.app/profile/spie.org: 44
 https://adamsaunders.net/notes/2026/02/17/1771311006/:
-  https://brid.gy/publish/bluesky: 160
+  https://brid.gy/publish/bluesky: 161
 https://adamsaunders.net/notes/2026/02/17/1771312138/:
   https://brid.gy/publish/bluesky:
     id: at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3mezz6g7rvi22
@@ -1441,7 +1441,7 @@ https://adamsaunders.net/notes/2026/03/02/1772422598/:
     url: https://bsky.app/profile/adamsaunders.net/post/3mg4qxymply23
 https://adamsaunders.net/notes/2026/03/03/1772422598/:
   https://fed.brid.gy: ''
-  https://brid.gy/publish/bluesky: 118
+  https://brid.gy/publish/bluesky: 119
 https://adamsaunders.net/notes/2026/03/04/1772689257/:
   https://brid.gy/publish/bluesky:
     id: at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3mgc3ndohuk2r
@@ -1469,7 +1469,7 @@ https://adamsaunders.net/posts/2026/04/09/researchers-and-the-indieweb-owning/:
     location: https://webmention.io/indiewebcamp/webmention/zYSeADIuFEIddLD1iLNz
     source: https://adamsaunders.net/posts/2026/04/09/researchers-and-the-indieweb-owning/
     target: https://indieweb.org/Webmention
-  https://brid.gy/: 65
+  https://brid.gy/: 66
   https://fed.brid.gy/: ''
   https://indieweb.org/Micropub:
     status: queued
@@ -1484,7 +1484,7 @@ https://adamsaunders.net/posts/2026/04/09/researchers-and-the-indieweb-owning/:
     source: https://adamsaunders.net/posts/2026/04/09/researchers-and-the-indieweb-owning/
     target: https://indieweb.org/Getting_Started
 https://adamsaunders.net/notes/2026/04/10/1775871542/:
-  https://brid.gy/publish/bluesky: 52
+  https://brid.gy/publish/bluesky: 53
   https://fed.brid.gy: ''
 https://adamsaunders.net/notes/2026/04/10/1775873702/:
   https://brid.gy/publish/bluesky:
@@ -1492,17 +1492,17 @@ https://adamsaunders.net/notes/2026/04/10/1775873702/:
     url: https://bsky.app/profile/adamsaunders.net/post/3mj6rot5xdo2t
   https://fed.brid.gy: ''
 https://adamsaunders.net/notes/2026/04/11/1775922609/:
-  https://brid.gy/publish/mastodon: 46
+  https://brid.gy/publish/mastodon: 47
 https://adamsaunders.net/notes/2026/04/11/1775923171/:
-  https://brid.gy/publish/mastodon: 45
+  https://brid.gy/publish/mastodon: 46
 https://adamsaunders.net/notes/2026/04/11/1775924065/:
-  https://brid.gy/publish/mastodon: 43
+  https://brid.gy/publish/mastodon: 44
 https://adamsaunders.net/notes/2026/04/11/1775924703/:
-  https://brid.gy/publish/mastodon: 40
+  https://brid.gy/publish/mastodon: 41
 https://adamsaunders.net/notes/2026/04/11/1775924976/:
-  https://brid.gy/publish/mastodon: 38
+  https://brid.gy/publish/mastodon: 39
 https://adamsaunders.net/notes/2026/04/11/1775925665/:
-  https://brid.gy/publish/mastodon: 36
+  https://brid.gy/publish/mastodon: 37
 https://adamsaunders.net/notes/2026/04/11/test-post/:
   https://webmention.rocks/test/1: 8
   https://webmention.rocks/test/2: false
@@ -1861,7 +1861,7 @@ https://adamsaunders.net/posts/2026/04/09/researchers-and-the-indieweb/:
     location: https://webmention.io/indiewebcamp/webmention/U7mjNnqPl--ZrOtB_j-w
     source: https://adamsaunders.net/posts/2026/04/09/researchers-and-the-indieweb/
     target: https://indieweb.org/Webmention
-  https://brid.gy/: 22
+  https://brid.gy/: 23
   https://fed.brid.gy/: ''
   https://indieweb.org/Micropub:
     status: queued

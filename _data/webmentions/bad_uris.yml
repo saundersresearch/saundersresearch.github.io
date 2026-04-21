@@ -83,11 +83,11 @@ arxiv.org:
   state: unsupported
   attempts: 7
   last_checked: '2026-04-21 09:26:05 -0500'
-brid.gy:
-  state: unsupported
-  attempts: 1
-  last_checked: '2026-04-21 09:26:04 -0500'
 kill-the-newsletter.com:
   state: unsupported
   attempts: 1
   last_checked: '2026-04-21 09:26:07 -0500'
+brid.gy:
+  state: unsupported
+  attempts: 1
+  last_checked: '2026-04-21 10:06:47 -0500'
