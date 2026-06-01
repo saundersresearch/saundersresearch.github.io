@@ -10,6 +10,10 @@
 <link rel="manifest" href="/assets/images/site.webmanifest">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
+{% if page.site_standard_document %}
+<link rel="site.standard.document" href="{{page.site_standard_document}}" />
+{% endif %}
+
 {% if page.css %}
   {% for css in page.css %}
     <link rel="stylesheet" href="{{ css | relative_url }}">

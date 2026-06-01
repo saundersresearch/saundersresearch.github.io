@@ -13,6 +13,7 @@ syndicate_to:
 photo:
 - url: /assets/images/notes/indiewebcamp-logo-lockup-color-1x.png.png
   alt: "IndieWebCamp logo"
+site_standard_document: "at://did:plc:276x53foegyib4vlciyn3kd3/app.bsky.feed.post/3mjawh6ga5kl2"
 ---
 
 > I'm starting a series called `/lost+found/net` to highlight corners of the web that deserve sharing.
