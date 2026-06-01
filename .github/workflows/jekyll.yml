@@ -30,6 +30,9 @@ jobs:
           ruby-version: "3.3.6"
           bundler-cache: true
 
+      - name: Clean Jekyll output
+        run: rm -rf _site
+
       - id: pages
         uses: actions/configure-pages@v5
 
