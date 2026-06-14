@@ -1,93 +1,93 @@
 ---
 my.vanderbilt.edu:
   state: unsupported
-  attempts: 144
-  last_checked: '2026-06-11 23:47:08 -0500'
+  attempts: 145
+  last_checked: '2026-06-13 23:52:39 -0500'
 www.zacharylipton.com:
   state: unsupported
-  attempts: 144
-  last_checked: '2026-06-11 23:47:08 -0500'
+  attempts: 145
+  last_checked: '2026-06-13 23:52:39 -0500'
 www.vanderbilt.edu:
   state: unsupported
-  attempts: 144
-  last_checked: '2026-06-11 23:47:10 -0500'
+  attempts: 145
+  last_checked: '2026-06-13 23:52:40 -0500'
 img.youtube.com:
   state: unsupported
-  attempts: 144
-  last_checked: '2026-06-11 23:47:10 -0500'
+  attempts: 145
+  last_checked: '2026-06-13 23:52:40 -0500'
 www.youtube.com:
   state: unsupported
-  attempts: 144
-  last_checked: '2026-06-11 23:47:10 -0500'
+  attempts: 145
+  last_checked: '2026-06-13 23:52:40 -0500'
 ecommons.udayton.edu:
   state: unsupported
-  attempts: 144
-  last_checked: '2026-06-11 23:47:11 -0500'
+  attempts: 145
+  last_checked: '2026-06-13 23:52:41 -0500'
 doi.org:
   state: unsupported
-  attempts: 144
-  last_checked: '2026-06-11 23:47:12 -0500'
+  attempts: 145
+  last_checked: '2026-06-13 23:52:41 -0500'
 github.com:
   state: unsupported
-  attempts: 144
-  last_checked: '2026-06-11 23:47:13 -0500'
+  attempts: 145
+  last_checked: '2026-06-13 23:52:42 -0500'
 en.wikipedia.org:
   state: unsupported
-  attempts: 139
-  last_checked: '2026-06-11 23:47:13 -0500'
+  attempts: 140
+  last_checked: '2026-06-13 23:52:42 -0500'
 www.forbes.com:
   state: unsupported
-  attempts: 139
-  last_checked: '2026-06-11 23:47:14 -0500'
+  attempts: 140
+  last_checked: '2026-06-13 23:52:43 -0500'
 keepassxc.org:
   state: unsupported
-  attempts: 139
-  last_checked: '2026-06-11 23:47:14 -0500'
+  attempts: 140
+  last_checked: '2026-06-13 23:52:43 -0500'
 udayton.edu:
-  state: failure
-  attempts: 125
-  last_checked: '2026-06-11 23:47:20 -0500'
+  state: unsupported
+  attempts: 126
+  last_checked: '2026-06-13 23:52:45 -0500'
 youtu.be:
   state: unsupported
-  attempts: 125
-  last_checked: '2026-06-11 23:47:21 -0500'
+  attempts: 126
+  last_checked: '2026-06-13 23:52:46 -0500'
 journal.bit.edu.cn:
-  state: failure
-  attempts: 125
-  last_checked: '2026-06-11 23:47:28 -0500'
+  state: unsupported
+  attempts: 126
+  last_checked: '2026-06-13 23:52:54 -0500'
 adventofcode.com:
   state: unsupported
-  attempts: 120
-  last_checked: '2026-06-11 23:47:29 -0500'
+  attempts: 121
+  last_checked: '2026-06-13 23:52:54 -0500'
 aboutideasnow.com:
   state: unsupported
-  attempts: 98
-  last_checked: '2026-06-11 23:47:36 -0500'
+  attempts: 99
+  last_checked: '2026-06-13 23:53:00 -0500'
 bsky.app:
   state: unsupported
-  attempts: 79
-  last_checked: '2026-06-11 23:47:36 -0500'
+  attempts: 80
+  last_checked: '2026-06-13 23:53:00 -0500'
 webmention.rocks:
   state: error
-  attempts: 43
-  last_checked: '2026-06-11 23:47:43 -0500'
+  attempts: 44
+  last_checked: '2026-06-13 23:53:07 -0500'
 google.com:
   state: unsupported
-  attempts: 43
-  last_checked: '2026-06-11 23:47:44 -0500'
+  attempts: 44
+  last_checked: '2026-06-13 23:53:07 -0500'
 adamsaunders.net:
   state: unsupported
-  attempts: 43
-  last_checked: '2026-06-11 23:47:44 -0500'
+  attempts: 44
+  last_checked: '2026-06-13 23:53:07 -0500'
 arxiv.org:
   state: unsupported
-  attempts: 42
-  last_checked: '2026-06-11 23:47:44 -0500'
+  attempts: 43
+  last_checked: '2026-06-13 23:53:07 -0500'
 kill-the-newsletter.com:
   state: unsupported
-  attempts: 36
-  last_checked: '2026-06-11 23:47:45 -0500'
+  attempts: 37
+  last_checked: '2026-06-13 23:53:08 -0500'
 brid.gy:
   state: unsupported
   attempts: 1
-  last_checked: '2026-06-12 23:25:51 -0500'
+  last_checked: '2026-06-13 23:53:07 -0500'
