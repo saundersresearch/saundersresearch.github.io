@@ -21,12 +21,14 @@ Here's list of ideas, goals, or projects that I'm thinking about. See [aboutidea
 - Republish my site in an alternative protocol like Gemini or Gopher 
 - Check out non-Mastodon Fediverse platforms
 - Set up an RSS feed aggregator, potentially with IndieWeb integration
-- Create a way to log radio signals I receive and map them on my site
 - Share a technical deep dive on a very specific topic I've worked on (e.g., rotating spherical harmonics)
-- Set up a retro handheld gaming device
+- Put an Arduino project in an Altoid tin
+- Create a theremin
 
 ### Completed
 - Add a [now page](/now)
+- Create a way to log radio signals I receive and map them on my site (see [https://adamsaunders.net/radio](https://adamsaunders.net/radio))
+- Set up a retro handheld gaming device
 
 ### More
 [About](/about){: .btn .btn--info}
