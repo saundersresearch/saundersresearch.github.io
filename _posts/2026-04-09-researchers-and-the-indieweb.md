@@ -1,22 +1,12 @@
 ---
 date: 2026-04-09T21:52:04.744-05:00
 title: "Researchers and the IndieWeb: Owning your presence online"
-visibility: public
-updated: 2026-04-11T17:51:12.230-05:00
+deleted: 2026-04-09T22:03:10.749-05:00
+visibility: private
+updated: 2026-06-30T09:16:59.930-05:00
 tags: /lost+found/net
 excerpt: Tools from the IndieWeb can help researchers develop an online identity.
-syndicate_to:
-  - mastodon
-  - bluesky
-  - bridgy_fed
-  - indienews
-photo:
-- url: /assets/images/notes/indiewebcamp-logo-lockup-color-1x.png.png
-  alt: "IndieWebCamp logo"
-site_standard_document: "at://did:plc:276x53foegyib4vlciyn3kd3/site.standard.document/3mjawh6ga6pl2"
 ---
-
-> I'm starting a series called `/lost+found/net` to highlight corners of the web that deserve sharing.
 
 When I first applied to PhD programs, I emailed a professor who wanted a link to a personal website instead of a traditional CV. So, I put together this site. Personal websites for researchers have been around for decades, and it's a great way to showcase your research independent of your institution. Today, though, our academic identities are at risk of being fragmented across different sites, publishers, and tools. There's GitHub for tracking your open source code contributions, Web of Science for marking down peer reviews, and sites like Google Scholar and Scopus that index your publications.
 
