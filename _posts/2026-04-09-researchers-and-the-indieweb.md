@@ -5,7 +5,6 @@ published: false
 deleted: 2026-04-09T22:03:10.749-05:00
 visibility: private
 updated: 2026-06-30T09:17:45.399-05:00
-tags: /lost+found/net
 excerpt: Tools from the IndieWeb can help researchers develop an online identity.
 ---
 
