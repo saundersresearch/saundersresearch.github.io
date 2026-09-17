@@ -379,10 +379,10 @@ https://adamsaunders.net/notes/2025/12/04/adversarial_dolly/:
       manual: []
       current_user: automatic
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed/:
-  https://fed.brid.gy/webmention: 516
+  https://fed.brid.gy/webmention: 517
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/05/test_bridgy_fed_again/:
-  https://fed.brid.gy/webmention: 515
+  https://fed.brid.gy/webmention: 516
   https://fed.brid.gy: ''
   https://fed.brid.gy/: ''
 https://adamsaunders.net/notes/2025/12/07/bridgy_fed_2/:
@@ -788,7 +788,7 @@ https://adamsaunders.net/notes/2025/12/25/dolly-christmas/:
     url: https://bsky.app/profile/adamsaunders.net/post/3mau7jv2rea2u
 https://adamsaunders.net/notes/2026/01/09/static-cms/:
   https://fed.brid.gy: ''
-  https://brid.gy/publish/mastodon: 458
+  https://brid.gy/publish/mastodon: 459
 https://adamsaunders.net/notes/2026/01/17/random-wire-antenna/:
   https://fed.brid.gy: ''
   https://brid.gy/publish/mastodon:
@@ -1419,7 +1419,7 @@ https://adamsaunders.net/notes/2026/02/16/1771261359/:
     url: https://bsky.app/profile/adamsaunders.net/post/3meyk67ud5d2q
   https://bsky.app/profile/spie.org: 142
 https://adamsaunders.net/notes/2026/02/17/1771311006/:
-  https://brid.gy/publish/bluesky: 338
+  https://brid.gy/publish/bluesky: 339
 https://adamsaunders.net/notes/2026/02/17/1771312138/:
   https://brid.gy/publish/bluesky:
     id: at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3mezz6g7rvi22
@@ -1441,7 +1441,7 @@ https://adamsaunders.net/notes/2026/03/02/1772422598/:
     url: https://bsky.app/profile/adamsaunders.net/post/3mg4qxymply23
 https://adamsaunders.net/notes/2026/03/03/1772422598/:
   https://fed.brid.gy: ''
-  https://brid.gy/publish/bluesky: 296
+  https://brid.gy/publish/bluesky: 297
 https://adamsaunders.net/notes/2026/03/04/1772689257/:
   https://brid.gy/publish/bluesky:
     id: at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3mgc3ndohuk2r
@@ -1469,7 +1469,7 @@ https://adamsaunders.net/posts/2026/04/09/researchers-and-the-indieweb-owning/:
     location: https://webmention.io/indiewebcamp/webmention/zYSeADIuFEIddLD1iLNz
     source: https://adamsaunders.net/posts/2026/04/09/researchers-and-the-indieweb-owning/
     target: https://indieweb.org/Webmention
-  https://brid.gy/: 243
+  https://brid.gy/: 244
   https://fed.brid.gy/: ''
   https://indieweb.org/Micropub:
     status: queued
@@ -1484,7 +1484,7 @@ https://adamsaunders.net/posts/2026/04/09/researchers-and-the-indieweb-owning/:
     source: https://adamsaunders.net/posts/2026/04/09/researchers-and-the-indieweb-owning/
     target: https://indieweb.org/Getting_Started
 https://adamsaunders.net/notes/2026/04/10/1775871542/:
-  https://brid.gy/publish/bluesky: 230
+  https://brid.gy/publish/bluesky: 231
   https://fed.brid.gy: ''
 https://adamsaunders.net/notes/2026/04/10/1775873702/:
   https://brid.gy/publish/bluesky:
@@ -1492,17 +1492,17 @@ https://adamsaunders.net/notes/2026/04/10/1775873702/:
     url: https://bsky.app/profile/adamsaunders.net/post/3mj6rot5xdo2t
   https://fed.brid.gy: ''
 https://adamsaunders.net/notes/2026/04/11/1775922609/:
-  https://brid.gy/publish/mastodon: 224
+  https://brid.gy/publish/mastodon: 225
 https://adamsaunders.net/notes/2026/04/11/1775923171/:
-  https://brid.gy/publish/mastodon: 223
+  https://brid.gy/publish/mastodon: 224
 https://adamsaunders.net/notes/2026/04/11/1775924065/:
-  https://brid.gy/publish/mastodon: 221
+  https://brid.gy/publish/mastodon: 222
 https://adamsaunders.net/notes/2026/04/11/1775924703/:
-  https://brid.gy/publish/mastodon: 218
+  https://brid.gy/publish/mastodon: 219
 https://adamsaunders.net/notes/2026/04/11/1775924976/:
-  https://brid.gy/publish/mastodon: 216
+  https://brid.gy/publish/mastodon: 217
 https://adamsaunders.net/notes/2026/04/11/1775925665/:
-  https://brid.gy/publish/mastodon: 214
+  https://brid.gy/publish/mastodon: 215
 https://adamsaunders.net/notes/2026/04/11/test-post/:
   https://webmention.rocks/test/1: 106
   https://webmention.rocks/test/2: false
@@ -1861,7 +1861,7 @@ https://adamsaunders.net/posts/2026/04/09/researchers-and-the-indieweb/:
     location: https://webmention.io/indiewebcamp/webmention/U7mjNnqPl--ZrOtB_j-w
     source: https://adamsaunders.net/posts/2026/04/09/researchers-and-the-indieweb/
     target: https://indieweb.org/Webmention
-  https://brid.gy/: 200
+  https://brid.gy/: 201
   https://fed.brid.gy/: ''
   https://indieweb.org/Micropub:
     status: queued
@@ -1884,7 +1884,7 @@ https://adamsaunders.net/notes/2026/04/21/1776781464/:
 https://adamsaunders.net/posts/2026/05/31/test-article/:
   https://fed.brid.gy: ''
 https://adamsaunders.net/notes/2026/08/10/1786373883/:
-  https://brid.gy/publish/bluesky: 43
+  https://brid.gy/publish/bluesky: 44
 https://adamsaunders.net/notes/2026/08/14/1786724615/:
   https://brid.gy/publish/bluesky:
     id: at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3mt2l3fnvb225
@@ -1893,3 +1893,119 @@ https://adamsaunders.net/notes/2026/09/08/1788876663/:
   https://brid.gy/publish/bluesky:
     id: at://did:plc:betxd4ieuf6y5ativp7aiz3w/app.bsky.feed.post/3muz7dmppfi2g
     url: https://bsky.app/profile/adamsaunders.net/post/3muz7dmppfi2g
+https://adamsaunders.net/posts/2026/09/17/fly-qa/:
+  https://brid.gy/publish/mastodon:
+    id: '117287168410727470'
+    created_at: '2026-09-17T15:49:22.519Z'
+    in_reply_to_id:
+    in_reply_to_account_id:
+    sensitive: false
+    spoiler_text: ''
+    visibility: public
+    language: en
+    uri: https://indieweb.social/users/adamsaunders/statuses/117287168410727470
+    url: https://indieweb.social/@adamsaunders/117287168410727470
+    replies_count: 0
+    reblogs_count: 0
+    favourites_count: 0
+    quotes_count: 0
+    edited_at:
+    favourited: false
+    reblogged: false
+    muted: false
+    bookmarked: false
+    pinned: false
+    content: '<p>I taught a fly to do MRI quality assurance for me: <a href="https://adamsaunders.net/posts/2026/09/17/fly-qa/"
+      target="_blank" rel="nofollow noopener" translate="no"><span class="invisible">https://</span><span
+      class="ellipsis">adamsaunders.net/posts/2026/09</span><span class="invisible">/17/fly-qa/</span></a></p>'
+    filtered: []
+    reblog:
+    application:
+      name: Bridgy
+      website: https://brid.gy/
+    account:
+      id: '115338993822150008'
+      username: adamsaunders
+      acct: adamsaunders
+      display_name: Adam Saunders
+      locked: false
+      bot: false
+      discoverable: false
+      indexable: false
+      group: false
+      created_at: '2025-10-08T00:00:00.000Z'
+      note: "<p>(he/him) PhD student<br />Vanderbilt University - MASI Lab/VALIANT<br
+        />Medical imaging researcher and musician \U0001F9E0\U0001F3B9<br />(Views
+        are my own)</p>"
+      url: https://indieweb.social/@adamsaunders
+      uri: https://indieweb.social/users/adamsaunders
+      avatar: https://cdn.masto.host/indiewebsocial/accounts/avatars/115/338/993/822/150/008/original/fc7acd98674cffef.jpg
+      avatar_static: https://cdn.masto.host/indiewebsocial/accounts/avatars/115/338/993/822/150/008/original/fc7acd98674cffef.jpg
+      avatar_description: ''
+      header: https://indieweb.social/headers/original/missing.png
+      header_static: https://indieweb.social/headers/original/missing.png
+      header_description: ''
+      followers_count: 1
+      following_count: 6
+      statuses_count: 15
+      last_status_at: '2026-09-17'
+      hide_collections: false
+      show_media: true
+      show_media_replies: true
+      show_featured: true
+      noindex: true
+      feature_approval:
+        automatic: []
+        manual: []
+        current_user: denied
+      emojis: []
+      roles: []
+      fields:
+      - name: Sites
+        value: <a href="https://adamsaunders.net" target="_blank" rel="nofollow noopener
+          me" translate="no"><span class="invisible">https://</span><span class="">adamsaunders.net</span><span
+          class="invisible"></span></a>
+        verified_at: '2025-10-28T03:40:53.106+00:00'
+    media_attachments:
+    - id: '117287168375101113'
+      type: image
+      url: https://cdn.masto.host/indiewebsocial/media_attachments/files/117/287/168/375/101/113/original/6d65ff493c822b13.png
+      preview_url: https://cdn.masto.host/indiewebsocial/media_attachments/files/117/287/168/375/101/113/small/6d65ff493c822b13.png
+      remote_url:
+      preview_remote_url:
+      text_url:
+      meta:
+        original:
+          width: 3406
+          height: 1708
+          size: 3406x1708
+          aspect: 1.994145199063232
+        small:
+          width: 678
+          height: 340
+          size: 678x340
+          aspect: 1.9941176470588236
+      description: The Fly QA dashboard, with a 3D rendered fly looking at a computer
+        screen...
+      blurhash: U55Oyh_LS19GH[Myaeod9GIVt7-.%dx@kWS6
+    mentions: []
+    tags: []
+    emojis: []
+    tagged_collections: []
+    quote:
+    card:
+    poll:
+    quote_approval:
+      automatic:
+      - public
+      manual: []
+      current_user: automatic
+  https://brid.gy/publish/bluesky: 1
+  https://fed.brid.gy: ''
+  https://doi.org/10.1016/j.cell.2026.08.015: false
+  https://male-cns.janelia.org: 1
+  https://github.com/nftechie/stonkfly: false
+  https://x.com/alright_mark/status/2098085928489177142: 1
+  https://github.com/nftechie/doomfly: false
+  https://github.com/MASILab/masi-qa: false
+  https://github.com/MASILab/fly-qa: false
