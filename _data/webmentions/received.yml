@@ -1596,3 +1596,30 @@
     author: *50
     type: link
     content: I taught a fly to do MRI quality assurance for me (<a href="https://adamsaunders.net/posts/2026/09/17/fly-qa/">https://adamsaunders.net/posts/2026/09/17/fly-qa/</a>)
+  '2033495':
+    id: '2033495'
+    uri: https://bsky.app/profile/adamsaunders.net/post/3mvq26zabgd2r#liked_by_did:plc:3hvsswjhg76qqhvvqjlqmrv4
+    source: false
+    pubdate: 2026-09-18 20:02:00.000000000 +00:00
+    raw:
+      source: https://brid.gy/like/bluesky/did:plc:betxd4ieuf6y5ativp7aiz3w/at%253A%252F%252Fdid%253Aplc%253Abetxd4ieuf6y5ativp7aiz3w%252Fapp.bsky.feed.post%252F3mvq26zabgd2r/did%253Aplc%253A3hvsswjhg76qqhvvqjlqmrv4
+      verified: true
+      verified_date: '2026-09-18T20:02:00+00:00'
+      id: 2033495
+      private: false
+      data:
+        author: &51
+          name: Matt Amandola
+          url: https://bsky.app/profile/mattamandola.bsky.social
+          photo: https://cdn.bsky.app/img/avatar/plain/did:plc:3hvsswjhg76qqhvvqjlqmrv4/bafkreidctj7kpjino25crqvzoymyagfx57lsrbdphvpvgsxzp7bhgoxvum
+        url: https://bsky.app/profile/adamsaunders.net/post/3mvq26zabgd2r#liked_by_did:plc:3hvsswjhg76qqhvvqjlqmrv4
+        name:
+        content:
+        published:
+        published_ts:
+      activity:
+        type: like
+      target: https://adamsaunders.net/posts/2026/09/17/fly-qa/
+    author: *51
+    type: like
+    content: ''
