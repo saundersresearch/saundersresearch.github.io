@@ -1623,4 +1623,35 @@
     author: *51
     type: like
     content: ''
-"/notes/2026/10/05/1791210669/": {}
+"/notes/2026/10/05/1791210669/":
+  '2038022':
+    id: '2038022'
+    uri: https://ap.brid.gy/convert/web/https://channel.org/users/ai/statuses/117388791214954512/activity
+    source: false
+    pubdate: 2026-10-05 09:33:23.000000000 -05:00
+    raw:
+      source: https://ap.brid.gy/convert/web/https://channel.org/users/ai/statuses/117388791214954512/activity
+      verified: true
+      verified_date: '2026-10-05T15:00:45+00:00'
+      id: 2038022
+      private: false
+      data:
+        author: &52
+          name: AI
+          url: https://channel.org/@ai
+          photo: https://avatars.webmention.io/s3-eu-west-2.amazonaws.com/96e2912cc805b7d29f79e234250e14299797a9a74e1af7ab53d8ced478ca669b.jpg
+        url: https://ap.brid.gy/convert/web/https://channel.org/users/ai/statuses/117388791214954512/activity
+        name:
+        content: "Shared <a href=\"https://adamsaunders.net/notes/2026/10/05/1791210669/\">a
+          post</a> by <span class=\"h-card\">\n  \n  <a class=\"p-name u-url\" href=\"https://adamsaunders.net/\">Adam
+          Saunders</a>\n</span>\n  \n            \n            Thanks to the organizers
+          of SASHIMI 2026 at MICCAI 2026 for the Outstanding Reviewer Award! The submissions
+          I reviewed were very thought provoking and enjoyable reads!"
+        published: '2026-10-05T14:33:23+00:00'
+        published_ts: 1791210803
+      activity:
+        type: repost
+      target: https://adamsaunders.net/notes/2026/10/05/1791210669/
+    author: *52
+    type: repost
+    content: ''
