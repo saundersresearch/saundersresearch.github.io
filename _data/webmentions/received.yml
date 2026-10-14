@@ -1655,3 +1655,30 @@
     author: *52
     type: repost
     content: ''
+  '2040462':
+    id: '2040462'
+    uri: https://bsky.app/profile/adamsaunders.net/post/3mx552uyenl26#liked_by_did:plc:33c7oawoxwaekuxot3folxl2
+    source: false
+    pubdate: 2026-10-14 02:25:12.000000000 +00:00
+    raw:
+      source: https://brid.gy/like/bluesky/did:plc:betxd4ieuf6y5ativp7aiz3w/at%253A%252F%252Fdid%253Aplc%253Abetxd4ieuf6y5ativp7aiz3w%252Fapp.bsky.feed.post%252F3mx552uyenl26/did%253Aplc%253A33c7oawoxwaekuxot3folxl2
+      verified: true
+      verified_date: '2026-10-14T02:25:12+00:00'
+      id: 2040462
+      private: false
+      data:
+        author: &53
+          name: Sarah ❤️
+          url: https://bsky.app/profile/rfffx33.bsky.social
+          photo: https://cdn.bsky.app/img/avatar/plain/did:plc:33c7oawoxwaekuxot3folxl2/bafkreidjrhrkn33i4kp2l2eebib5zt6j25xejkw6ino7i6hnqn6yd2c2fu
+        url: https://bsky.app/profile/adamsaunders.net/post/3mx552uyenl26#liked_by_did:plc:33c7oawoxwaekuxot3folxl2
+        name:
+        content:
+        published:
+        published_ts:
+      activity:
+        type: like
+      target: https://adamsaunders.net/notes/2026/10/05/1791210669/
+    author: *53
+    type: like
+    content: ''
