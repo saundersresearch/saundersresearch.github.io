@@ -20,7 +20,7 @@
     <h2 class="archive__item-title no_toc" itemprop="headline">
       {% if include.type != "notes" %}
         {% if post.link %}
-            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | absolute_url }}" rel="permalink" class="u-url p-name"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+            <a href="{{ post.link }}" class="p-name">{{ title }}</a> <a href="{{ post.url | absolute_url }}" rel="permalink" class="u-url"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
         {% elsif post.layout == "note" %}
             <!-- Note -->
         {% else %}
@@ -39,7 +39,7 @@
     {% else %}
         {% if post.layout == "note" %}
           <h2 class="archive__item-title no_toc" itemprop="headline">
-          <a href="{{ post.url | absolute_url }}" rel="permalink" class="u-url p-name"><time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">
+          <a href="{{ post.url | absolute_url }}" rel="permalink" class="u-url"><time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">
           {{ post.date | date: "%B %d, %Y at %-I:%M %p %Z" }}
           </time></a>
           </h2>

@@ -18,6 +18,7 @@ layout: archive
   | reverse
   | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 <section class="h-feed">
+    <data class="p-name" value="{{ page.title | strip_html | escape }}"></data>
     {% for year in postsByYear %}
     <section id="{{ year.name }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ year.name }}</h2>

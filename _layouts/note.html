@@ -21,15 +21,15 @@ layout: default
 {% assign date_format = site.date_format | default: "%B %d, %Y at %-I:%M %p %Z" %}
 
 <div id="main" role="main">
-  <article class="h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     {% include sidebar-post.html %}
     <div class="page">
 
-        {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
-        {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
-
         <div class="page__inner-wrap">
+        <article class="h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+            <a class="u-author" href="{{ site.author.home | default: '/' | absolute_url }}" hidden></a>
+            {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+            {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+            {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
         {% unless page.header.overlay_color or page.header.overlay_image %}
             <header>
             {% if page.date %}
@@ -66,7 +66,6 @@ layout: default
             </aside>
             {% endif %}
             {% for photo in page.photo %}
-            {% assign photo = page.photo | first %}
             <img class="u-photo page__photo" src="{{ photo.url | default: photo }}" alt="{{ photo.alt | default: '' }}" />
             {% endfor %}
             {{ content | remove: '<p>' | remove: '</p>' }}
@@ -99,6 +98,7 @@ layout: default
             {% endfor %}
 
         </footer>
+        </article>
 
         {% if page.webmentions %}
         {% include webmentions.html %}
@@ -116,7 +116,6 @@ layout: default
         {% include comments.html %}
         {% endif %}
       </div>
-    </article>
 
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
