@@ -49,20 +49,14 @@
         </time></i>
         {% endif %}
     {% endif %}
+
+    {% for photo in post.photo limit: 1 %}
+    <img class="u-photo page__photo" src="{{ photo.url | default: photo }}" alt="{{ photo.alt | default: '' }}" />
+    {% endfor %}
     {% if post.excerpt %}<p class="archive__item-excerpt p-summary" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
-    {% if post.in-reply-to or post.like-of or post.repost-of or post.bookmark-of %}
-    <p class="notice">
-    {% if post.in-reply-to %}
-    Replied to <a class="u-in-reply-to" href="{{ post.in-reply-to }}">{{ post.in-reply-to }}</a>:
-    {% elsif post.like-of %}
-    Liked <a class="u-like-of" href="{{ post.like-of }}">{{ post.like-of }}</a>.
-    {% elsif post.repost-of %}
-    Reposted <a class="u-repost-of" href="{{ post.repost-of }}">{{ post.repost-of }}</a>.
-    {% elsif post.bookmark-of %}
-    Bookmarked <a class="u-bookmark-of" href="{{ post.bookmark-of }}">{{ post.bookmark-of }}</a>.
-    {% endif %}
-    </p>
-    {% endif %}
+
+    {% include response.html post=post %}
+
     <section class="e-content">
         {% if post.layout == "note" %}
         {{ post.content | remove: '<p>' | remove: '</p>'  }}

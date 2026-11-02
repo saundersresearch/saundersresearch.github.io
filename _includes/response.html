@@ -1,0 +1,34 @@
+{%- comment -%}
+  Response context (reply / like / repost / bookmark / quote).
+  Usage:
+    {% include response.html post=page %}   on a single post
+    {% include response.html post=post %}   inside a posts loop
+{%- endcomment -%}
+{%- assign resp_post = include.post | default: page -%}
+{%- assign resp_prop = nil -%}
+{%- if resp_post.in-reply-to -%}{%- assign resp_prop = "in-reply-to" -%}{%- assign resp_target = resp_post.in-reply-to -%}{%- assign resp_label = "Replied to" -%}{%- assign resp_icon = "fas fa-reply" -%}
+{%- elsif resp_post.like-of -%}{%- assign resp_prop = "like-of" -%}{%- assign resp_target = resp_post.like-of -%}{%- assign resp_label = "Liked" -%}{%- assign resp_icon = "fas fa-heart" -%}
+{%- elsif resp_post.repost-of -%}{%- assign resp_prop = "repost-of" -%}{%- assign resp_target = resp_post.repost-of -%}{%- assign resp_label = "Reposted" -%}{%- assign resp_icon = "fas fa-retweet" -%}
+{%- elsif resp_post.bookmark-of -%}{%- assign resp_prop = "bookmark-of" -%}{%- assign resp_target = resp_post.bookmark-of -%}{%- assign resp_label = "Bookmarked" -%}{%- assign resp_icon = "fas fa-bookmark" -%}
+{%- elsif resp_post.quotation-of -%}{%- assign resp_prop = "quotation-of" -%}{%- assign resp_target = resp_post.quotation-of -%}{%- assign resp_label = "Quoted" -%}{%- assign resp_icon = "fas fa-quote-left" -%}
+{%- endif -%}
+{%- if resp_prop -%}
+{%- assign resp_ref = resp_post.references[resp_target] -%}
+{%- assign resp_author = resp_ref.author -%}
+{%- if resp_author.children -%}{%- assign resp_author = resp_author.children | first -%}{%- endif -%}
+{%- assign resp_photo = resp_author.photo | first -%}
+{%- assign resp_photo = resp_photo.url | default: resp_author.photo | default: resp_ref.featured -%}
+{%- assign resp_text = resp_ref.summary | default: resp_ref.content.text | default: resp_ref.content | truncatewords: 60 %}
+<blockquote class="h-cite u-{{ resp_prop }}">
+<p><i class="{{ resp_icon }}" aria-hidden="true"></i>{{ resp_label }} <a class="u-url" href="{{ resp_target }}">{% if resp_author.name %}{{ resp_ref.name | default: "a post" }}{% elsif resp_ref.name %}a post{% else %}{{ resp_target }}{% endif %}</a>:</p>
+{%- if resp_author.name or resp_ref.name %}
+<div class="byline{% if resp_author.name %} p-author h-card{% endif %}">
+    {%- if resp_photo %}<img class="u-photo" src="{{ resp_photo }}" alt="" loading="lazy">{% endif -%}
+    {%- if resp_author.url %}<a class="p-name u-url" href="{{ resp_author.url }}">{{ resp_author.name }}</a>{% else %}<span class="p-name">{{ resp_author.name | default: resp_ref.name }}</span>{% endif -%}
+</div>
+{%- endif %}
+{%- if resp_text != blank %}
+<p class="{% if resp_ref.summary %}p-summary{% else %}p-content{% endif %}">{{ resp_text }}</p>
+{%- endif %}
+</blockquote>
+{%- endif -%}
