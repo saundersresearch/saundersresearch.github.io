@@ -21,6 +21,8 @@
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
 
+<script data-goatcounter="https://adamsaunders.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
 {% if site.after_footer_scripts %}
   {% for script in site.after_footer_scripts %}
     <script src="{{ script | relative_url }}"></script>
